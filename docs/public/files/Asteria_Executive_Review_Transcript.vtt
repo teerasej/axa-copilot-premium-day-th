@@ -1,0 +1,31 @@
+WEBVTT
+
+00:00:02.000 --> 00:00:16.000
+Maya (Meeting Chair): Thank you. We are here to decide how to stabilize claims service while we verify what is driving the recent pressure.
+
+00:00:18.000 --> 00:00:37.000
+Narin (Operations): The reviewed workbook shows Claim TAT above the 48-hour SLA from 14 to 17 September. Complaint counts are also highest from 19 to 21 September. The data shows timing, but it does not prove one event caused the other.
+
+00:00:39.000 --> 00:00:55.000
+Elena (Finance): I support a focused recovery review, but we should not attach a financial impact until Finance has validated the cost assumptions. That impact remains an open question.
+
+00:00:57.000 --> 00:01:15.000
+Arun (Technology): The workbook notes a routing-rule deployment on 13 September. We should inspect the change log and error queue. I can provide the first technical findings by 30 September.
+
+00:01:17.000 --> 00:01:34.000
+Maya (Meeting Chair): Decision: run a seven-day service recovery review focused on the affected claims queue. Operations will own the daily queue check, starting 29 September and ending 5 October.
+
+00:01:36.000 --> 00:01:52.000
+Narin (Operations): Agreed. I will record Claim TAT, open-queue volume, and exceptions each day. I will share the reviewed log with the group on 5 October.
+
+00:01:54.000 --> 00:02:12.000
+Elena (Finance): Finance will validate whether a financial estimate is useful after the service review. I am not committing a completion date today because the required cost inputs are not yet confirmed.
+
+00:02:14.000 --> 00:02:32.000
+Arun (Technology): Dependency: access to the routing change log must be approved by Security. The approver and approval date were not established in this meeting.
+
+00:02:34.000 --> 00:02:51.000
+Maya (Meeting Chair): Confirmed actions: Narin owns the daily review through 5 October. Arun owns the initial technical findings by 30 September. Security access remains unresolved, and Finance's completion date is not stated.
+
+00:02:53.000 --> 00:03:06.000
+Maya (Meeting Chair): Our next decision gate is 6 October. We will decide whether to extend the recovery action after reviewing the service log and technical findings.

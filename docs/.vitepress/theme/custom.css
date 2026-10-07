@@ -1,0 +1,181 @@
+@font-face { font-family: 'Noto Sans Thai'; src: url('/fonts/NotoSansThai.ttf') format('truetype'); font-weight: 100 900; font-style: normal; font-display: swap; }
+:root {
+  --vp-font-family-base: 'Avenir Next', 'Noto Sans Thai', system-ui, sans-serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --vp-c-brand-1: #25669c;
+  --vp-c-brand-2: #1c527f;
+  --vp-c-brand-3: #12335b;
+  --vp-c-brand-soft: rgba(37, 102, 156, 0.13);
+  --vp-c-bg-alt: #f5f8fc;
+  --workshop-navy: #12335b;
+  --workshop-blue: #3973ad;
+  --workshop-red: #c9344e;
+  --workshop-line: #d3deea;
+  --workshop-soft: #eef4fa;
+}
+
+.dark {
+  --vp-c-brand-1: #80bbea;
+  --vp-c-brand-2: #9bcaf0;
+  --vp-c-brand-3: #c5e1f7;
+  --vp-c-brand-soft: rgba(128, 187, 234, 0.16);
+  --vp-c-bg-alt: #111d2b;
+  --workshop-navy: #d9ecfb;
+  --workshop-blue: #80bbea;
+  --workshop-red: #f27f93;
+  --workshop-line: #30495f;
+  --workshop-soft: #15283a;
+}
+
+html { scroll-behavior: smooth; }
+body { font-size: 16px; line-height: 1.72; }
+a:focus-visible, button:focus-visible, summary:focus-visible {
+  outline: 3px solid #e4a11b;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+.vp-doc h1 { color: var(--workshop-navy); letter-spacing: -0.025em; }
+.vp-doc h2 { border-top: 1px solid var(--workshop-line); padding-top: 1.35rem; }
+.vp-doc p, .vp-doc li { max-width: 76ch; }
+.vp-doc table { display: table; width: 100%; }
+.vp-doc div.language-text pre code { white-space: pre-wrap; overflow-wrap: anywhere; }
+.vp-doc .mermaid { overflow-x: auto; }
+
+.voice-card {
+  margin: 1.25rem 0;
+  padding: 1rem 1.15rem;
+  border-left: 5px solid var(--workshop-red);
+  border-radius: 0 14px 14px 0;
+  background: var(--workshop-soft);
+}
+.voice-card strong { color: var(--workshop-navy); }
+.journey-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2.25rem;
+}
+.journey-card {
+  padding: 1.15rem;
+  border: 1px solid var(--workshop-line);
+  border-radius: 16px;
+  background: var(--vp-c-bg-soft);
+}
+.journey-card h3 { margin: 0 0 .5rem; color: var(--workshop-navy); }
+.journey-card p { margin: 0 0 .75rem; color: var(--vp-c-text-2); }
+.journey-card a { font-weight: 700; text-decoration: none; }
+.journey-card a::after { content: ' ›'; }
+.language-choice {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  max-width: 760px;
+  margin: 2rem auto;
+}
+.language-choice a {
+  display: block;
+  padding: 1.6rem;
+  border: 1px solid var(--workshop-line);
+  border-radius: 18px;
+  color: var(--vp-c-text-1);
+  background: var(--vp-c-bg-soft);
+  text-decoration: none;
+}
+.language-choice strong { display: block; color: var(--workshop-navy); font-size: 1.35rem; }
+.language-choice span { color: var(--vp-c-text-2); }
+.artifact-flow { margin: 1.5rem 0; padding: 1rem; border: 1px solid var(--workshop-line); border-radius: 16px; }
+.output-checklist li::marker { color: var(--workshop-red); }
+
+@media (max-width: 720px) {
+  .journey-grid, .language-choice { grid-template-columns: 1fr; }
+  .vp-doc table { display: block; overflow-x: auto; }
+  .vp-doc .mermaid svg { min-width: 600px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
+
+/* The presentation cover artwork belongs only to the landing hero. */
+.presentation-home .VPHero {
+  margin-top: 0;
+  margin-bottom: 48px;
+  padding-top: 80px;
+  background-color: #071630;
+  background-image: linear-gradient(90deg, rgba(3, 12, 35, 0.45), rgba(3, 12, 35, 0.08)), url('/images/copilot-premium-abstract-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  --vp-home-hero-name-color: #ffffff;
+  --vp-home-hero-name-background: none;
+  --vp-button-brand-border: #ffffff;
+  --vp-button-brand-text: #12335b;
+  --vp-button-brand-bg: #ffffff;
+  --vp-button-brand-hover-border: #e1efff;
+  --vp-button-brand-hover-text: #12335b;
+  --vp-button-brand-hover-bg: #e1efff;
+  --vp-button-brand-active-border: #c5e1f7;
+  --vp-button-brand-active-text: #12335b;
+  --vp-button-brand-active-bg: #c5e1f7;
+  --vp-button-alt-border: #b7d8f7;
+  --vp-button-alt-text: #ffffff;
+  --vp-button-alt-bg: #12335b;
+  --vp-button-alt-hover-border: #ffffff;
+  --vp-button-alt-hover-text: #ffffff;
+  --vp-button-alt-hover-bg: #1c527f;
+  --vp-button-alt-active-border: #ffffff;
+  --vp-button-alt-active-text: #ffffff;
+  --vp-button-alt-active-bg: #12335b;
+}
+.presentation-home .VPHero .text { color: #ffffff; }
+.presentation-home .VPHero .tagline { color: #e6efff; }
+.presentation-home .training-download-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.presentation-home .training-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 7px 16px;
+  border: 1px solid #b7d8f7;
+  border-radius: 20px;
+  color: #e6efff;
+  background: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-decoration: none;
+}
+.presentation-home .training-download-button:hover {
+  border-color: #ffffff;
+  color: #ffffff;
+  background: rgba(255, 255, 255, 0.08);
+}
+.presentation-home .training-download-button:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px #071630;
+}
+@media (min-width: 960px) {
+  .presentation-home .training-download-row { justify-content: flex-start; }
+}
+.presentation-home .VPHero .VPButton:focus-visible {
+  outline-color: #ffffff;
+  box-shadow: 0 0 0 6px #071630;
+}
+@media (max-width: 639px) {
+  .presentation-home .VPHero {
+    margin-bottom: 32px;
+    padding-top: 48px;
+    background-image: linear-gradient(rgba(3, 12, 35, 0.45), rgba(3, 12, 35, 0.45)), url('/images/copilot-premium-abstract-background.png');
+    background-position: 35% center;
+  }
+}
+
+.vp-doc p, .vp-doc li { line-height: 1.9; }
+.vp-doc h1, .vp-doc h2, .vp-doc h3 { line-height: 1.6; letter-spacing: 0; }
