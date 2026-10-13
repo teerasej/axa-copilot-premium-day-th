@@ -10,8 +10,11 @@
 2. [Excel สู่ KPI dashboard](docs/th/exercises/02-kpi-to-decision-brief.md)
 3. [จัดการอีเมลด้วย Outlook และ Copilot Chat](docs/th/exercises/03-outlook-email-workflow.md)
 4. [ประชุมที่ผ่านมา สู่เอกสารติดตามงาน](docs/th/exercises/04-teams-meeting-to-document.md)
-5. [ฝึกต่อยอด: Executive update](docs/th/exercises/05-executive-update.md)
-6. [รู้จัก Agents](docs/th/exercises/06-agent-talking-points.md)
+5. [เลือก Group challenge](docs/th/exercises/05-group-challenge.md)
+6. [นำเสนอผลงานกลุ่ม](docs/th/exercises/07-group-showcase.md)
+7. [ชม Agent Builder demo](docs/th/exercises/06-agent-talking-points.md)
+
+Optional: [Outlook เพิ่มเติม](docs/th/resources/outlook-extra-practice.md) · [Executive update](docs/th/exercises/05-executive-update.md)
 
 ## ดูแลและเผยแพร่
 

@@ -6,7 +6,7 @@
 
 [ดาวน์โหลด Asteria_Copilot_Premium_Practice_Files.zip](/files/Asteria_Copilot_Premium_Practice_Files.zip)
 
-ZIP มี **11 ไฟล์** ใน `Asteria Copilot Workshop` ได้แก่แปดไฟล์ต้นทาง กับสอง backups และหนึ่ง template ใน `Prepared assets` อัปโหลดทั้งโฟลเดอร์ไป OneDrive ตาม [ขั้นตอนเตรียมไฟล์](./before-you-begin#prepare-your-files)
+ZIP มี **12 ไฟล์** ใน `Asteria Copilot Workshop` ได้แก่แปดไฟล์ต้นทาง กับสอง backups หนึ่ง template และหนึ่ง crowded-slide starter ใน `Prepared assets` อัปโหลดทั้งโฟลเดอร์ไป OneDrive ตาม [ขั้นตอนเตรียมไฟล์](./before-you-begin#prepare-your-files)
 
 ## แปดไฟล์ต้นทาง
 
@@ -28,6 +28,7 @@ ZIP มี **11 ไฟล์** ใน `Asteria Copilot Workshop` ได้แก
 | [Asteria_Grounded_Evidence_Brief.docx](/files/Asteria_Grounded_Evidence_Brief.docx) | สร้าง brief ไม่ได้ ตรวจสองข้อเท็จจริงก่อนใช้ |
 | [Asteria_Service_KPI_Reviewed_backup.xlsx](/files/Asteria_Service_KPI_Reviewed_backup.xlsx) | Workbook ที่ทำยังไม่พร้อม ตรวจหนึ่งค่าและกราฟ |
 | [Asteria_Presentation_Template.pptx](/files/Asteria_Presentation_Template.pptx) | ลองเทียบรูปแบบสามสไลด์เพิ่มใน Exercise 2 |
+| [Asteria_Crowded_Slide_Example.pptx](/files/Asteria_Crowded_Slide_Example.pptx) | ตัวอย่างสมมติหนึ่งหน้าสำหรับ PowerPoint Makeover ไม่ใช่ข้อมูลจาก KPI workbook |
 
 เก็บไฟล์ที่เตรียมไว้แยกจากงานของตนเอง ไม่เขียนทับผลงานที่เสร็จแล้ว และไม่ใส่ข้อมูลอีเมล/ประชุมจริงในชุด Asteria
 

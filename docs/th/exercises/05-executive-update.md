@@ -1,5 +1,7 @@
 # ฝึกต่อยอด: Executive update สามสไลด์
 
+> **Optional:** เก็บไว้ฝึกต่อหลังคลาส ไม่ใช่กิจกรรมเพิ่มเติมในตารางหลัก สำหรับงานกลุ่มให้เริ่มที่ [เลือก Group challenge](./05-group-challenge)
+
 <ExerciseHeaderImage src="/images/exercise-headers/04-build-executive-update.png" alt="สร้าง executive update แบบสั้นจากข้อมูลและกราฟที่ตรวจแล้ว" />
 
 ## ภาพรวม

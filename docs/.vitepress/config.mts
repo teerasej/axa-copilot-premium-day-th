@@ -4,14 +4,17 @@ const exercises = [
   { text: '1. สรุปจากหลักฐาน', link: '/th/exercises/01-ground-the-brief' },
   { text: '2. Excel สู่ KPI dashboard', link: '/th/exercises/02-kpi-to-decision-brief' },
   { text: '3. Outlook และ Copilot Chat', link: '/th/exercises/03-outlook-email-workflow' },
-  { text: '4. Teams สู่เอกสารติดตามงาน', link: '/th/exercises/04-teams-meeting-to-document' }
+  { text: '4. Teams สู่เอกสารติดตามงาน', link: '/th/exercises/04-teams-meeting-to-document' },
+  { text: '5. เลือก Group challenge', link: '/th/exercises/05-group-challenge' },
+  { text: 'นำเสนอผลงานกลุ่ม', link: '/th/exercises/07-group-showcase' }
 ]
 const theme = {
   nav: [{ text: 'หน้าแรก', link: '/th/' }, { text: 'เตรียมตัว', link: '/th/before-you-begin' }, { text: 'ไฟล์ฝึก', link: '/th/files' }],
   sidebar: [
     { text: 'เริ่มที่นี่', items: [{ text: 'ภาพรวมและตารางเวลา', link: '/th/' }, { text: 'เตรียมตัวก่อนเริ่ม', link: '/th/before-you-begin' }, { text: 'ดาวน์โหลดไฟล์ฝึก', link: '/th/files' }] },
     { text: 'แบบฝึกหัดหลัก', items: exercises },
-    { text: 'ต่อยอดและปิดวัน', items: [{ text: 'Executive update แบบสั้น', link: '/th/exercises/05-executive-update' }, { text: 'รู้จัก Agents', link: '/th/exercises/06-agent-talking-points' }, { text: 'นำไปใช้กับงาน', link: '/th/wrap-up' }] }
+    { text: 'Demo และปิดวัน', items: [{ text: 'ชม Agent Builder demo', link: '/th/exercises/06-agent-talking-points' }, { text: 'นำไปใช้กับงาน', link: '/th/wrap-up' }] },
+    { text: 'Optional: ฝึกต่อ', items: [{ text: 'Outlook เพิ่มเติม', link: '/th/resources/outlook-extra-practice' }, { text: 'Executive update แบบสั้น', link: '/th/exercises/05-executive-update' }] }
   ],
   outline: { level: [2, 3] as [number, number], label: 'ในหน้านี้' },
   docFooter: { prev: 'ก่อนหน้า', next: 'ถัดไป' },

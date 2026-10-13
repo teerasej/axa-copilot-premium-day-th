@@ -4,7 +4,7 @@
 
 ## เตรียมไฟล์ฝึก {#prepare-your-files}
 
-ดาวน์โหลดครั้งเดียวได้ครบ **11 ไฟล์**: แหล่งข้อมูลสมมติแปดไฟล์ prepared backups สองไฟล์ และ presentation template หนึ่งไฟล์ เอกสารต้นทางยังเป็นภาษาอังกฤษ คำอธิบายและ prompt บนเว็บไซต์เป็นภาษาไทย
+ดาวน์โหลดครั้งเดียวได้ครบ **12 ไฟล์**: แหล่งข้อมูลสมมติแปดไฟล์ prepared backups สองไฟล์ และ presentation template หนึ่งไฟล์ และ crowded-slide starter หนึ่งไฟล์ เอกสารต้นทางยังเป็นภาษาอังกฤษ คำอธิบายและ prompt บนเว็บไซต์เป็นภาษาไทย
 
 1. [ดาวน์โหลด practice ZIP ทั้งชุด](/files/Asteria_Copilot_Premium_Practice_Files.zip)
 2. แตก ZIP ด้วย `Extract All` บน Windows หรือดับเบิลคลิกบน Mac หาโฟลเดอร์:
@@ -20,10 +20,11 @@
    - `Asteria_Grounded_Evidence_Brief.docx`
    - `Asteria_Service_KPI_Reviewed_backup.xlsx`
    - `Asteria_Presentation_Template.pptx`
+   - `Asteria_Crowded_Slide_Example.pptx`
 
 6. เปิด `Asteria_Operational_Context.docx` ใน **Word for the web** ตรวจว่าแก้ไขและบันทึกได้
 
-ถ้า folder upload ใช้ไม่ได้แต่ file upload ได้ ให้สร้างสองโฟลเดอร์แบบเดียวกันใน OneDrive แล้วอัปโหลดแปดและสามไฟล์ให้ถูกที่ หากการอัปโหลดถูกบล็อกให้ถามผู้สอนก่อนทำต่อ
+ถ้า folder upload ใช้ไม่ได้แต่ file upload ได้ ให้สร้างสองโฟลเดอร์แบบเดียวกันใน OneDrive แล้วอัปโหลดแปดและสี่ไฟล์ให้ถูกที่ หากการอัปโหลดถูกบล็อกให้ถามผู้สอนก่อนทำต่อ
 
 บันทึกผลงาน Asteria ของตนเองในโฟลเดอร์หลัก เก็บไฟล์ที่เตรียมไว้ใน `Prepared assets` โดยไม่เขียนทับ ส่วนข้อมูลอีเมลและประชุมจริงเก็บในพื้นที่ส่วนตัวแยกต่างหาก
 
@@ -35,7 +36,7 @@
 - ในช่วงบ่าย: ตรวจ Outlook summary/drafting/coaching และ Copilot Chat ที่ใช้ข้อมูลอีเมลได้
 - ตรวจ Teams meeting transcript และ Copilot หลังประชุม รวมถึงสิทธิ์สร้าง Word จากผล
 
-ไม่ต้องใช้ Agent Builder, Copilot Studio, Researcher, Analyst หรือ custom skills แจ้งผู้สอนเมื่อฟังก์ชันที่ต้องใช้ไม่พร้อม เพื่อเลือกเส้นทางสำรองที่ตรงกิจกรรม
+ผู้เรียนไม่ต้องใช้ Agent Builder, Copilot Studio, Researcher, Analyst หรือ custom skills; Agent Builder เป็นการสาธิตโดยผู้สอนเท่านั้น แจ้งผู้สอนเมื่อฟังก์ชันที่ต้องใช้ไม่พร้อม เพื่อเลือกเส้นทางสำรองที่ตรงกิจกรรม
 
 ## เตรียมข้อมูลส่วนตัวสำหรับช่วงบ่าย
 
@@ -58,16 +59,20 @@
 | PPTX reference/style ไม่พร้อม | ใช้ template-copy/manual fallback หรือข้าม extension |
 | Outlook ไม่พร้อม หรือไม่อนุมัติข้อมูลจริง | ใช้ `Asteria_Email_Thread.docx` ใน Chat ตาม Exercise 3 |
 | หา meeting ไม่พบ | เลือก occurrence โดยตรงใน Teams Calendar/Recap |
-| Transcript ไม่มี/อ่านไม่ได้ | เลือกการประชุมอื่นหรือ `Asteria_Teams_Meeting_Recap.docx` |
+| Transcript ไม่มี/อ่านไม่ได้ | ใช้ `Asteria_Teams_Meeting_Recap.docx` ทันทีในเส้นทางหลัก |
 | Word export ไม่พร้อมแต่ copy ได้รับอนุญาต | สร้าง Word ด้วยตนเองจากเนื้อหาที่ตรวจแล้ว |
 | นโยบายห้าม export/copy | ไม่ข้ามข้อจำกัด ใช้ข้อมูลสมมติทำเอกสารแทน |
 
 Prepared assets เป็นตัวช่วยฝึก ไม่ยืนยันว่า Copilot สร้างไฟล์หรือแก้ Excel สำเร็จ ไม่ต้องกรอก review-status columns หรือทำ source notes ทุกสไลด์
 
+## เตรียม Group challenge
+
+ใช้ Asteria เท่านั้น เตรียม workbook/dashboard ช่วงเช้าหรือ backup และ crowded-slide starter ให้เปิดได้ จัดกลุ่มตามผู้สอนและเตรียมสลับคนลงมือ ผลงานอีเมลหรือประชุมจริงไม่ใช่ไฟล์สำหรับโชว์
+
 ## Ready check
 
 - [ ] เปิดและบันทึกไฟล์ Word ในบัญชีงานได้
-- [ ] OneDrive มีไฟล์ต้นทางแปดไฟล์และ prepared assets สามไฟล์ครบ
+- [ ] OneDrive มีไฟล์ต้นทางแปดไฟล์และ prepared assets สี่ไฟล์ครบ
 - [ ] ทราบว่าจะใช้ข้อมูลส่วนตัวที่อนุมัติแล้วหรือเส้นทางสมมติในช่วงบ่าย
 - [ ] ตรวจ transcript ของ meeting ที่เลือกได้ หรือเตรียม recap สมมติไว้
 - [ ] จะตรวจผลและเก็บข้อมูลส่วนตัวแยกจาก Asteria
