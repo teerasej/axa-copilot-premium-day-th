@@ -182,3 +182,14 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* Keep previously shared heading links usable after translation. */
 .legacy-anchor { display: block; height: 0; scroll-margin-top: 100px; }
+
+/* Exercise 5: static selection cards and optional extension. */
+.challenge-card { min-width: 0; display: flex; flex-direction: column; }
+.challenge-card h3 { scroll-margin-top: 6rem; }
+.challenge-card p:last-child { margin-top: auto; padding-top: .5rem; }
+.challenge-extension { margin: 1.5rem 0; padding: 1rem 1.15rem; border: 1px solid var(--workshop-line); border-radius: 12px; background: var(--vp-c-bg-soft); }
+.challenge-extension summary { cursor: pointer; color: var(--vp-c-brand-1); font-weight: 700; }
+.challenge-extension[open] summary { margin-bottom: 1rem; }
+
+.challenge-extension div[class*='language-'] { margin-left: 0; margin-right: 0; }
+.challenge-extension h2 { scroll-margin-top: 6rem; }

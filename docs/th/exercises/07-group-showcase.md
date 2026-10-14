@@ -15,7 +15,7 @@ Each group presents the output from its chosen challenge. Open the workbook or s
    - Which challenge you chose and the question you wanted to answer.
    - What you created: insights, a table/chart, before/after slide, or three-slide recommendation.
    - One point where you checked evidence or corrected a Copilot response.
-   - What you learned or still need to improve.
+   - What you learned or still need to improve. If you tried Level 2, mention one improvement within this same turn; Level 1 alone is a successful result.
 3. Take one question or feedback point, such as “What evidence supports this conclusion?” or “Which part is still difficult to read?” If you cannot answer yet, explain what you would check next.
 4. Note one improvement. You do not need to make every edit during the presentation.
 

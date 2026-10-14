@@ -47,7 +47,7 @@ Use real work data privately only within an approved scope. Group challenges and
 | 15:25–15:45 | Instructor demo: create a Claims Document Readiness Agent in Agent Builder |
 | 15:45–16:00 | Reflection and Q&A |
 
-Challenge: 3 minutes to choose a task and roles, 20 minutes to work, and 7 minutes to check and rehearse. The showcase supports up to eight groups, with 3 minutes presenting and 1 minute of feedback per group. Reserve another 8 minutes for transitions and shared reflection. If there would be more than eight groups, the instructor adjusts grouping before starting. The Agent demo is 20 minutes, followed by 15 minutes of reflection and Q&A.
+Challenge: 3 minutes to choose a task and roles, 20 minutes to work, and 7 minutes to check and rehearse. Level 2 is optional within the work period after Level 1 checks pass; it must not consume the final 7 minutes. The showcase supports up to eight groups, with 3 minutes presenting and 1 minute of feedback per group. Reserve another 8 minutes for transitions and shared reflection. If there would be more than eight groups, the instructor adjusts grouping before starting. The Agent demo is 20 minutes, followed by 15 minutes of reflection and Q&A.
 
 <span id="เลือกแบบฝึกหัด" class="legacy-anchor" aria-hidden="true"></span>
 

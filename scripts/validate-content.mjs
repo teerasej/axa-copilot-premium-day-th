@@ -41,7 +41,23 @@ if(actualBlocks.length!==11 || actualBlocks[0]?.[0]!=='09:00' || actualBlocks.at
 for(let i=1;i<actualBlocks.length;i++) if(actualBlocks[i-1][1]!==actualBlocks[i][0]) errors.push('Timetable gap or overlap')
 const challenge=fs.readFileSync(path.join(docs,'th/exercises/05-group-challenge.md'),'utf8')
 for(const name of ['Excel Detective','Excel Rescue','PowerPoint Makeover','Management Pitch']) if(!challenge.includes(name)) errors.push('Missing challenge '+name)
-if((challenge.match(/^### Practice /gm)||[]).length!==4) errors.push('Expected four challenge choices')
+const challengeSlugs=['excel-detective','excel-rescue','powerpoint-makeover','management-pitch']
+if((challenge.match(/\[Start this challenge\]\(/g)||[]).length!==4) errors.push('Expected four challenge selection cards')
+for (const slug of challengeSlugs) {
+ if(!challenge.includes(`](./challenges/${slug})`)) errors.push('Missing challenge selection link '+slug)
+ const file=path.join(docs,'th/exercises/challenges',slug+'.md')
+ if(!fs.existsSync(file)) { errors.push('Missing challenge page '+slug); continue }
+ const text=fs.readFileSync(file,'utf8')
+ const levels=text.split(/^## Practice /m).slice(1)
+ if(levels.length!==2 || !/^1: Level 1/.test(levels[0]) || !/^2: Level 2/.test(levels[1])) errors.push(`${slug}: expected two levels`)
+ for(const [i,level] of levels.entries()) {
+  if(!/^1\. /m.test(level) || !level.includes('```text') || !level.includes(`**Level ${i+1} output:**`)) errors.push(`${slug}: missing steps, prompt or output for level ${i+1}`)
+ }
+ if(!text.includes('<details class="challenge-extension">\n<summary>Finished Level 1? Try Level 2 — optional</summary>') || /<details[^>]*\bopen[ >]/.test(text)) errors.push(`${slug}: Level 2 must be optional and collapsed`)
+ if(!text.includes('](../05-group-challenge)') || !text.includes('](../07-group-showcase)')) errors.push(`${slug}: missing learner navigation`)
+ if(!text.includes('Level 1 alone is a successful result') || !text.includes('checking/rehearsal cue')) errors.push(`${slug}: missing completion and stop guidance`)
+}
+if(!home.includes('Level 2 is optional within the work period') || !home.includes('must not consume the final 7 minutes')) errors.push('Missing Level 2 pacing boundary')
 const optional=fs.readFileSync(path.join(docs,'th/resources/outlook-extra-practice.md'),'utf8')
 if((optional.match(/^### Practice /gm)||[]).length!==6 || !optional.includes('Optional')) errors.push('Expected six preserved optional email practices')
 const demo=fs.readFileSync(path.join(docs,'th/exercises/06-agent-talking-points.md'),'utf8')
