@@ -6,6 +6,8 @@ outline: [2, 2]
 
 # PowerPoint Makeover
 
+<ExerciseHeaderImage src="/images/exercise-headers/powerpoint-makeover.png" alt="A group comparing slide layouts and clarifying the main message" />
+
 Clarify one crowded slide. Work on this challenge only; use Level 2 to improve the same output if you finish early.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)

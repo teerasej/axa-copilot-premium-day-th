@@ -6,6 +6,8 @@ outline: [2, 2]
 
 # Management Pitch
 
+<ExerciseHeaderImage src="/images/exercise-headers/management-pitch.png" alt="A group presenting a recommendation and answering peer questions" />
+
 Turn evidence into a recommendation. Work on this challenge only; use Level 2 to improve the same output if you finish early.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)

@@ -18,6 +18,8 @@ Choose **one challenge per group**. Pick the output you want to improve, then op
 <span id="practice-find-insights-with-evidence" class="legacy-anchor" aria-hidden="true"></span>
 <span id="quick-check" class="legacy-anchor" aria-hidden="true"></span>
 
+<ExerciseHeaderImage src="/images/exercise-headers/excel-detective.png" alt="A group checking spreadsheet values and charts together" />
+
 ### Excel Detective
 
 Find what deserves attention.
@@ -37,6 +39,8 @@ Find what deserves attention.
 <span id="practice-ทําให้ข้อมูลอ่านง่ายขึ้น" class="legacy-anchor" aria-hidden="true"></span>
 <span id="practice-make-the-data-easier-to-read" class="legacy-anchor" aria-hidden="true"></span>
 <span id="quick-check-1" class="legacy-anchor" aria-hidden="true"></span>
+
+<ExerciseHeaderImage src="/images/exercise-headers/excel-rescue.png" alt="A group turning a busy spreadsheet into a clearer chart" />
 
 ### Excel Rescue
 
@@ -58,6 +62,8 @@ Make a table or chart easier to understand.
 <span id="practice-clarify-one-crowded-slide" class="legacy-anchor" aria-hidden="true"></span>
 <span id="quick-check-2" class="legacy-anchor" aria-hidden="true"></span>
 
+<ExerciseHeaderImage src="/images/exercise-headers/powerpoint-makeover.png" alt="A group comparing slide layouts and clarifying the main message" />
+
 ### PowerPoint Makeover
 
 Clarify one crowded slide.
@@ -77,6 +83,8 @@ Clarify one crowded slide.
 <span id="practice-สร้างข้อเสนอสามสไลด์" class="legacy-anchor" aria-hidden="true"></span>
 <span id="practice-create-a-three-slide-recommendation" class="legacy-anchor" aria-hidden="true"></span>
 <span id="quick-check-3" class="legacy-anchor" aria-hidden="true"></span>
+
+<ExerciseHeaderImage src="/images/exercise-headers/management-pitch.png" alt="A group presenting a recommendation and answering peer questions" />
 
 ### Management Pitch
 

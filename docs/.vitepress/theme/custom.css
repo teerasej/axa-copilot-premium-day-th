@@ -193,3 +193,13 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 .challenge-extension div[class*='language-'] { margin-left: 0; margin-right: 0; }
 .challenge-extension h2 { scroll-margin-top: 6rem; }
+
+/* Matching illustrations lead each challenge card. Keep the complete artwork visible. */
+.challenge-grid .challenge-card .exercise-header-image {
+  width: calc(100% + 2.3rem);
+  max-width: none;
+  height: auto;
+  margin: -1.15rem -1.15rem 1rem;
+  border-radius: 15px 15px 0 0;
+  flex-shrink: 0;
+}

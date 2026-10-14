@@ -6,6 +6,8 @@ outline: [2, 2]
 
 # Excel Detective
 
+<ExerciseHeaderImage src="/images/exercise-headers/excel-detective.png" alt="A group checking spreadsheet values and charts together" />
+
 Find what deserves attention. Work on this challenge only; use Level 2 to improve the same output if you finish early.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)
