@@ -8,7 +8,9 @@ function walk(dir) { for (const item of fs.readdirSync(dir, { withFileTypes: tru
 walk(docs)
 for(const p of pages) {
  const text=fs.readFileSync(p,'utf8')
- if(!/[\u0E00-\u0E7F]/u.test(text)) errors.push(`${p}: missing Thai learner text`)
+ const visibleSource=text.replace(/<span id="[^"]+" class="legacy-anchor" aria-hidden="true"><\/span>/g,'')
+ if(/[\u0E00-\u0E7F]/u.test(visibleSource)) errors.push(`${p}: unexpected Thai wording`)
+ if(!/[A-Za-z]/.test(visibleSource)) errors.push(`${p}: missing English learner text`)
  if(/\/en\/|AXA-Copilot-Premium-Training-v2\.pdf|notion\.so|workspace-private|coordinator-update/i.test(text)) errors.push(`${p}: stale/private reference`)
  for(const m of text.matchAll(/(?:\]\(|src=")([^\s)"#]+)(?:#[^\s)"]*)?[)"]/g)) {
   const link=m[1]; if(/^(https?:|mailto:)/.test(link)) continue
@@ -17,7 +19,7 @@ for(const p of pages) {
  }
  const practices=text.split(/^###? Practice /m).slice(1)
  for(const practice of practices) {
-  if(!practice.includes('**เป้าหมายหลัก:**')) errors.push(`${p}: Practice lacks target`)
+  if(!practice.includes('**Primary target:**')) errors.push(`${p}: Practice lacks target`)
   const check=practice.match(/^###?#? Quick check\n\n((?:- .*\n?)+)/m)
   if(!check) errors.push(`${p}: Practice lacks Quick check`)
   else { const n=check[1].split('\n').filter(x=>x.startsWith('- ')).length; if(n<1||n>2) errors.push(`${p}: expected 1–2 Quick checks`) }
@@ -43,7 +45,7 @@ if((challenge.match(/^### Practice /gm)||[]).length!==4) errors.push('Expected f
 const optional=fs.readFileSync(path.join(docs,'th/resources/outlook-extra-practice.md'),'utf8')
 if((optional.match(/^### Practice /gm)||[]).length!==6 || !optional.includes('Optional')) errors.push('Expected six preserved optional email practices')
 const demo=fs.readFileSync(path.join(docs,'th/exercises/06-agent-talking-points.md'),'utf8')
-if(!demo.includes('Agent Builder') || !demo.includes('ผู้เรียนชม')) errors.push('Instructor-only Agent Builder demo missing')
+if(!demo.includes('Agent Builder') || !demo.includes('Learners observe')) errors.push('Instructor-only Agent Builder demo missing')
 const manifest=JSON.parse(fs.readFileSync('scripts/practice-files.json','utf8'))
 const assetDir=path.join(docs,'public/files'), files=fs.readdirSync(assetDir)
 if(Object.keys(manifest.files).length!==12 || files.filter(x=>/\.(docx|xlsx|vtt|pptx)$/.test(x)).length!==12) errors.push('Expected 12 practice assets')
@@ -53,4 +55,4 @@ for(const [name,expected] of Object.entries({...manifest.files,[manifest.archive
 }
 if(files.some(x=>x.endsWith('.pdf'))) errors.push('Stale course PDF not allowed')
 if(errors.length) { console.error(errors.join('\n')); process.exit(1) }
-console.log(`Passed: ${pages.length} Thai pages, focused routes, four choices, 330 learning minutes, links and 12 assets + ZIP hashes.`)
+console.log(`Passed: ${pages.length} English pages, focused routes, four choices, 330 learning minutes, links and 12 assets + ZIP hashes.`)

@@ -1,57 +1,71 @@
-# ฝึกต่อยอด: Executive update สามสไลด์
+<span id="ฝึกต่อยอด-executive-update-สามสไลด์" class="legacy-anchor" aria-hidden="true"></span>
 
-> **Optional:** เก็บไว้ฝึกต่อหลังคลาส ไม่ใช่กิจกรรมเพิ่มเติมในตารางหลัก สำหรับงานกลุ่มให้เริ่มที่ [เลือก Group challenge](./05-group-challenge)
+# Optional extension: A three-slide executive update
 
-<ExerciseHeaderImage src="/images/exercise-headers/04-build-executive-update.png" alt="สร้าง executive update แบบสั้นจากข้อมูลและกราฟที่ตรวจแล้ว" />
+> **Optional:** Keep this for practice after class; it is not an additional activity in the main timetable. For group work, start with [Choose a group challenge](./05-group-challenge).
 
-## ภาพรวม
+<ExerciseHeaderImage src="/images/exercise-headers/04-build-executive-update.png" alt="Create a short executive update from checked evidence and charts" />
 
-ใช้ **recap สมมติ Asteria** และ dashboard ช่วงเช้า สร้าง executive update สามสไลด์ เก็บ Meeting follow-up brief ของการประชุมจริงไว้ส่วนตัว ไม่ใช้เป็นแหล่งของสไลด์สมมตินี้
+<span id="ภาพรวม" class="legacy-anchor" aria-hidden="true"></span>
 
-> **License:** ใช้ Copilot ใน PowerPoint ของบัญชีงาน การอ้างอิงไฟล์และแก้สไลด์ต้องตรวจตาม tenant มี manual fallback ให้
+## Overview
 
-## สิ่งที่ต้องเตรียม
+Use the **synthetic Asteria recap** and your morning dashboard to create a three-slide executive update. Keep any real meeting follow-up brief private; it is not a source for these synthetic slides.
 
-- `Asteria_Teams_Meeting_Recap.docx`
-- `Asteria_KPI_Dashboard.pptx` และ reviewed workbook หรือ prepared backup
+> **License:** Use paid Microsoft 365 Copilot access in PowerPoint with your work account. Verify file referencing and slide editing in your tenant. A manual fallback is available.
 
-## Practice 1 สรุปสารหลักเป็น executive update
+<span id="สิ่งที่ต้องเตรียม" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** สร้างสามสไลด์ที่สื่อสถานการณ์ หลักฐาน และสิ่งที่จะทำต่อ
+## Before you start
 
-### ขั้นตอน
+- Have `Asteria_Teams_Meeting_Recap.docx` available.
+- Open `Asteria_KPI_Dashboard.pptx` and your reviewed workbook or prepared backup.
 
-1. เปิด **PowerPoint** สร้าง **Blank presentation** บันทึกชื่อ:
+<span id="practice-1-สรุปสารหลักเป็น-executive-update" class="legacy-anchor" aria-hidden="true"></span>
+
+## Practice 1 Create a concise executive update
+
+**Primary target:** Create three slides communicating the situation, evidence and next steps.
+
+<span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
+
+### Steps
+
+1. In **PowerPoint**, create a **Blank presentation** and save it as:
 
    ```text
    Asteria_Executive_Update.pptx
    ```
 
-2. เปิด Copilot side panel เลือก `Asteria_Teams_Meeting_Recap.docx` ผ่าน `Add Content` หรือตัวเลือกเทียบเท่า ตรวจชื่อก่อนส่ง:
+2. Open the Copilot side panel. Select `Asteria_Teams_Meeting_Recap.docx` through `Add Content` or the equivalent control. Check its name, then send:
 
    ```text
-   สร้าง executive update ภาษาไทย 3 สไลด์จาก recap สมมติที่แนบ:
-   1. สถานการณ์และสิ่งที่ตกลงแล้ว
-   2. KPI snapshot — เว้นพื้นที่สำหรับกราฟและหนึ่ง insight ที่ฉันจะนำมาจาก dashboard ที่ตรวจแล้ว ไม่เดาตัวเลขจาก recap
-   3. งานติดตามและคำถามที่ยังต้องตัดสินใจ
+   Create a three-slide executive update in English from the attached synthetic recap:
+   1. Situation and confirmed agreements.
+   2. KPI snapshot — leave room for a chart and one insight I will add from my checked dashboard. Do not infer numbers from the recap.
+   3. Follow-up actions and open decision questions.
 
-   รักษา owner และ due date จาก recap แยก Proposed: และใช้ To confirm สำหรับข้อมูลที่ขาด ไม่แต่งสาเหตุหรือผลทางการเงิน
+   Preserve owners and due dates from the recap. Label proposed actions with Proposed: and missing information with To confirm. Do not invent causes or financial impacts.
    ```
 
-3. คัดลอกกราฟที่ตรวจแล้วจาก `Asteria_KPI_Dashboard.pptx` หรือ Excel ไป Slide 2 เพิ่มหนึ่ง insight จาก workbook หากใช้ภาพกราฟให้ภาพอ่านได้และเก็บกราฟต้นฉบับใน Excel
-4. ตรวจหนึ่งค่ากับ reviewed workbook และหนึ่ง action กับ recap เก็บ **สามสไลด์** แล้วบันทึก
+3. Copy a checked chart from `Asteria_KPI_Dashboard.pptx` or Excel to Slide 2. Add one workbook insight. If using a chart image, keep it readable and retain the original chart in Excel.
+4. Check one value against the reviewed workbook and one action against the recap. Keep **three slides** and save.
 
-### ถ้า Copilot สร้างสไลด์หรือเลือกไฟล์ไม่ได้
+<span id="ถ้า-copilot-สร้างสไลด์หรือเลือกไฟล์ไม่ได้" class="legacy-anchor" aria-hidden="true"></span>
 
-เปิด recap อ่านแล้วสร้างสามสไลด์ด้วยตนเองตามหัวข้อเดิม คัดลอกกราฟจาก dashboard เหมือนกัน ระบุว่าเป็น manual fallback
+### If slide generation or file selection is unavailable
+
+Read the recap and create the three slides manually using the same structure. Copy the dashboard chart as above and identify the result as a manual fallback.
 
 ### Quick check
 
-- มีสามสไลด์ กราฟอ่านได้ และหนึ่งค่าตรงกับ Excel
-- Action ยังตรงกับ recap สมมติ และไม่ปนข้อมูลประชุมจริง
+- The three slides include a readable chart and one value matching Excel.
+- Actions match the synthetic recap, with no real meeting data mixed in.
 
-## ผลลัพธ์
+<span id="ผลลัพธ์" class="legacy-anchor" aria-hidden="true"></span>
 
-`Asteria_Executive_Update.pptx` สามสไลด์ กิจกรรมนี้เป็นการต่อยอดสั้น ๆ ไม่ใช่เงื่อนไขผ่านแบบฝึกหัด Outlook/Teams
+## Output
 
-[← Exercise 4](./04-teams-meeting-to-document) · [รู้จัก Agents →](./06-agent-talking-points)
+A three-slide `Asteria_Executive_Update.pptx`. This extension is not required to complete the Outlook/Teams exercises.
+
+[← Exercise 4](./04-teams-meeting-to-document) · [Agent Builder demo →](./06-agent-talking-points)

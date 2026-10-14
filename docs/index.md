@@ -1,6 +1,6 @@
 ---
 layout: page
-title: เปิดหลักสูตรภาษาไทย
+title: Open the Copilot Premium course
 ---
 <script setup>
 import { onMounted } from 'vue'
@@ -8,4 +8,4 @@ import { withBase } from 'vitepress'
 onMounted(() => { window.location.replace(withBase('/th/')) })
 </script>
 
-[เปิดหลักสูตร Copilot Premium ภาษาไทย →](./th/)
+[Open the Copilot Premium course →](./th/)

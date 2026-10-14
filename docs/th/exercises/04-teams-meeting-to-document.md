@@ -1,128 +1,152 @@
-# Exercise 4 จากการประชุมที่ผ่านมา สู่เอกสารติดตามงาน
+<span id="exercise-4-จากการประชุมที่ผ่านมา-สู่เอกสารติดตามงาน" class="legacy-anchor" aria-hidden="true"></span>
 
-## ภาพรวม
+# Exercise 4 Create a follow-up brief from a past meeting
 
-ใช้หนึ่งการประชุมที่เลือกและตรวจ transcript ก่อนเริ่มแล้ว ถามประเด็นสำคัญและสร้าง Word follow-up brief ให้จบก่อนเข้าสู่ group challenge หากข้อมูลไม่พร้อมใช้ Asteria ทันที การค้นหาการประชุมใหม่และคำถามเพิ่มเติมเป็น optional
+<span id="ภาพรวม" class="legacy-anchor" aria-hidden="true"></span>
 
-> **License:** หลักสูตรนี้ใช้ Microsoft 365 Copilot แบบชำระเงิน และสิทธิ์เข้าถึงเนื้อหาการประชุม การถามเรื่องที่พูดหลังประชุมต้องมี transcript ที่ยังเข้าถึงได้ ตรวจนโยบายและสิทธิ์ด้วยบัญชีผู้เรียนก่อนเริ่ม
+## Overview
 
-## สิ่งที่ต้องเตรียม
+Use one meeting selected in advance with a checked transcript. Ask focused questions and create a Word follow-up brief before the group challenge. Switch to Asteria immediately if the source is unavailable. Finding a new meeting and asking extra questions are optional activities.
 
-- Teams, Copilot Chat และ Word ในบัญชีงาน
-- หนึ่งการประชุมภายในองค์กรที่มี transcript ที่อ่านได้ และอนุญาตให้ใช้ในกิจกรรมส่วนตัวนี้
-- สิทธิ์สร้างเอกสารจากผลการประชุมตามนโยบายองค์กร
-- ถ้ามี recording ใช้ช่วยตรวจบริบทได้ แต่ transcript เป็นหลักสำหรับการถามเรื่องที่พูด ไม่มี transcript ให้เลือกอีกการประชุมหรือใช้ไฟล์สมมติ
+> **License:** This course requires paid Microsoft 365 Copilot access and permission to use meeting content. Questions about what was said after a meeting require an accessible retained transcript. Check policy and learner permissions before starting.
 
-**เก็บเป็นส่วนตัว:** ปิดการแชร์หน้าจอ เก็บผลในบัญชีตนเอง ไม่ส่งให้ผู้สอน ไม่ผสมกับ Asteria ไม่อัปโหลด transcript จริงมาฝึก และไม่เปลี่ยนนโยบายเพื่อข้ามข้อจำกัด
+<span id="สิ่งที่ต้องเตรียม" class="legacy-anchor" aria-hidden="true"></span>
 
-## Practice 1 ยืนยันการประชุมที่เตรียมไว้
+## Before you start
 
-**เป้าหมายหลัก:** ยืนยัน source ของการประชุมหนึ่งครั้งที่อ่าน transcript ได้
+- Have Teams, Copilot Chat and Word in your work account.
+- Prepare one internal meeting with a readable transcript and permission to use it in this private activity.
+- Confirm that organizational policy permits creating a document from the meeting results.
+- A recording may help check context, but the transcript is the source for questions about spoken content. Prepare a suitable meeting or the synthetic fallback before class.
 
-### ขั้นตอน
+**Keep it private:** Turn off screen sharing, retain results in your own account, do not submit them to the instructor or mix them with Asteria, and do not upload real transcripts for practice. Do not change policy to bypass restrictions.
 
-1. เปิด **Teams Calendar** หรือ meeting chat ที่เตรียมไว้ ตรวจชื่อ วันเวลา และ occurrence ของ recurring meeting
-2. เปิด **Recap** หรือ transcript ตามหน้าจอ ตรวจว่าอ่านเนื้อหาที่พูดได้จริง รายชื่อผู้เข้าร่วมและชื่อการประชุมไม่เพียงพอ
-3. ถ้า source ไม่พร้อม ใช้ [Asteria recap](#asteria-route) ทันที ไม่ค้นหาการประชุมใหม่ระหว่างเส้นทางหลัก
+<span id="practice-1-ยืนยันการประชุมที่เตรียมไว้" class="legacy-anchor" aria-hidden="true"></span>
 
-### Quick check
+## Practice 1 Confirm the prepared meeting
 
-- เลือก occurrence ถูกต้องและอ่าน transcript ได้ หรือระบุว่าใช้ข้อมูลสมมติ
+**Primary target:** Confirm one meeting occurrence with a readable transcript.
 
-## Practice 2 ถามและตรวจประเด็นสำคัญ
+<span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** ใช้ transcript แยกใจความ การตัดสินใจ และงานติดตาม
+### Steps
 
-### ขั้นตอน
-
-1. ใน **Teams Recap** ของการประชุมที่เลือก เปิด **Copilot** หรือใช้ meeting chat ของครั้งเดียวกัน
-2. ส่งทีละคำขอในบทสนทนาเดียว อ่านคำตอบก่อนส่งคำขอถัดไป:
-
-   **สรุปและแยกสิ่งที่ตกลงแล้ว**
-
-   ```text
-   ใช้ transcript ของการประชุมครั้งนี้ สรุปไม่เกิน 3 ข้อ แยกการตัดสินใจที่ยืนยันแล้วกับข้อเสนอ และระบุคำถามค้างไม่เกิน 2 ข้อพร้อมแหล่งอ้างอิง ถ้าอ่าน transcript ไม่ได้ให้บอกตรง ๆ
-   ```
-
-   **หางานติดตาม**
-
-   ```text
-   ทำตาราง Action / Owner / Due date ใช้เฉพาะที่ระบุใน transcript ถ้าข้อมูลขาดให้ใส่ To confirm ถ้าเป็นข้อเสนอให้ขึ้นต้น Action ด้วย Proposed: ไม่แต่งการอนุมัติหรือวันส่งมอบ
-   ```
-
-3. เปิดแหล่งอ้างอิง ตรวจหนึ่งการตัดสินใจและหนึ่ง action/owner/date กับ transcript ถ้าคำตอบอิงเพียง meeting chat หรือ calendar ให้ยังไม่ถือว่าได้ข้อมูลจากสิ่งที่พูด
-
-### ถ้า Teams Copilot ใช้ไม่ได้ แต่การอ้างอิง meeting ใน Chat ใช้ได้
-
-กลับแชตส่วนตัวจาก Practice 1 ใช้ `/` → `Meetings` หรือตัวเลือกที่บัญชีมี เลือก occurrence ที่ยืนยันแล้ว ตรวจชื่อก่อนส่ง prompt ชุดเดิม หาก Chat อ่าน transcript ไม่ได้ให้หยุดเส้นทางนี้และใช้ข้อมูลสมมติ ไม่ต้องอัปโหลด transcript จริง
+1. Open the prepared **Teams Calendar** entry or meeting chat. Check its title, date, time and occurrence if it is a recurring meeting.
+2. Open **Recap** or the transcript as available. Confirm that you can read what was said. A title or attendee list is insufficient.
+3. If the source is unavailable, use the [Asteria recap](#asteria-route) immediately. Do not search for a different meeting during the main route.
 
 ### Quick check
 
-- หนึ่งการตัดสินใจและหนึ่งงานติดตามตรงกับ transcript
-- ข้อเสนอและข้อมูลที่ขาดยังมี Proposed / To confirm
+- Confirm the correct occurrence and readable transcript, or identify your source as synthetic.
 
-## Practice 3 สร้าง Meeting follow-up brief
+<span id="practice-2-ถามและตรวจประเด็นสําคัญ" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** แปลงผลที่ตรวจแล้วเป็นเอกสาร Word สำหรับติดตามงาน
+## Practice 2 Ask and verify the key points
 
-### ขั้นตอน
+**Primary target:** Use the transcript to distinguish the summary, decisions and follow-up work.
 
-1. ในบทสนทนาที่อ่าน transcript และตรวจผลแล้ว ส่ง:
+<span id="ขั้นตอน-1" class="legacy-anchor" aria-hidden="true"></span>
 
-   ```text
-   จัดเนื้อหาที่เราตรวจแล้วเป็น Meeting follow-up brief ภาษาไทยสำหรับการประชุมครั้งนี้เท่านั้น
+### Steps
 
-   ใช้หัวข้อ:
-   1. Meeting summary — ชื่อและวันประชุม พร้อมสรุปสั้น
-   2. Confirmed decisions — เฉพาะสิ่งที่ตกลงแล้ว
-   3. Action plan — ตาราง Action / Owner / Due date
-   4. Open questions — เรื่องที่ต้องยืนยันต่อ
+1. In the selected meeting's **Teams Recap**, open **Copilot** or use the chat for that same occurrence.
+2. Send one request at a time in the same conversation. Read each answer before continuing:
 
-   รักษาเงื่อนไขเดิม ใช้ Proposed: สำหรับงานที่เสนอ และ To confirm สำหรับข้อมูลที่ขาด ไม่เพิ่มการอนุมัติหรือข้อผูกพันใหม่
-   ```
-
-2. ตรวจหัวข้อทั้งสี่ แล้วใช้ **Open in Word** ถ้ามี หากทำใน Copilot Chat ให้ขอไฟล์:
+   **Summary and confirmed decisions**
 
    ```text
-   สร้างไฟล์ Word ชื่อ Meeting_Follow_Up_Brief.docx จาก brief ที่เพิ่งเขียน รักษาเนื้อหาเดิมและทั้งสี่หัวข้อ
+   Use this meeting occurrence's transcript. Summarize in English in no more than three points, separating confirmed decisions from proposals. Include up to two open questions with source citations. Say clearly if you cannot read the transcript.
    ```
 
-3. ถ้าไม่มี export หรือสร้างไฟล์ไม่ได้ **แต่อนุญาตให้คัดลอก** เปิด Word เอกสารใหม่ คัดลอก brief และบันทึกใน OneDrive ส่วนตัวด้วยชื่อ:
+   **Follow-up work**
+
+   ```text
+   Create an Action / Owner / Due date table using only information stated in the transcript. Use To confirm for missing information. Prefix proposed actions with Proposed:. Do not invent approvals or delivery dates.
+   ```
+
+3. Open the citations. Check one decision and one action/owner/date against the transcript. An answer based only on meeting chat or calendar information is not evidence of what was spoken.
+
+<span id="ถ้า-teams-copilot-ใช้ไม่ได้-แต่การอ้างอิง-meeting-ใน-chat-ใช้ได้" class="legacy-anchor" aria-hidden="true"></span>
+
+### If Teams Copilot is unavailable but Chat can reference meetings
+
+Start a private Copilot Chat. Use `/` → `Meetings` or the available equivalent, select the confirmed occurrence and check its title before sending the same prompts. If Chat cannot read the transcript, stop this route and use synthetic material. Do not upload a real transcript.
+
+### Quick check
+
+- One decision and one follow-up action match the transcript.
+- Proposals and missing information retain Proposed / To confirm labels.
+
+<span id="practice-3-สร้าง-meeting-follow-up-brief" class="legacy-anchor" aria-hidden="true"></span>
+
+## Practice 3 Create a meeting follow-up brief
+
+**Primary target:** Turn verified meeting results into a Word follow-up document.
+
+<span id="ขั้นตอน-2" class="legacy-anchor" aria-hidden="true"></span>
+
+### Steps
+
+1. In the conversation that accessed the transcript and produced checked results, send:
+
+   ```text
+   Organize the content we verified into an English Meeting follow-up brief for this meeting occurrence only.
+
+   Use these headings:
+   1. Meeting summary — meeting title, date and a short summary.
+   2. Confirmed decisions — only what was agreed.
+   3. Action plan — an Action / Owner / Due date table.
+   4. Open questions — items still needing confirmation.
+
+   Preserve the original conditions. Use Proposed: for suggested actions and To confirm for missing information. Do not add approvals or commitments.
+   ```
+
+2. Check the four headings and use **Open in Word** if available. If working in Copilot Chat, request:
+
+   ```text
+   Create a Word file named Meeting_Follow_Up_Brief.docx from the brief you just wrote. Preserve its content and all four headings.
+   ```
+
+3. If export or file creation is unavailable **but copying is permitted**, open a new Word document, copy the brief and save it in your private OneDrive as:
 
    ```text
    Meeting_Follow_Up_Brief.docx
    ```
 
-4. ถ้านโยบายหรือ sensitivity label ห้าม export/copy **อย่าคัดลอกเพื่อข้ามข้อจำกัด** เก็บผลไว้ในแชตแล้วทำเอกสารด้วยเส้นทางสมมติด้านล่าง
-5. เปิดไฟล์ตรวจหนึ่งแถวของ action table และหัวข้อทั้งสี่ เก็บไฟล์ส่วนตัวแยกจากโฟลเดอร์ Asteria
+4. If policy or a sensitivity label blocks export/copy, **do not bypass that restriction**. Keep the result in the chat and create the document using the synthetic route below.
+5. Open the file and inspect one action-table row and all four headings. Keep the private file separate from the Asteria folder.
 
 ### Quick check
 
-- Word เปิดได้ มีสรุป การตัดสินใจ action table และคำถามค้าง
-- หนึ่งแถวตรงกับ transcript และ Proposed / To confirm ยังอยู่
+- Word opens with a summary, decisions, action table and open questions.
+- One row matches the transcript, and Proposed / To confirm labels remain.
 
-## เส้นทางสำรอง: การประชุมสมมติ Asteria {#asteria-route}
+## Fallback: The synthetic Asteria meeting {#asteria-route}
 
-เริ่ม **Copilot Chat → New chat** แยกจากข้อมูลจริง แนบ `Asteria_Teams_Meeting_Recap.docx` ใช้ไฟล์นี้แทน transcript ใน prompt และทำ Practices 2–3 ต่อ ตรวจรายละเอียดกับไฟล์ ถ้าต้องชี้แจงให้เปิด `Asteria_Meeting_Chat.docx` หรือ `.vtt` อ่านด้วยตนเอง ไม่แนบ VTT ให้ Copilot
+Start **Copilot Chat → New chat**, separate from real data. Attach `Asteria_Teams_Meeting_Recap.docx`, substitute this file for “transcript” in the prompts and complete Practices 2–3. Check details against the file. For clarification, open `Asteria_Meeting_Chat.docx` or the `.vtt` file yourself; do not attach VTT to Copilot.
 
 ```text
-สำหรับการฝึกนี้ ใช้เฉพาะ Asteria_Teams_Meeting_Recap.docx ที่แนบแทน transcript ตอบเป็นภาษาไทยและไม่อ้างว่าคุณเข้าถึงการประชุมจริง
+For this exercise, use only the attached Asteria_Teams_Meeting_Recap.docx in place of a transcript. Respond in English and do not claim access to a real meeting.
 ```
 
-บันทึก synthetic brief ในโฟลเดอร์ Asteria ได้ แต่ห้ามนำผลจริงมาปน นี่เป็นการฝึกวิเคราะห์และจัดเอกสาร ไม่ยืนยัน meeting discovery หรือ Teams transcript grounding
+You may save the synthetic brief in the Asteria folder. Never mix in real-work outputs. This practices analysis and document creation; it does not establish meeting discovery or Teams transcript grounding.
 
-## Optional: ฝึกค้นและถามเพิ่มภายหลัง
+<span id="optional-ฝึกค้นและถามเพิ่มภายหลัง" class="legacy-anchor" aria-hidden="true"></span>
 
-นอกตารางหลัก ลองใช้ Copilot Chat ค้นการประชุมจากหัวข้อและช่วงวันที่ เปิด occurrence จริงตรวจ transcript แล้วถามประเด็นที่ยังค้างทีละเรื่อง ใช้ขอบเขตข้อมูลและเงื่อนไขเดิม
+## Optional: Explore discovery and further questions later
 
-## ผลลัพธ์
+Outside the main timetable, try finding a meeting in Copilot Chat by topic and date range. Open the actual occurrence, check its transcript and ask further questions one at a time. Keep the same data boundaries and access conditions.
 
-- หนึ่งการประชุมที่ตรวจการเข้าถึงแล้ว หรือข้อมูลสมมติที่ระบุชัด
-- สรุปและงานติดตามที่ตรวจแล้ว
-- `Meeting_Follow_Up_Brief.docx` ส่วนตัว หรือฉบับสมมติ
+<span id="ผลลัพธ์" class="legacy-anchor" aria-hidden="true"></span>
 
-<div class="voice-card"><strong>Pon:</strong> ชื่อการประชุมเหมือนชื่อหนังบนโปสเตอร์ ส่วน transcript คือเนื้อเรื่องจริง เราต้องเปิดเนื้อเรื่องก่อนสรุปว่าใครตกลงอะไรครับ</div>
+## Outputs
 
-อ้างอิง: [Copilot หลังประชุมและเงื่อนไข Word export](https://support.microsoft.com/en-us/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams)
+- One meeting with verified access, or clearly identified synthetic material.
+- A checked summary and follow-up actions.
+- A private or synthetic `Meeting_Follow_Up_Brief.docx`.
 
-[← Exercise 3](./03-outlook-email-workflow) · [เลือก Group challenge →](./05-group-challenge)
+<div class="voice-card"><strong>Pon:</strong> A meeting title is like a film poster; the transcript is the story itself. Read the story before concluding who agreed to what.</div>
+
+Reference: [Copilot after meetings and Word export conditions](https://support.microsoft.com/en-us/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams)
+
+[← Exercise 3](./03-outlook-email-workflow) · [Choose a group challenge →](./05-group-challenge)

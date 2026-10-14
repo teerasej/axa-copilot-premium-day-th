@@ -1,88 +1,100 @@
-# Exercise 3 จากอีเมลหนึ่งเรื่อง สู่คำตอบที่พร้อมตรวจ
+<span id="exercise-3-จากอีเมลหนึ่งเรื่อง-สู่คําตอบที่พร้อมตรวจ" class="legacy-anchor" aria-hidden="true"></span>
 
-<ExerciseHeaderImage src="/images/exercise-headers/03-communicate-accountably.png" alt="อ่านบริบทอีเมลและเตรียมข้อความติดตามงาน" />
+# Exercise 3 Handle one email thread and prepare a checked reply
 
-ใช้เรื่องเดียวตั้งแต่ค้นข้อความจนได้ reply ที่ปรับแล้ว เริ่มใน Copilot Chat แล้วเปิด thread ที่ตรวจพบใน Outlook ไม่ต้องทำทั้งหก Practice เพิ่มเติมในช่วงหลัก
+<ExerciseHeaderImage src="/images/exercise-headers/03-communicate-accountably.png" alt="Read email context and prepare a follow-up message" />
 
-> **License:** ใช้ Microsoft 365 Copilot แบบชำระเงินตามหลักสูตร ต้องตรวจสิทธิ์ค้นอีเมลใน Copilot Chat และ Copilot ใน Outlook ด้วยบัญชีผู้เรียนก่อนสอน หน้าจอขึ้นกับ client และนโยบายองค์กร
+Follow one topic from finding a message to refining a reply. Start in Copilot Chat, then open the verified thread in Outlook. The six additional practices are optional and sit outside this focused route.
 
-## เตรียมก่อนเริ่ม
+> **License:** This course requires paid Microsoft 365 Copilot access. Verify email search in Copilot Chat and Copilot in Outlook with the learner account before class. Controls depend on the client and organizational policy.
 
-- เตรียมหนึ่ง thread และช่วงวันที่สั้น ๆ ที่ได้รับอนุมัติให้ใช้ฝึกไว้แล้ว
-- ใช้ข้อมูลจริงเฉพาะเมื่ออนุมัติขอบเขตชั้นเรียนแล้ว ไม่ใช้ข้อมูลลูกค้า สุขภาพ เคลม การชำระเงิน HR หรือข้อมูลลับ
-- ปิดการแชร์หน้าจอ เก็บผลส่วนตัว ไม่ส่งอีเมล และไม่นำผลจริงไปใช้ใน group challenge
-- ถ้าข้อมูลหรือสิทธิ์ไม่พร้อม ใช้ [เส้นทาง Asteria](#asteria-route) ทันที
+<span id="เตรียมก่อนเริ่ม" class="legacy-anchor" aria-hidden="true"></span>
 
-## Practice 1 เลือก thread ที่ตรงเรื่อง
+## Before you start
 
-**เป้าหมายหลัก:** ค้นและเปิดแหล่งอีเมลที่ถูกต้องสำหรับงานหนึ่งเรื่อง
+- Prepare one approved thread and a short date range.
+- Use real work data only within the approved classroom scope. Exclude customer, health, claims, payment, HR and confidential information.
+- Turn off screen sharing, keep results private and leave messages unsent. Do not use real-work outputs in the group challenge.
+- If data or access is unavailable, use the [Asteria route](#asteria-route) immediately.
 
-1. เปิด **Copilot Chat → New chat** ส่วนตัวที่ใช้ข้อมูลงานได้ เปลี่ยนรายละเอียดในวงเล็บก่อนส่ง:
+<span id="practice-1-เลือก-thread-ที่ตรงเรื่อง" class="legacy-anchor" aria-hidden="true"></span>
+
+## Practice 1 Select the relevant thread
+
+**Primary target:** Find and open the correct source email for one work topic.
+
+1. Open a private **Copilot Chat → New chat** with approved work-data access. Replace the bracketed details before sending:
 
    ```text
-   ค้นอีเมลเรื่อง [หัวข้อที่เตรียมไว้] ระหว่าง [วันที่เริ่ม] ถึง [วันที่จบ] แสดงไม่เกิน 3 รายการ พร้อมหัวเรื่อง วันที่ และแหล่งอ้างอิง ถ้าค้นไม่พบให้บอกตรง ๆ
+   Find emails about [prepared topic] between [start date] and [end date]. Show up to three results with their subject, date and source citation. Say clearly if you cannot find them. Respond in English.
    ```
 
-2. เปิดแหล่งอ้างอิงใน **Outlook** ตรวจหัวเรื่องและวันที่ เลือกหนึ่ง thread
-3. ถ้าค้นไม่ได้ ให้เปิด thread ที่เตรียมไว้โดยตรง ไม่ใช้เวลาค้นเรื่องใหม่ หากไม่มี source ที่เหมาะสมให้ใช้ Asteria
+2. Open a citation in **Outlook**. Check its subject and date, then select one thread.
+3. If search fails, open the prepared thread directly rather than searching for another topic. Use Asteria if no suitable source is available.
 
 ### Quick check
 
-- เปิดต้นทางที่ตรงหัวข้อและวันที่ได้ ไม่ใช้เพียงข้อความจากผลค้นหา
+- Open a source matching the topic and date; do not rely only on the search summary.
 
-## Practice 2 เข้าใจคำขอและสถานะล่าสุด
+<span id="practice-2-เข้าใจคําขอและสถานะล่าสุด" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** สรุป thread ให้รู้ว่าต้องตอบเรื่องใด
+## Practice 2 Understand the request and latest status
 
-1. ใน **Outlook** ของ thread ที่เลือก ใช้ `Summarize` หรือ `Summary by Copilot` ตามหน้าจอ
-2. อ่านข้อความต้นทางเทียบกับสรุป จับคำขอหลัก สถานะล่าสุด และเรื่องที่ยังรอคำตอบ
-3. หากมีช่อง Copilot ที่ยืนยันว่าอ้างอิง thread นี้ได้ ใช้คำขอนี้ หากไม่มีให้ใช้สรุปที่มีแล้วตรวจต้นทาง:
+**Primary target:** Summarize the thread so you know what needs a response.
+
+1. In the selected **Outlook** thread, use `Summarize` or `Summary by Copilot`, depending on your screen.
+2. Compare the summary with the source messages. Identify the main request, latest status and unanswered questions.
+3. If an available Copilot input is confirmed to use this thread, send the request below. Otherwise check the available summary directly against the source:
 
    ```text
-   สรุป thread นี้ไม่เกิน 3 ข้อ: คำขอหลัก สถานะล่าสุด และเรื่องที่ยังรอคำตอบ แยกข้อเสนอจากสิ่งที่ตกลงแล้ว ใช้ To confirm เมื่อข้อมูลไม่ครบ
+   Summarize this thread in English in no more than three points: the main request, latest status and unanswered questions. Separate proposals from confirmed agreements. Use To confirm for missing information.
    ```
 
 ### Quick check
 
-- คำขอหลักและสถานะล่าสุดตรงกับข้อความต้นทาง
+- The main request and latest status match the source messages.
 
-## Practice 3 ร่างและปรับ reply
+<span id="practice-3-ร่างและปรับ-reply" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** เตรียม reply ที่ชัดเจนโดยรักษาข้อตกลงเดิม
+## Practice 3 Draft and refine a reply
 
-1. กด **Reply** ใน thread เดิม เปิด `Draft with Copilot` หรือเมนูร่างที่บัญชีมี แล้วส่ง:
+**Primary target:** Prepare a clear reply that preserves existing commitments.
 
-   ```text
-   ร่างคำตอบอย่างสุภาพและกระชับสำหรับ thread นี้ ตอบสิ่งที่ยืนยันได้ ระบุข้อมูลที่ต้องขอเพิ่ม และจบด้วย next step ไม่แต่งการอนุมัติ วันส่งมอบ หรือข้อผูกพันใหม่ เก็บเป็น draft เท่านั้น
-   ```
-
-2. อ่าน draft แล้วใช้ refinement ที่มีในบัญชี หรือแก้ด้วยตนเอง หากพิมพ์คำขอปรับได้ ให้ใช้:
+1. Select **Reply** in the same thread. Open `Draft with Copilot` or the drafting control available in your account, then send:
 
    ```text
-   ทำ draft ให้สั้นลง วางสิ่งที่ต้องการให้ผู้รับตอบไว้ก่อน รักษาชื่อ วันที่ ตัวเลข และข้อตกลงเดิม ไม่ส่งข้อความ
+   Draft a polite, concise reply in English to this thread. Answer what can be confirmed, identify information still needed and end with a next step. Do not invent approvals, delivery dates or new commitments. Keep it as a draft only.
    ```
 
-3. เทียบกับต้นทาง ตรวจผู้รับ ข้อเท็จจริง และ next step เก็บ draft โดยไม่กด **Send** หากไม่มี refinement ให้ระบุว่าแก้เอง ไม่อ้างว่าใช้ coaching สำเร็จ
+2. Read the draft and use the available refinement controls, or edit manually. If a typed refinement is supported, use:
+
+   ```text
+   Shorten the draft and put the response needed from the recipient first. Preserve names, dates, numbers and existing agreements. Do not send the message.
+   ```
+
+3. Check the recipient, facts and next step against the source. Keep the draft without selecting **Send**. If refinement is unavailable, identify your changes as manual editing rather than successful Copilot coaching.
 
 ### Quick check
 
-- Draft ตอบคำขอหลักโดยไม่มีคำสัญญาใหม่ และยังไม่ถูกส่ง
-- อธิบายได้หนึ่งจุดที่ปรับให้ชัดขึ้น
+- The unsent draft answers the main request without adding promises.
+- Explain one change that makes the reply clearer.
 
-## เส้นทาง Asteria {#asteria-route}
+## Asteria route {#asteria-route}
 
-เปิด **Copilot Chat → New chat** แยกจากข้อมูลจริง แนบ `Asteria_Email_Thread.docx` จากชุดฝึก แล้วส่ง:
+Open **Copilot Chat → New chat**, separate from real work data. Attach `Asteria_Email_Thread.docx` from the practice files, then send:
 
 ```text
-ใช้เฉพาะ Asteria_Email_Thread.docx ที่แนบ ระบุข้อความและวันที่ที่เกี่ยวกับคำขอติดตามงาน สรุปคำขอหลัก สถานะล่าสุด และเรื่องที่ยังรอคำตอบไม่เกิน 3 ข้อ แยกข้อเสนอจากข้อตกลง ไม่อ้างว่าค้น mailbox จริง
+Use only the attached Asteria_Email_Thread.docx. Identify the messages and dates relevant to the follow-up request. Summarize the main request, latest status and unanswered questions in no more than three points in English. Separate proposals from agreements. Do not claim to have searched a real mailbox.
 ```
 
-ตรวจหนึ่งข้อความกับไฟล์ แล้วใช้คำขอร่างและปรับใน Practice 3 โดยเปลี่ยนคำว่า thread เป็นไฟล์ที่แนบ ผลอยู่ใน Chat และยังไม่ส่ง นี่เป็นการฝึกจากไฟล์ ไม่ยืนยัน Outlook summary หรือ mailbox search หาก Copilot ใช้ไม่ได้ ให้ร่างด้วยตนเองจากไฟล์และระบุว่าใช้ manual fallback
+Check one statement against the file. Then use the drafting and refinement requests in Practice 3, replacing “thread” with “attached file.” Results stay in Chat and remain unsent. This is file-based practice, not evidence of Outlook summarization or mailbox search. If Copilot is unavailable, draft manually from the file and identify the manual fallback.
 
-## ผลลัพธ์และฝึกต่อ
+<span id="ผลลัพธ์และฝึกต่อ" class="legacy-anchor" aria-hidden="true"></span>
 
-ได้สรุปที่ตรวจแล้วและ reply draft หนึ่งฉบับ เก็บข้อมูลจริงไว้ส่วนตัว ส่วนการค้นข้ามหลายข้อความ สรุปความคืบหน้า และ coaching เพิ่มเติมอยู่ใน [หก Practice สำหรับฝึกต่อ](../resources/outlook-extra-practice)
+## Outputs and further practice
 
-อ้างอิง: [Copilot Chat ใน Outlook](https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook)
+You have a checked summary and one reply draft. Keep real-work results private. Cross-message search, progress summaries and additional coaching are in the [six optional email practices](../resources/outlook-extra-practice).
 
-[← Excel และ PowerPoint](./02-kpi-to-decision-brief) · [Teams และ Word →](./04-teams-meeting-to-document)
+Reference: [Copilot Chat in Outlook](https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook)
+
+[← Excel and PowerPoint](./02-kpi-to-decision-brief) · [Teams and Word →](./04-teams-meeting-to-document)

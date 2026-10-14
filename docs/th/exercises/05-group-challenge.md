@@ -1,112 +1,134 @@
-# Exercise 5 เลือก Group challenge
+<span id="exercise-5-เลือก-group-challenge" class="legacy-anchor" aria-hidden="true"></span>
 
-เลือก **หนึ่งโจทย์ต่อกลุ่ม** จากสี่ตัวเลือก ใช้ไฟล์ Asteria จากช่วงเช้าและเตรียมโชว์ผลงานหลังพัก ไม่ต้องทำครบทุกข้อ ไม่ต้องสร้าง deck นำเสนอแยกจากผลงาน
+# Exercise 5 Choose a group challenge
 
-> **License:** ใช้ Microsoft 365 Copilot แบบชำระเงินตามหลักสูตร พร้อม Excel/PowerPoint ที่บัญชีอนุญาต หาก Copilot บางคำสั่งใช้ไม่ได้ ใช้ standard editing หรือไฟล์สำรอง แล้วบอกเส้นทางที่ใช้ตามจริง
+Choose **one challenge per group** from the four options. Use your morning Asteria files and prepare to show your work after the break. You do not need to complete every option or create a separate presentation deck.
 
-## เตรียมกลุ่มและไฟล์
+> **License:** Use the course's paid Microsoft 365 Copilot access and the Excel/PowerPoint capabilities available in your account. If a Copilot command is unavailable, use standard editing or a prepared backup and identify the route you actually used.
 
-- เปิด `Asteria_Service_KPI_Reviewed.xlsx` ที่ทำช่วงเช้า หากไม่พร้อมให้ใช้ [reviewed backup](/files/Asteria_Service_KPI_Reviewed_backup.xlsx) แล้วตรวจค่าก่อนใช้
-- เปิด dashboard ช่วงเช้า `Asteria_KPI_Dashboard.pptx` ถ้ามี สำหรับ Management Pitch ใช้ [presentation template](/files/Asteria_Presentation_Template.pptx) แทนได้
-- PowerPoint Makeover ใช้ [สไลด์ตัวอย่างที่แน่น](/files/Asteria_Crowded_Slide_Example.pptx) จาก `Prepared assets` ใน ZIP
-- ใช้เฉพาะข้อมูลสมมติ ห้ามนำอีเมลหรือการประชุมจริงมาฉาย แชร์ หรือใช้เป็นผลงานกลุ่ม
-- เริ่มจากเลือกโจทย์และบทบาท ลงมือ แล้วตรวจและซ้อมตามเวลาที่ผู้สอนแจ้ง ดู [ตารางวันนี้](../#ตารางเวลา)
+<span id="เตรียมกลุ่มและไฟล์" class="legacy-anchor" aria-hidden="true"></span>
 
-| บทบาท | สิ่งที่ทำ |
+## Prepare your group and files
+
+- Open your morning `Asteria_Service_KPI_Reviewed.xlsx`. If it is not ready, use the [reviewed backup](/files/Asteria_Service_KPI_Reviewed_backup.xlsx) and check its values first.
+- Open your morning `Asteria_KPI_Dashboard.pptx`, if available. For Management Pitch, the [presentation template](/files/Asteria_Presentation_Template.pptx) is an alternative.
+- PowerPoint Makeover uses the [crowded-slide starter](/files/Asteria_Crowded_Slide_Example.pptx) in the ZIP's `Prepared assets` folder.
+- Use synthetic data only. Never project, share or include real emails or meetings in group work.
+- Choose a challenge and roles, work on it, then check and rehearse according to the instructor's time cues. See [today's timetable](../#timetable).
+
+| Role | Responsibility |
 |---|---|
-| Operator | ใช้ Copilot และแก้ไฟล์ สลับคนลงมือระหว่างกิจกรรม |
-| Evidence checker | ตรวจค่าหรือข้อเท็จจริงกับต้นทาง |
-| Challenger | ถามว่าสรุปเกินหลักฐานหรือไม่ |
-| Presenter | อธิบายโจทย์ ผลงาน และสิ่งที่เรียนรู้ |
+| Operator | Use Copilot and edit the file; rotate who operates during the activity. |
+| Evidence checker | Check values or facts against the source. |
+| Challenger | Ask whether conclusions go beyond the evidence. |
+| Presenter | Explain the challenge, output and learning. |
 
-กลุ่มสามคนรวม Challenger กับ Presenter ทุกคนช่วยตรวจผลงาน กลุ่มไม่จำเป็นต้องเลือกโจทย์ต่างกัน
+In a group of three, combine Challenger and Presenter. Everyone helps review the output. Different groups may choose the same challenge.
 
-## ตัวเลือก A: Excel Detective
+<span id="ตัวเลือก-a-excel-detective" class="legacy-anchor" aria-hidden="true"></span>
 
-### Practice หา insight ที่มีหลักฐาน
+## Option A: Excel Detective
 
-**เป้าหมายหลัก:** เลือกประเด็นสำคัญจากสาม insight ที่ตรวจแล้ว
+<span id="practice-หา-insight-ที่มีหลักฐาน" class="legacy-anchor" aria-hidden="true"></span>
 
-1. เปิด workbook ที่เลือกใน **Excel** ใช้ผลวิเคราะห์ช่วงเช้าเป็นจุดเริ่ม หรือถาม Copilot:
+### Practice Find insights with evidence
+
+**Primary target:** Select one priority from three verified insights.
+
+1. Open the chosen workbook in **Excel**. Start with your morning analysis or ask Copilot:
 
    ```text
-   จากข้อมูล Asteria ใน workbook นี้ เสนอ insight 3 ข้อที่ผู้จัดการควรสนใจ ระบุช่วงเวลา ตัวเลข และตารางหรือคอลัมน์ที่ใช้เป็นหลักฐาน ไม่สรุปเหตุและผลถ้าข้อมูลยังไม่รองรับ
+   Using the Asteria data in this workbook, suggest three insights a manager should consider. State the period, values and source table or columns for each. Do not infer cause and effect without supporting evidence. Write in English.
    ```
 
-2. Evidence checker เปิดต้นทางตรวจอย่างน้อยหนึ่งค่าต่อ insight ถ้าพบข้อผิดพลาดให้แก้หรือเปลี่ยน insight
-3. Challenger ถามว่าข้อมูลรองรับข้อสรุปหรือไม่ เลือกหนึ่งประเด็นที่ควรจัดการก่อน พร้อมเหตุผลหนึ่งข้อ
-4. บันทึกสาม insight และหนึ่ง priority ใน sheet ใหม่หรือเอกสารสั้นที่เปิดโชว์ได้ ไม่ต้องสร้างสไลด์เพิ่ม
+2. The Evidence checker verifies at least one source value per insight. Correct or replace any inaccurate insight.
+3. The Challenger checks whether the evidence supports the conclusions. Choose one issue to address first and give one reason.
+4. Record the three insights and one priority in a new sheet or short document you can display. No extra slides are required.
 
 ### Quick check
 
-- ทั้งสาม insight มีค่าหรือหลักฐานที่ตรวจได้
-- Priority เป็นข้อเสนอที่มีเหตุผล ไม่อ้างว่าได้รับอนุมัติแล้ว
+- All three insights have verifiable values or evidence.
+- The priority is a reasoned recommendation, not an approved decision.
 
-## ตัวเลือก B: Excel Rescue
+<span id="ตัวเลือก-b-excel-rescue" class="legacy-anchor" aria-hidden="true"></span>
 
-### Practice ทำให้ข้อมูลอ่านง่ายขึ้น
+## Option B: Excel Rescue
 
-**เป้าหมายหลัก:** ปรับหนึ่งตารางหรือกราฟให้ตอบคำถามของผู้จัดการได้ชัดเจน
+<span id="practice-ทําให้ข้อมูลอ่านง่ายขึ้น" class="legacy-anchor" aria-hidden="true"></span>
 
-1. เปิด workbook ช่วงเช้าหรือ backup ทำสำเนา sheet/กราฟที่ต้องการปรับไว้ก่อน ตั้งคำถามหนึ่งข้อ เช่น ช่วงใดควรเร่งติดตาม SLA
-2. ขอแนวทางจาก Copilot:
+### Practice Make the data easier to read
+
+**Primary target:** Improve one table or chart so it clearly answers a manager's question.
+
+1. Open your morning workbook or backup. Duplicate the sheet/chart before editing. Choose one question, such as which period needs closer SLA follow-up.
+2. Ask Copilot:
 
    ```text
-   ฉันต้องการให้ผู้จัดการตอบคำถามว่า [คำถามของกลุ่ม] จากตารางหรือกราฟที่เลือก เสนอการปรับชื่อ ลำดับข้อมูล กราฟ หรือ conditional formatting ที่ช่วยให้เห็นประเด็น โดยไม่เปลี่ยนค่าต้นทาง
+   I want a manager to answer [your group's question] using the selected table or chart. Suggest improvements to the title, ordering, chart or conditional formatting that make the issue clearer without changing source values. Write in English.
    ```
 
-3. เลือกปรับเพียงหนึ่งมุมมอง ใช้ Copilot editing ที่มีหรือแก้ด้วย Excel ปกติ สลับ Operator ระหว่างทำ
-4. ให้เพื่อนในกลุ่มอ่านโดยไม่อธิบายก่อน แล้วบอกสิ่งที่เข้าใจ ปรับ label หน่วย ช่วงเวลา หรือ scale ถ้าทำให้เข้าใจผิด เก็บ before/after ไว้โชว์
+3. Improve just one view using available Copilot editing or standard Excel tools. Change the Operator during the task.
+4. Ask a teammate to read it before you explain it. Have them describe what they understand. Correct misleading labels, units, periods or scales. Keep before/after versions to show.
 
 ### Quick check
 
-- หนึ่งค่ากับหน่วยและช่วงเวลาตรงต้นทาง ไม่มี scale ที่ทำให้เข้าใจผิด
-- เพื่อนอ่านแล้วตอบคำถามของกลุ่มได้
+- Check one value, its unit and period against the source; the scale is not misleading.
+- A teammate can answer the group's question from the revised view.
 
-## ตัวเลือก C: PowerPoint Makeover
+<span id="ตัวเลือก-c-powerpoint-makeover" class="legacy-anchor" aria-hidden="true"></span>
 
-### Practice ปรับสไลด์หนึ่งหน้าให้สื่อสารชัด
+## Option C: PowerPoint Makeover
 
-**เป้าหมายหลัก:** ปรับสไลด์ตัวอย่างให้เห็นสารหลักโดยรักษาข้อเท็จจริง
+<span id="practice-ปรับสไลด์หนึ่งหน้าให้สื่อสารชัด" class="legacy-anchor" aria-hidden="true"></span>
 
-1. เปิด `Asteria_Crowded_Slide_Example.pptx` ใน **PowerPoint** ทำสำเนาสไลด์ เก็บหน้าเดิมเป็น before ตัวอย่างนี้มีข้อมูลสมมติในตัว ไม่ใช่ค่าที่อ้างมาจาก KPI workbook
-2. อ่านข้อเท็จจริงในสไลด์ เลือกสารหลักหนึ่งเรื่อง จากนั้นใช้ Copilot ที่บัญชีมี หรือคัดลอกเฉพาะข้อความสมมติไป Chat แล้วถาม:
+### Practice Clarify one crowded slide
+
+**Primary target:** Make the sample slide's main message clear while preserving its facts.
+
+1. Open `Asteria_Crowded_Slide_Example.pptx` in **PowerPoint**. Duplicate the slide and keep the original as “before.” Its fictional data is self-contained, not drawn from the KPI workbook.
+2. Read the slide's facts and select one main message. Use the Copilot available in your account, or copy only the synthetic slide text into Chat and ask:
 
    ```text
-   ช่วยปรับข้อความสไลด์นี้ให้ผู้จัดการเข้าใจสารหลักหนึ่งเรื่องได้เร็ว เสนอชื่อสไลด์ ข้อความสั้น และลำดับข้อมูล รักษาตัวเลข หน่วย ช่วงเวลา และสถานะข้อเสนอ ไม่เพิ่มข้อมูลใหม่
+   Help a manager understand one main message from this slide quickly. Suggest a title, concise text and information order. Preserve numbers, units, the reporting period and the status of the proposal. Do not add facts. Write in English.
    ```
 
-3. ปรับด้วย PowerPoint โดยลดข้อความ จัดลำดับ และเพิ่มพื้นที่ว่าง ใช้คำแนะนำที่ตรวจแล้ว ไม่ต้องรอให้ Copilot แก้สไลด์ให้โดยตรง
-4. เทียบ before/after ตรวจทุกตัวเลขและสถานะข้อเสนอ ซ้อมอธิบายว่าปรับอะไรและเพราะเหตุใด
+3. Edit in PowerPoint: reduce wording, improve hierarchy and add space. Apply checked suggestions. You do not need to wait for Copilot to edit the slide directly.
+4. Compare before/after versions. Check every number and the proposal's status. Rehearse explaining what you changed and why.
 
 ### Quick check
 
-- ข้อเท็จจริงยังครบและไม่เปลี่ยนความหมาย
-- มีสารหลักหนึ่งเรื่องและ before/after ที่เปิดเทียบได้
+- All facts retain their original meaning.
+- The revised slide has one main message, with before/after versions ready to compare.
 
-## ตัวเลือก D: Management Pitch
+<span id="ตัวเลือก-d-management-pitch" class="legacy-anchor" aria-hidden="true"></span>
 
-### Practice สร้างข้อเสนอสามสไลด์
+## Option D: Management Pitch
 
-**เป้าหมายหลัก:** สื่อสารข้อเสนอจากหลักฐานที่ตรวจแล้วในสามสไลด์
+<span id="practice-สร้างข้อเสนอสามสไลด์" class="legacy-anchor" aria-hidden="true"></span>
 
-1. เปิด dashboard ช่วงเช้าแล้วบันทึกเป็นสำเนาสำหรับกลุ่ม ถ้าไม่มีให้ใช้ presentation template และ reviewed workbook เลือกเพียงหนึ่งประเด็น
-2. ขอเค้าโครงจาก Copilot โดยใช้ข้อมูลสมมติที่ตรวจแล้ว:
+### Practice Create a three-slide recommendation
+
+**Primary target:** Communicate one recommendation in three slides using verified evidence.
+
+1. Save a group copy of your morning dashboard. If unavailable, use the presentation template and reviewed workbook. Select one issue only.
+2. Ask Copilot for an outline using the synthetic evidence you checked:
 
    ```text
-   ใช้หลักฐาน Asteria ที่เลือก จัดข้อเสนอ 3 สไลด์: 1) Situation 2) Evidence 3) Proposed action ใช้หนึ่งประเด็นหลัก แสดงข้อมูลที่รองรับ และแยกข้อเสนอจากการตัดสินใจที่ยืนยันแล้ว ไม่แต่ง owner วันครบกำหนด หรือผลตอบแทน
+   Use our selected Asteria evidence to structure a three-slide recommendation: 1) Situation 2) Evidence 3) Proposed action. Focus on one issue, show the supporting data and separate proposals from confirmed decisions. Do not invent owners, due dates or returns. Write in English.
    ```
 
-3. ปรับสามสไลด์เดิมหรือประกอบเองจาก template ใส่หนึ่งกราฟหรือตารางที่ตรวจแล้ว ไม่เริ่มสร้าง deck ยาวใหม่
-4. ตรวจหนึ่งค่ากับ workbook และระบุสิ่งที่ยังต้องยืนยัน ซ้อมเล่าให้จบตามเวลานำเสนอ
+3. Adapt three existing slides or assemble them from the template. Include one checked chart or table. Do not start a long new deck.
+4. Check one value against the workbook and identify what still needs confirmation. Rehearse within the presentation time limit.
 
 ### Quick check
 
-- สามสไลด์เล่า Situation, Evidence และ Proposed action ต่อกัน
-- หลักฐานตรงต้นทาง และข้อเสนอไม่กลายเป็นการอนุมัติ
+- The three slides connect Situation, Evidence and Proposed action.
+- Evidence matches its source, and recommendations are not presented as approvals.
 
-## เตรียมโชว์ผลงาน
+<span id="เตรียมโชว์ผลงาน" class="legacy-anchor" aria-hidden="true"></span>
 
-บันทึกสำเนาโดยใส่ชื่อกลุ่มและ challenge ที่เลือก ใช้ชื่อที่กลุ่มจำได้ อย่าเขียนทับไฟล์ต้นทาง เตรียมเปิดไฟล์และหน้าที่ต้องโชว์ก่อนพัก หากแก้ยังไม่ครบ ให้โชว์ส่วนที่ทำจริงและระบุสิ่งที่ยังค้าง
+## Prepare to showcase your work
 
-[← Teams และ Word](./04-teams-meeting-to-document) · [วิธีนำเสนอผลงาน →](./07-group-showcase)
+Save a copy with your group's name and chosen challenge. Use a name your group recognizes and do not overwrite source files. Have the file and view ready before the break. If unfinished, show what you actually completed and identify what remains.
+
+[← Teams and Word](./04-teams-meeting-to-document) · [Showcase guidance →](./07-group-showcase)

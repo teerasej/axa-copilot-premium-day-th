@@ -1,80 +1,90 @@
-# เตรียมตัวก่อนเริ่ม
+<span id="เตรียมตัวก่อนเริ่ม" class="legacy-anchor" aria-hidden="true"></span>
 
-หลักสูตรนี้ใช้บัญชีงานที่มี **Microsoft 365 Copilot แบบชำระเงิน** และแอปที่องค์กรอนุญาต ฟังก์ชันอาจต่างตามบัญชี client และนโยบาย จึงต้องตรวจด้วยบัญชีผู้เรียนก่อนวันอบรม
+# Before you begin
 
-## เตรียมไฟล์ฝึก {#prepare-your-files}
+Use a work account with **paid Microsoft 365 Copilot access** and approved apps. Features vary by account, client and policy, so verify them with a learner account before training.
 
-ดาวน์โหลดครั้งเดียวได้ครบ **12 ไฟล์**: แหล่งข้อมูลสมมติแปดไฟล์ prepared backups สองไฟล์ และ presentation template หนึ่งไฟล์ และ crowded-slide starter หนึ่งไฟล์ เอกสารต้นทางยังเป็นภาษาอังกฤษ คำอธิบายและ prompt บนเว็บไซต์เป็นภาษาไทย
+## Prepare your practice files {#prepare-your-files}
 
-1. [ดาวน์โหลด practice ZIP ทั้งชุด](/files/Asteria_Copilot_Premium_Practice_Files.zip)
-2. แตก ZIP ด้วย `Extract All` บน Windows หรือดับเบิลคลิกบน Mac หาโฟลเดอร์:
+Download **12 files** together: eight synthetic sources, two prepared backups, one presentation template and one crowded-slide starter. The source documents, instructions and prompts are in English.
+
+1. [Download the complete practice ZIP](/files/Asteria_Copilot_Premium_Practice_Files.zip).
+2. Extract it using `Extract All` on Windows or by double-clicking on Mac. Locate:
 
    ```text
    Asteria Copilot Workshop
    ```
 
-3. เปิด **OneDrive** ใน Edge หรือ Chrome ด้วยบัญชีงาน เลือก **Add new > Folder upload** หรือ **Upload > Folder** ตามหน้าจอ
-4. อัปโหลดทั้งโฟลเดอร์ `Asteria Copilot Workshop` รวม `Prepared assets` ไม่อัปโหลด ZIP หรือ wrapper folder เพิ่มเติม เก็บชื่อไฟล์เดิม
-5. รอเสร็จแล้วตรวจแปดไฟล์ต้นทางและ `Prepared assets` ซึ่งมี:
+3. Open **OneDrive** in Edge or Chrome with your work account. Select **Add new > Folder upload** or **Upload > Folder**, as shown in your account.
+4. Upload the whole `Asteria Copilot Workshop` folder, including `Prepared assets`. Do not upload the ZIP or an extra wrapper folder. Preserve all filenames.
+5. Wait for upload to finish. Check the eight source files and these four files in `Prepared assets`:
 
    - `Asteria_Grounded_Evidence_Brief.docx`
    - `Asteria_Service_KPI_Reviewed_backup.xlsx`
    - `Asteria_Presentation_Template.pptx`
    - `Asteria_Crowded_Slide_Example.pptx`
 
-6. เปิด `Asteria_Operational_Context.docx` ใน **Word for the web** ตรวจว่าแก้ไขและบันทึกได้
+6. Open `Asteria_Operational_Context.docx` in **Word for the web** and check that you can edit and save.
 
-ถ้า folder upload ใช้ไม่ได้แต่ file upload ได้ ให้สร้างสองโฟลเดอร์แบบเดียวกันใน OneDrive แล้วอัปโหลดแปดและสี่ไฟล์ให้ถูกที่ หากการอัปโหลดถูกบล็อกให้ถามผู้สอนก่อนทำต่อ
+If folder upload is unavailable but file upload works, create the same two folders in OneDrive and upload the eight and four files to their respective locations. If upload is blocked, ask the instructor before continuing.
 
-บันทึกผลงาน Asteria ของตนเองในโฟลเดอร์หลัก เก็บไฟล์ที่เตรียมไว้ใน `Prepared assets` โดยไม่เขียนทับ ส่วนข้อมูลอีเมลและประชุมจริงเก็บในพื้นที่ส่วนตัวแยกต่างหาก
+Save your Asteria outputs in the main folder. Keep prepared files in `Prepared assets` without overwriting them. Store real email and meeting outputs separately in private storage.
 
-## ตรวจบัญชีและแอป
+<span id="ตรวจบัญชีและแอป" class="legacy-anchor" aria-hidden="true"></span>
 
-- ลงชื่อเข้าใช้ด้วยบัญชีงาน
-- เปิด Copilot Chat, OneDrive, Word, Excel, PowerPoint, Outlook และ Teams ได้
-- ในช่วงเช้า: เลือกไฟล์ใน Chat และเห็น Copilot ใน Word, Excel, PowerPoint
-- ในช่วงบ่าย: ตรวจ Outlook summary/drafting/coaching และ Copilot Chat ที่ใช้ข้อมูลอีเมลได้
-- ตรวจ Teams meeting transcript และ Copilot หลังประชุม รวมถึงสิทธิ์สร้าง Word จากผล
+## Check your account and apps
 
-ผู้เรียนไม่ต้องใช้ Agent Builder, Copilot Studio, Researcher, Analyst หรือ custom skills; Agent Builder เป็นการสาธิตโดยผู้สอนเท่านั้น แจ้งผู้สอนเมื่อฟังก์ชันที่ต้องใช้ไม่พร้อม เพื่อเลือกเส้นทางสำรองที่ตรงกิจกรรม
+- Sign in with your work account.
+- Open Copilot Chat, OneDrive, Word, Excel, PowerPoint, Outlook and Teams.
+- For the morning: check file selection in Chat and Copilot access in Word, Excel and PowerPoint.
+- For the afternoon: check Outlook summary/drafting/coaching and Copilot Chat access to email information.
+- Check the selected Teams meeting transcript, post-meeting Copilot and permission to create Word output.
 
-## เตรียมข้อมูลส่วนตัวสำหรับช่วงบ่าย
+Learners do not need Agent Builder, Copilot Studio, Researcher, Analyst or custom skills. Agent Builder is an instructor demonstration only. Tell the instructor when a required feature is unavailable so you can choose the relevant fallback.
 
-ใช้ข้อมูลงานเฉพาะเมื่อ **ผู้สอน/ลูกค้าอนุมัติการฝึกและขอบเขตข้อมูลแล้ว** สิทธิ์อ่านข้อมูลเพียงอย่างเดียวไม่ได้อนุญาตให้ใช้ในชั้นเรียน
+<span id="เตรียมข้อมูลส่วนตัวสําหรับช่วงบ่าย" class="legacy-anchor" aria-hidden="true"></span>
 
-- เลือก thread อีเมลหนึ่งเรื่องและข้อความเกี่ยวข้องในช่วงวันที่สั้น ๆ
-- เลือกการประชุมภายในองค์กรที่ผ่านมา **หนึ่งครั้ง** ที่ transcript ยังเปิดอ่านได้ ถ้ามี recording ใช้ช่วยตรวจบริบทได้
-- ไม่เลือกข้อมูลลูกค้า สุขภาพ เคลม การชำระเงิน HR ความปลอดภัย หรือความลับธุรกิจ
-- ปิดการแชร์หน้าจอ ใช้แชตส่วนตัว ไม่อัปโหลด transcript จริง ไม่ส่งผลงานจริงให้ผู้สอน และไม่ผสมกับไฟล์ Asteria
-- เก็บอีเมลเป็น draft ไม่ส่งข้อความ ไม่เปลี่ยน mailbox หรือปฏิทิน
+## Prepare private sources for the afternoon
 
-## ถ้าข้อมูลหรือฟังก์ชันไม่พร้อม
+Use real work data only after **the instructor/client approves classroom use and the data scope**. Permission to read data alone does not authorize classroom use.
 
-| ปัญหา | เส้นทางที่ใช้ได้ |
+- Choose one email thread and related messages within a short date range.
+- Choose **one occurrence** of a past internal meeting with a readable retained transcript. A recording may help check context.
+- Exclude customer, health, claims, payment, HR, security and confidential business data.
+- Turn off screen sharing, use private chats, do not upload real transcripts or submit real outputs, and keep them separate from Asteria.
+- Keep messages as unsent drafts. Do not change other mailbox items or calendar entries.
+
+<span id="ถ้าข้อมูลหรือฟังก์ชันไม่พร้อม" class="legacy-anchor" aria-hidden="true"></span>
+
+## If data or features are unavailable
+
+| Issue | Fallback |
 |---|---|
-| Word generation ไม่พร้อม | เปิด [prepared brief](/files/Asteria_Grounded_Evidence_Brief.docx) และตรวจสองข้อเท็จจริง |
-| Excel ทำ workbook ยังไม่ครบ | เปิด [reviewed KPI backup](/files/Asteria_Service_KPI_Reviewed_backup.xlsx) ตรวจหนึ่งค่าและกราฟ |
-| ไม่มี Auto rewrite | ถามผู้สอนหรือข้าม ไม่ใช้ typed rewrite แทน |
-| Plan/Proceed ไม่มี | ใช้ standard Copilot editing ตาม Exercise 2 |
-| PPTX reference/style ไม่พร้อม | ใช้ template-copy/manual fallback หรือข้าม extension |
-| Outlook ไม่พร้อม หรือไม่อนุมัติข้อมูลจริง | ใช้ `Asteria_Email_Thread.docx` ใน Chat ตาม Exercise 3 |
-| หา meeting ไม่พบ | เลือก occurrence โดยตรงใน Teams Calendar/Recap |
-| Transcript ไม่มี/อ่านไม่ได้ | ใช้ `Asteria_Teams_Meeting_Recap.docx` ทันทีในเส้นทางหลัก |
-| Word export ไม่พร้อมแต่ copy ได้รับอนุญาต | สร้าง Word ด้วยตนเองจากเนื้อหาที่ตรวจแล้ว |
-| นโยบายห้าม export/copy | ไม่ข้ามข้อจำกัด ใช้ข้อมูลสมมติทำเอกสารแทน |
+| Word generation is unavailable | Open the [prepared brief](/files/Asteria_Grounded_Evidence_Brief.docx) and check two facts. |
+| The Excel workbook is incomplete | Open the [reviewed KPI backup](/files/Asteria_Service_KPI_Reviewed_backup.xlsx); check one value and the chart. |
+| Auto rewrite is unavailable | Ask the instructor or skip it; a typed rewrite is a different route. |
+| Plan/Proceed is unavailable | Use standard Copilot editing as described in Exercise 2. |
+| PPTX reference/styling is unavailable | Use the template-copy/manual fallback or skip the extension. |
+| Outlook is unavailable or real-data use is unapproved | Use `Asteria_Email_Thread.docx` in Chat as described in Exercise 3. |
+| The prepared meeting cannot be found | Open its occurrence directly in Teams Calendar/Recap. |
+| The transcript is missing or unreadable | Use `Asteria_Teams_Meeting_Recap.docx` immediately in the main route. |
+| Word export is unavailable but copying is permitted | Create Word manually from the checked content. |
+| Policy blocks export/copy | Do not bypass it; create the document from synthetic data instead. |
 
-Prepared assets เป็นตัวช่วยฝึก ไม่ยืนยันว่า Copilot สร้างไฟล์หรือแก้ Excel สำเร็จ ไม่ต้องกรอก review-status columns หรือทำ source notes ทุกสไลด์
+Prepared assets support practice; they do not prove that Copilot generated a file or edited Excel successfully. You do not need to fill review-status columns or add source notes to every slide.
 
-## เตรียม Group challenge
+<span id="เตรียม-group-challenge" class="legacy-anchor" aria-hidden="true"></span>
 
-ใช้ Asteria เท่านั้น เตรียม workbook/dashboard ช่วงเช้าหรือ backup และ crowded-slide starter ให้เปิดได้ จัดกลุ่มตามผู้สอนและเตรียมสลับคนลงมือ ผลงานอีเมลหรือประชุมจริงไม่ใช่ไฟล์สำหรับโชว์
+## Prepare for the group challenge
+
+Use Asteria only. Check that your morning workbook/dashboard or backup and the crowded-slide starter open. Follow the instructor's grouping and rotate the Operator. Real email or meeting outputs are not showcase material.
 
 ## Ready check
 
-- [ ] เปิดและบันทึกไฟล์ Word ในบัญชีงานได้
-- [ ] OneDrive มีไฟล์ต้นทางแปดไฟล์และ prepared assets สี่ไฟล์ครบ
-- [ ] ทราบว่าจะใช้ข้อมูลส่วนตัวที่อนุมัติแล้วหรือเส้นทางสมมติในช่วงบ่าย
-- [ ] ตรวจ transcript ของ meeting ที่เลือกได้ หรือเตรียม recap สมมติไว้
-- [ ] จะตรวจผลและเก็บข้อมูลส่วนตัวแยกจาก Asteria
+- [ ] I can open and save a Word document in my work account.
+- [ ] OneDrive contains all eight source files and four prepared assets.
+- [ ] I know whether I will use approved private sources or synthetic fallbacks in the afternoon.
+- [ ] I can read the selected meeting transcript or have the synthetic recap ready.
+- [ ] I will check outputs and keep private data separate from Asteria.
 
-[เริ่ม Exercise 1 →](./exercises/01-ground-the-brief)
+[Start Exercise 1 →](./exercises/01-ground-the-brief)

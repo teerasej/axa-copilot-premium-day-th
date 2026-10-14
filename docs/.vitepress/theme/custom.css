@@ -179,3 +179,6 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 .vp-doc p, .vp-doc li { line-height: 1.9; }
 .vp-doc h1, .vp-doc h2, .vp-doc h3 { line-height: 1.6; letter-spacing: 0; }
+
+/* Keep previously shared heading links usable after translation. */
+.legacy-anchor { display: block; height: 0; scroll-margin-top: 100px; }

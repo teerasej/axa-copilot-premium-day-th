@@ -1,25 +1,29 @@
-# Group showcase: เล่าสิ่งที่กลุ่มทำ
+<span id="group-showcase-เล่าสิ่งที่กลุ่มทํา" class="legacy-anchor" aria-hidden="true"></span>
 
-ทุกกลุ่มนำเสนอผลงานจาก challenge ที่เลือก เปิด workbook หรือสไลด์ที่ทำได้เลย ไม่ต้องสร้างไฟล์นำเสนอเพิ่ม
+# Group showcase: Explain what your group did
 
-## Practice นำเสนอผลงานพร้อมหลักฐาน
+Each group presents the output from its chosen challenge. Open the workbook or slides you created; no additional presentation file is required.
 
-**เป้าหมายหลัก:** อธิบายสิ่งที่ทำและสิ่งที่ตรวจให้เพื่อนเข้าใจ
+<span id="practice-นําเสนอผลงานพร้อมหลักฐาน" class="legacy-anchor" aria-hidden="true"></span>
 
-1. เปิดผลงานไว้ล่วงหน้า ปิดข้อมูลจริงและหน้าต่างที่ไม่เกี่ยวข้อง
-2. เล่าตามลำดับนี้:
-   - เลือก challenge อะไร และต้องการตอบคำถามใด
-   - โชว์สิ่งที่ทำ เช่น insight, ตาราง/กราฟ, before/after หรือข้อเสนอสามสไลด์
-   - ชี้หนึ่งจุดที่ตรวจหลักฐานหรือแก้จากคำตอบของ Copilot
-   - บอกสิ่งที่เรียนรู้หรือสิ่งที่ยังต้องปรับ
-3. รับหนึ่งคำถามหรือ feedback จากเพื่อน เช่น “ข้อมูลไหนรองรับข้อสรุปนี้?” หรือ “จุดไหนยังอ่านไม่ชัด?” ถ้ายังตอบไม่ได้ให้บอกว่าจะตรวจอะไรต่อ
-4. จดหนึ่งสิ่งที่จะปรับ ไม่ต้องแก้ทุกอย่างระหว่างนำเสนอ
+## Practice Present your work with evidence
+
+**Primary target:** Explain your work and the checks behind it so others can understand the result.
+
+1. Open the output in advance. Close real-work data and unrelated windows.
+2. Explain:
+   - Which challenge you chose and the question you wanted to answer.
+   - What you created: insights, a table/chart, before/after slide, or three-slide recommendation.
+   - One point where you checked evidence or corrected a Copilot response.
+   - What you learned or still need to improve.
+3. Take one question or feedback point, such as “What evidence supports this conclusion?” or “Which part is still difficult to read?” If you cannot answer yet, explain what you would check next.
+4. Note one improvement. You do not need to make every edit during the presentation.
 
 ### Quick check
 
-- เพื่อนเห็นผลงานจริงและหลักฐานหนึ่งจุด โดยไม่มีข้อมูลงานจริงบนหน้าจอ
-- กลุ่มแยกสิ่งที่ทำสำเร็จ สิ่งที่ยังค้าง และ manual fallback ได้
+- Peers see the actual output and one evidence check, with no real-work data on screen.
+- Your group distinguishes completed work, unfinished work and any manual fallback.
 
-ผู้สอนจัดลำดับสูงสุดแปดกลุ่มตามเวลาหน้า [ตารางวันนี้](../#ตารางเวลา) และแจ้งจังหวะเปลี่ยนกลุ่มก่อนเริ่ม
+The instructor schedules up to eight groups within [today's timetable](../#timetable) and explains the handover before starting.
 
-[← เลือก challenge](./05-group-challenge) · [ชม Agent Builder demo →](./06-agent-talking-points)
+[← Choose a challenge](./05-group-challenge) · [Watch the Agent Builder demo →](./06-agent-talking-points)

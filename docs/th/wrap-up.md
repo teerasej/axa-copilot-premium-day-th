@@ -1,33 +1,41 @@
-# นำไปใช้กับงานและปิดวัน
+<span id="นําไปใช้กับงานและปิดวัน" class="legacy-anchor" aria-hidden="true"></span>
 
-## ทบทวนสิ่งที่ได้ลอง
+# Reflect and apply at work
 
-- Copilot Chat และ Word: คำตอบทั่วไปกับคำตอบจากหลักฐาน และ Word brief
-- Excel และ PowerPoint: insight กราฟ สีข้อร้องเรียน และ dashboard
-- Outlook: summary, reply draft และ coaching/refinement
-- Copilot Chat: ค้นอีเมล สรุปความคืบหน้า และเตรียม follow-up ที่ยังไม่ส่ง
-- Teams และ Word: เลือกการประชุม ถาม transcript หลายมุม และสร้าง follow-up brief
+<span id="ทบทวนสิ่งที่ได้ลอง" class="legacy-anchor" aria-hidden="true"></span>
 
-บอกความต่างระหว่างฟังก์ชันที่ลองได้จริงกับการใช้ไฟล์สมมติหรือ manual fallback ไม่ต้องส่งข้อมูลอีเมลและประชุมจริงให้ผู้สอน
+## Review what you tried
 
-## ทบทวนผลงานกลุ่มและ demo
+- Copilot Chat and Word: general versus evidence-grounded answers and a Word brief.
+- Excel and PowerPoint: insights, a chart, complaint formatting and a dashboard.
+- Outlook: a summary, reply draft and available coaching/refinement.
+- Copilot Chat: finding email and preparing a reply; broader progress summaries and follow-up are optional practice.
+- Teams and Word: a prepared meeting, focused transcript questions and a follow-up brief.
 
-- กลุ่มเลือกโจทย์อะไร และตรวจหลักฐานจุดใดก่อนนำเสนอ
-- Feedback ใดทำให้อยากปรับผลงานต่อ
-- ใน Agent Builder demo ส่วนใดคือ Instructions ส่วนใดคือ Knowledge และคนต้องตรวจตรงไหน
-- แยกสิ่งที่ผู้เรียนลงมือเอง สิ่งที่ผู้สอนสาธิต และเส้นทางสำรองให้ชัด
+Distinguish features you actually used from synthetic-file routes and manual fallbacks. Do not submit real emails or meeting information to the instructor.
 
-ใช้ช่วง Q&A กับผลงานและสิ่งที่ได้เรียนรู้ ไม่เพิ่ม UI tour หรือแบบฝึกหัดใหม่
+<span id="ทบทวนผลงานกลุ่มและ-demo" class="legacy-anchor" aria-hidden="true"></span>
 
-## เลือกหนึ่งการทดลองหลังอบรม
+## Reflect on the group work and demo
 
-คิดหนึ่งงานที่เหมาะ เช่น สรุป thread ก่อนตอบ หรือเปลี่ยน recap เป็น action table แล้ววางแผน:
+- Which challenge did your group choose, and what evidence did you check before presenting?
+- Which feedback would you use to improve the output?
+- In the Agent Builder demo, what belonged in Instructions, what belonged in Knowledge, and where was human review needed?
+- Distinguish your hands-on work, the instructor demonstration and any fallback routes.
 
-- จะเปิดแอปไหนและใช้ข้อมูลที่อนุมัติใด
-- อยากได้ผลลัพธ์หน้าตาแบบไหน
-- จะตรวจหนึ่งข้อสำคัญกับต้นทางอย่างไร
-- ถ้าสิทธิ์หรือข้อมูลไม่พร้อม จะใช้ fallback หรือหยุดตรงไหน
+Use Q&A to discuss the work and learning. Do not add a new UI tour or exercise.
 
-แชร์วิธีทำหรือสิ่งที่เรียนรู้ได้ โดยไม่แชร์ข้อความ ชื่อ หรือรายละเอียดข้อมูลงานจริง ไม่สัญญาผลประหยัดเวลาหรือความถูกต้องก่อนทดลองและตรวจ
+<span id="เลือกหนึ่งการทดลองหลังอบรม" class="legacy-anchor" aria-hidden="true"></span>
 
-[กลับภาพรวม →](./) · [ดาวน์โหลดไฟล์ฝึก →](./files)
+## Choose one experiment after training
+
+Choose one suitable task, such as summarizing a thread before replying or turning a recap into an action table. Plan:
+
+- Which app and approved data you will use.
+- What the output should look like.
+- How you will check one important point against its source.
+- Where you will use a fallback or stop if access or evidence is unavailable.
+
+Share your method or learning without sharing real-work messages, names or details. Do not promise time savings or accuracy before trying and checking the result.
+
+[Back to the overview →](./) · [Download practice files →](./files)

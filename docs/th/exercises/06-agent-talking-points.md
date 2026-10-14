@@ -1,32 +1,38 @@
 # Instructor demo: Claims Document Readiness Agent
 
-ช่วงนี้ผู้สอนสาธิตสร้าง Agent ใน **Agent Builder ของ Microsoft 365 Copilot** ผู้เรียนชมและช่วยตรวจผล ไม่ต้องเปิด Agent Builder หรือสร้าง Agent ตาม
+The instructor demonstrates creating an agent in **Agent Builder in Microsoft 365 Copilot**. Learners observe and help check the results. You do not need to open Agent Builder or build an agent yourself.
 
-## สิ่งที่จะได้เห็น
+<span id="สิ่งที่จะได้เห็น" class="legacy-anchor" aria-hidden="true"></span>
 
-1. กำหนด Instructions ว่าผู้ช่วยมีหน้าที่และขอบเขตอย่างไร
-2. เพิ่ม fictional checklist เป็น Knowledge
-3. ตรวจ claim package สมมติ แยกเอกสารที่ขาด ข้อมูลไม่ครบ และข้อมูลที่อ่านไม่ได้
-4. ร่างอีเมลภาษาไทยจากผลที่คนตรวจแล้ว โดยไม่ส่งอีเมล
-5. ทดสอบคำขอให้อนุมัติ claim เพื่อดูว่า Agent รักษาขอบเขตหรือไม่
+## What you will see
 
-Agent นี้ตรวจเฉพาะความพร้อมของเอกสารตาม checklist สมมติ ไม่ตัดสิน coverage, eligibility, approval, rejection, payment หรือข้อสรุปทางการแพทย์ และไม่ใช่นโยบายขององค์กร
+1. Define the agent's role and boundaries in Instructions.
+2. Add a fictional checklist as Knowledge.
+3. Review a synthetic claim package, distinguishing missing documents, incomplete information and unreadable information.
+4. Draft an English email from findings checked by a person, without sending it.
+5. Test a request to approve a claim and inspect whether the agent maintains its boundary.
 
-## จุดสังเกตของผู้เรียน
+This agent checks document readiness against a fictional checklist. It does not decide coverage, eligibility, approval, rejection, payment or medical conclusions. The checklist is not organizational policy.
 
-- คำตอบอ้าง checklist ที่กำหนดหรือเดา requirement ขึ้นเอง
-- เอกสารที่ไม่ได้รับต่างจากเอกสารที่ได้รับแต่ข้อมูลไม่ครบอย่างไร
-- หากอ่านไฟล์ไม่ได้ Agent บอกข้อจำกัดหรือแอบสรุปว่าเอกสารขาด
-- Draft รักษาข้อเท็จจริงและยังให้คนตรวจก่อนใช้หรือไม่
+<span id="จุดสังเกตของผู้เรียน" class="legacy-anchor" aria-hidden="true"></span>
 
-> **การเข้าถึง:** สิทธิ์สร้าง Agent และเพิ่ม Knowledge ต้องตรวจในบัญชีผู้สอนก่อนสาธิต การมีเอกสารประกอบหรือการชม demo ไม่ยืนยันสิทธิ์บัญชีผู้เรียน
+## What to watch for
 
-## เมื่อใช้เส้นทางสำรอง
+- Does the answer use the specified checklist or invent requirements?
+- Does it distinguish a document not received from a received document with incomplete information?
+- If a file cannot be read, does it state that limitation rather than claiming the document is missing?
+- Does the draft preserve the facts and require human review before use?
 
-ผู้สอนอาจเปลี่ยนไปใช้ Agent ที่เตรียมไว้ หากต้องรออัปโหลดหรือสร้างนาน หากแนบไฟล์ไม่ได้ ใช้ข้อความสมมติจากเอกสารโดยแจ้งว่าเป็น text-input route หาก Agent Builder ใช้ไม่ได้ ใช้ภาพขั้นตอนและผลตัวอย่างที่ระบุชัด ไม่ถือว่า live demo ผ่าน
+> **Access:** The instructor must verify permissions to create agents and add Knowledge before the demonstration. Having these materials or observing a demo does not establish learner-account access.
 
-<div class="voice-card"><strong>Pon:</strong> Instructions เหมือนหน้าที่ประจำ ส่วน Knowledge เหมือนคู่มือบนโต๊ะ ผู้ช่วยใช้คู่มือตรวจรายการ แต่คนยังต้องตัดสินใจและรับผิดชอบผลครับ</div>
+<span id="เมื่อใช้เส้นทางสํารอง" class="legacy-anchor" aria-hidden="true"></span>
 
-อ้างอิง: [Build agents in Agent Builder](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-build-agents) · [Add knowledge sources](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-knowledge)
+## When a fallback is used
 
-[← Group showcase](./07-group-showcase) · [สรุปและนำไปใช้ →](../wrap-up)
+The instructor may switch to a prepared agent if creation or upload takes too long. If attachments are unavailable, synthetic text may be used with the limitation clearly stated. If Agent Builder is unavailable, the instructor will show labelled reference screens and illustrative output. This does not count as a successful live demo.
+
+<div class="voice-card"><strong>Pon:</strong> Instructions are like a job description; Knowledge is the handbook on the desk. The assistant uses the handbook to check the list, while a person remains responsible for decisions.</div>
+
+References: [Build agents in Agent Builder](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-build-agents) · [Add knowledge sources](https://learn.microsoft.com/microsoft-365/copilot/extensibility/agent-builder-add-knowledge)
+
+[← Group showcase](./07-group-showcase) · [Reflect and apply →](../wrap-up)

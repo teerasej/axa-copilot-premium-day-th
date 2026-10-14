@@ -1,174 +1,206 @@
-# Exercise 1 สรุปสำหรับผู้บริหารจากหลักฐาน
+<span id="exercise-1-สรุปสําหรับผู้บริหารจากหลักฐาน" class="legacy-anchor" aria-hidden="true"></span>
 
-<ExerciseHeaderImage src="/images/exercise-headers/01-ground-the-work.png" alt="ตรวจเอกสารต้นทางก่อนใช้ข้อมูลในสรุปสำหรับผู้บริหาร" />
+# Exercise 1 An executive brief grounded in evidence
 
-## ภาพรวม
+<ExerciseHeaderImage src="/images/exercise-headers/01-ground-the-work.png" alt="Check source documents before using their evidence in an executive brief" />
 
-ลองเปรียบเทียบคำตอบทั่วไปกับคำตอบที่อ้างอิงไฟล์ของ Asteria จากนั้นสร้าง Word brief และลองปรับย่อหน้าสรุป กิจกรรมเสริมช่วยให้ลองค้นหาโครงการจากชื่อและเตรียมตัวสำหรับการประชุมของตนเอง
+<span id="ภาพรวม" class="legacy-anchor" aria-hidden="true"></span>
 
-> **License:** หลักสูตรนี้ใช้ Microsoft 365 Copilot แบบมีสิทธิ์ใช้งานแบบชำระเงิน ต้องตรวจสอบ Work IQ หรือการอ้างอิงข้อมูลที่ทำงานในบัญชีผู้เรียนก่อนเริ่ม
+## Overview
 
-## สิ่งที่ต้องเตรียม
+Compare a general answer with an answer grounded in Asteria files. Create a Word brief and refine its executive summary. Optional activities explore project discovery and preparation for your own meeting.
 
-- Copilot Chat ที่ลงชื่อเข้าใช้ด้วยบัญชีงาน
-- `Asteria_Operational_Context.docx` และ `Asteria_Service_KPI_28days.xlsx` ใน OneDrive
-- Word for the web ที่แก้ไขและบันทึกไฟล์ได้
+> **License:** This course requires a paid Microsoft 365 Copilot license. Confirm Work IQ or the available work-data grounding route in the learner account before starting.
 
-การสร้างไฟล์ แผงสรุป และ `Auto rewrite` อาจต่างกันในแต่ละบัญชี ใช้ [prepared backup](/files/Asteria_Grounded_Evidence_Brief.docx) ถ้าสร้าง Word ไม่ได้
+<span id="สิ่งที่ต้องเตรียม" class="legacy-anchor" aria-hidden="true"></span>
 
-## Scenario 1 เปรียบเทียบคำตอบทั่วไปกับข้อมูลของ Asteria
+## Before you start
 
-ผู้นำ Asteria ต้องการเข้าใจปัญหาบริการก่อนประชุมทบทวน
+- Sign in to Copilot Chat with your work account.
+- Keep `Asteria_Operational_Context.docx` and `Asteria_Service_KPI_28days.xlsx` in OneDrive.
+- Confirm that you can edit and save in Word for the web.
 
-### Practice 1 ดูคำตอบเมื่อยังไม่มีไฟล์
+File creation, the summary panel and `Auto rewrite` vary by account. Use the [prepared backup](/files/Asteria_Grounded_Evidence_Brief.docx) if Word creation is unavailable.
 
-**เป้าหมายหลัก:** สังเกตข้อจำกัดของคำตอบที่ยังไม่มีหลักฐานของ Asteria
+<span id="scenario-1-เปรียบเทียบคําตอบทั่วไปกับข้อมูลของ-asteria" class="legacy-anchor" aria-hidden="true"></span>
 
-#### ขั้นตอน
+## Scenario 1 Compare a general answer with Asteria evidence
 
-1. เปิด **Copilot Chat** ที่จุดเข้าใช้งานขององค์กร
-2. ปิด `Work IQ` หากมีตัวเลือกนี้ หากหน้าจอต่างกัน ให้ผู้สอนช่วยเลือกเส้นทางที่ไม่มีข้อมูลที่ทำงาน
-3. เริ่ม **New chat** โดยไม่แนบไฟล์ แล้วส่ง:
+Asteria leaders want to understand service issues before their review meeting.
+
+<span id="practice-1-ดูคําตอบเมื่อยังไม่มีไฟล์" class="legacy-anchor" aria-hidden="true"></span>
+
+### Practice 1 Inspect an answer without files
+
+**Primary target:** Identify the limits of an answer that has no Asteria evidence.
+
+<span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. Open **Copilot Chat** through your organization's approved entry point.
+2. Turn off `Work IQ` if that control is available. If your screen differs, ask the instructor to identify a route without work-data grounding.
+3. Start **New chat**, attach no files, and send:
 
    ```text
-   บริษัทประกันแห่งหนึ่งใช้เวลาจัดการเคลมนานขึ้น มีข้อร้องเรียนเพิ่มขึ้น และอัตรา digital conversion ลดลง ช่วยเตรียมสรุปสำหรับผู้บริหารเกี่ยวกับสาเหตุที่เป็นไปได้ ผลกระทบต่อธุรกิจ และคำแนะนำ 3 ข้อ
+   An insurance company is taking longer to handle claims, receiving more complaints and seeing lower digital conversion. Prepare an executive summary of possible causes, business implications and three recommendations. Write in English.
    ```
 
-4. หาข้อความที่ฟังดูน่าเชื่อ แต่ยังยืนยันไม่ได้ถ้าไม่มีข้อมูล Asteria เก็บคำตอบไว้เทียบกับ Practice 2
+4. Identify a plausible statement that you cannot confirm without Asteria data. Keep the answer for comparison with Practice 2.
 
 #### Quick check
 
-- บอกได้หนึ่งข้อว่าคำตอบใดเป็นเพียงข้อเสนอทั่วไปที่ยังไม่มีแหล่งข้อมูล Asteria
+- Identify one general suggestion that has no Asteria source evidence.
 
-### Practice 2 ให้คำตอบอิงไฟล์จริง
+<span id="practice-2-ให้คําตอบอิงไฟล์จริง" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** สร้างสรุป Asteria จากไฟล์ที่เลือกอย่างชัดเจน
+### Practice 2 Ground the answer in selected files
 
-#### ขั้นตอน
+**Primary target:** Produce an Asteria summary using explicitly selected source files.
 
-1. เปิด `Work IQ` หรือเส้นทางอ้างอิงข้อมูลงานที่ผู้สอนยืนยัน แล้วเริ่ม **New chat**
-2. ใช้ file picker หรือ `/` เลือก `Asteria_Operational_Context.docx` และ `Asteria_Service_KPI_28days.xlsx` ให้ชื่อทั้งสองไฟล์ปรากฏก่อนส่ง
-3. ส่ง:
+<span id="ขั้นตอน-1" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. Enable `Work IQ` or the work-data grounding route confirmed by the instructor, then start **New chat**.
+2. Use the file picker or `/` to select `Asteria_Operational_Context.docx` and `Asteria_Service_KPI_28days.xlsx`. Check that both filenames appear before sending.
+3. Send:
 
    ```text
-   เตรียมสรุปสั้นสำหรับผู้บริหารในการทบทวนบริการของ Asteria โดยใช้เฉพาะสองไฟล์ที่แนบ
+   Prepare a concise executive summary in English for the Asteria service review, using only the two attached files.
 
-   อธิบายว่าเกิดอะไรขึ้น สำคัญอย่างไร และเสนอหนึ่งประเด็นที่ควรตัดสินใจต่อ แยกข้อเท็จจริง สมมติฐาน และคำถามที่ยังไม่มีคำตอบ ไม่แต่งสาเหตุ ผู้รับผิดชอบ วันที่ หรือเป้าหมาย
+   Explain what is happening, why it matters and one issue for further decision. Separate verified facts, assumptions and unanswered questions. Do not invent causes, owners, dates or targets.
    ```
 
-4. ตรวจช่วงเวลารายงานและข้อเท็จจริงสำคัญสองข้อเทียบกับไฟล์ ขอแก้ข้อความที่ผิด แล้วเทียบกับ Practice 1
+4. Check the reporting period and two important facts against the files. Ask for corrections where needed, then compare this answer with Practice 1.
 
 #### Quick check
 
-- ช่วงเวลารายงานและข้อเท็จจริงสองข้อตรงกับไฟล์
-- แยกสมมติฐานและข้อมูลที่ยังขาดได้
+- The reporting period and two facts match the files.
+- Assumptions and missing information remain distinct from facts.
 
-#### ลองเพิ่ม: ค้นหาจากชื่อโครงการ
+<span id="ลองเพิ่ม-ค้นหาจากชื่อโครงการ" class="legacy-anchor" aria-hidden="true"></span>
 
-1. เปิดแชตใหม่ที่ใช้ข้อมูลงานได้ โดยไม่แนบไฟล์ ไม่ใช้ `/` และไม่พิมพ์ชื่อไฟล์ ส่ง:
+#### Optional: Discover a project by name
+
+1. Open a new chat with work-data access. Do not attach files, use `/`, or type filenames. Send:
 
    ```text
-   เตรียมสรุปสั้นสำหรับผู้บริหารในการทบทวนบริการของ Asteria Insurance อธิบายว่าเกิดอะไรขึ้น สำคัญอย่างไร และเสนอหนึ่งประเด็นที่ควรตัดสินใจต่อ แยกข้อเท็จจริง สมมติฐาน และคำถามที่ยังไม่มีคำตอบ ไม่แต่งสาเหตุ ผู้รับผิดชอบ วันที่ หรือผลกระทบทางการเงิน
+   Prepare a concise executive summary in English for the Asteria Insurance service review. Explain what is happening, why it matters and one issue for further decision. Separate verified facts, assumptions and unanswered questions. Do not invent causes, owners, dates or financial impacts.
    ```
 
-2. เปิดแหล่งอ้างอิงว่าพบโครงการและช่วงเวลาที่ถูกต้องหรือไม่ หากพบข้อมูลงานอื่นที่ไม่เหมาะสม ให้หยุดและปิดการแชร์หน้าจอ ค้นไม่พบก็เป็นผลทดลองที่ยอมรับได้
-3. กลับไป **แชตที่แนบสองไฟล์อย่างชัดเจน** เพื่อทำ Practice 3
+2. Open the citations and check the project and reporting period. Stop and turn off screen sharing if unrelated or unsuitable work information appears. Finding no relevant material is a valid result.
+3. Return to the **chat with the two explicitly attached files** for Practice 3.
 
-### Practice 3 สร้างและปรับ Word brief
+<span id="practice-3-สร้างและปรับ-word-brief" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** สร้าง Word brief และปรับย่อหน้า Executive summary
+### Practice 3 Create and refine a Word brief
 
-#### ขั้นตอน
+**Primary target:** Create a Word brief and refine its executive-summary paragraph.
 
-1. ในแชตที่แนบสองไฟล์จาก Practice 2 ส่ง:
+<span id="ขั้นตอน-2" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. In the file-grounded chat from Practice 2, send:
 
    ```text
-   สร้างไฟล์ Word ชื่อ Asteria_Grounded_Evidence_Brief.docx จากสรุปนี้ โดยเขียนเนื้อหาเป็นภาษาอังกฤษ
+   Create a Word file named Asteria_Grounded_Evidence_Brief.docx from this summary. Write the content in English.
 
-   ใช้หัวข้อสี่ข้อนี้ตามลำดับ:
+   Use these four headings in order:
    1. Executive summary
    2. Verified facts
    3. Assumptions and interpretations
    4. Open questions
 
-   ใต้ Executive summary เขียนหนึ่งย่อหน้า 80–100 คำ ทำเอกสารให้กระชับ ใช้หัวข้อสีน้ำเงินเข้มและตัวเนื้อหาสีเข้ม รักษาข้อเท็จจริงและข้อมูลที่ยังขาดจากบทสนทนา
+   Under Executive summary, write one paragraph of 80–100 words. Keep the document concise, with navy headings and dark body text. Preserve the facts and missing information established in our conversation.
    ```
 
-2. เปิดไฟล์ใน **Word for the web** หากได้ไฟล์ดาวน์โหลด ให้อัปโหลดลง OneDrive ก่อน ตรวจหัวข้อทั้งสี่และย่อหน้าสรุป
-3. ดูแผงสรุปด้านบนถ้ามี หากไม่มี ลองฟังก์ชันสรุปเอกสารของ Copilot ที่มีในบัญชี อ่านตัวเอกสารด้วยก่อนทำต่อ
-4. เลือก **เฉพาะย่อหน้าใต้ Executive summary** ไม่รวมหัวข้อ เปิด `Edit with Copilot` หรือเมนู Copilot ของข้อความที่เลือก แล้วเลือก **Auto rewrite** โดยไม่พิมพ์ prompt
-5. เทียบข้อเสนอกับต้นฉบับ เก็บไว้เมื่อความหมายและตัวเลขยังเหมือนเดิม ถ้าไม่ต้องการให้ยกเลิก หรือใช้ `Undo` หากเปลี่ยนเอกสารแล้ว หากไม่มี `Auto rewrite` ให้ถามผู้สอนหรือข้าม ไม่ใช้ typed rewrite แทน
-6. หลังจบ rewrite เปิด **Word Copilot side panel** แล้วส่งคำขอแยกต่างหาก:
+2. Open the file in **Word for the web**. If it downloads first, upload it to OneDrive. Check the four headings and summary paragraph.
+3. Inspect the summary panel at the top if available. Otherwise try the document-summary feature available in your account. Read the document itself before continuing.
+4. Select **only the paragraph under Executive summary**, excluding the heading. Open `Edit with Copilot` or the selection's Copilot menu, then choose **Auto rewrite** without typing a prompt.
+5. Compare the suggestion with the original. Keep it only if the meaning and numbers remain correct. Cancel an unwanted suggestion, or use `Undo` after a change. If `Auto rewrite` is unavailable, ask the instructor or skip it; a typed rewrite is a different route.
+6. After the rewrite, open the **Word Copilot side panel** and send this separate translation request:
 
    ```text
-   เพิ่ม Executive summary ฉบับภาษาญี่ปุ่นไว้ใต้ย่อหน้าภาษาอังกฤษ รักษาข้อความภาษาอังกฤษและส่วนอื่นทั้งหมดไว้ตามเดิม
+   Add a Japanese version of the Executive summary immediately below the English paragraph. Preserve the English text and every other part of the document unchanged.
    ```
 
-   ตรวจตำแหน่งและใช้ `Undo` หากส่วนอื่นเปลี่ยน ถ้าไม่มีตัวแก้ไขนี้ให้ถามผู้สอน
-7. บันทึกใน OneDrive ด้วยชื่อ:
+   Check its placement and use `Undo` if other content changes. If this editing route is unavailable, ask the instructor. This is an intentional translation exercise; the course instructions and normal outputs remain English.
+7. Save in OneDrive with this name:
 
    ```text
    Asteria_Grounded_Evidence_Brief.docx
    ```
 
-#### ถ้าสร้าง Word ไม่ได้
+<span id="ถ้าสร้าง-word-ไม่ได้" class="legacy-anchor" aria-hidden="true"></span>
 
-เปิด `Prepared assets/Asteria_Grounded_Evidence_Brief.docx` จากโฟลเดอร์ฝึก เป็นไฟล์ที่เตรียมไว้ ไม่ใช่ผลยืนยันว่า Chat สร้างไฟล์สำเร็จ
+#### If Word creation is unavailable
 
-#### Quick check
-
-- Rewrite รักษาความหมายและตัวเลขไว้ ส่วนอื่นไม่เปลี่ยน ฉบับญี่ปุ่นอยู่ใต้ย่อหน้าเดิมถ้าทำได้
-- เปิดและบันทึก brief ใน OneDrive ได้ด้วยชื่อที่กำหนด
-
-## Scenario 2 เตรียมการประชุมของตนเอง (เสริม)
-
-ใช้เมื่อผู้สอน/ลูกค้าอนุมัติขอบเขตข้อมูลแล้ว เปิดแชตส่วนตัวและปิดการแชร์หน้าจอ เก็บข้อมูลงานแยกจาก Asteria และสิ่งส่งในชั้นเรียน หากสิทธิ์หรือความเหมาะสมไม่ชัดเจนให้ข้าม Exercise 2 ไม่ต้องใช้ผลส่วนนี้
-
-### Practice 4 เตรียมตัวสำหรับการประชุมที่จะมาถึง (เสริม)
-
-**เป้าหมายหลัก:** เตรียม brief ส่วนตัวสำหรับหนึ่งการประชุมที่ยืนยันในปฏิทินแล้ว
-
-#### ขั้นตอน
-
-1. เริ่มแชตส่วนตัวใหม่ใน **Copilot Chat** ใช้ข้อมูลงานที่ได้รับอนุมัติ
-2. ส่ง:
-
-   ```text
-   สรุปกิจกรรมงานของฉันในสัปดาห์ที่ผ่านมา
-   ```
-
-3. อ่านแล้วส่ง:
-
-   ```text
-   แสดงการประชุมที่จะมาถึงใน 7 วันข้างหน้าไม่เกิน 3 รายการ
-   ```
-
-4. เปิดปฏิทินเพื่อยืนยันชื่อ วันและเวลาของการประชุมที่เหมาะสม แล้วระบุการประชุมนั้นในแชต ถ้าไม่มีให้ข้าม
-5. ส่ง:
-
-   ```text
-   ช่วยเตรียมตัวสำหรับการประชุมที่ฉันเพิ่งยืนยัน เก็บข้อมูลที่ยังไม่ทราบเป็น To confirm
-   ```
+Open `Prepared assets/Asteria_Grounded_Evidence_Brief.docx` from the practice folder. This is a prepared file, not evidence that Chat successfully generated it.
 
 #### Quick check
 
-- ชื่อและวันเวลาตรงกับปฏิทิน และ brief เกี่ยวข้องกับการประชุม
-- ผลยังเป็นส่วนตัว ไม่มีการส่งข้อความหรือเปลี่ยนปฏิทิน
+- The rewrite preserves meaning and numbers without changing other sections. The Japanese version sits below the original when that route is available.
+- The brief opens and saves in OneDrive under the specified name.
 
-## ผลลัพธ์
+<span id="scenario-2-เตรียมการประชุมของตนเอง-เสริม" class="legacy-anchor" aria-hidden="true"></span>
 
-- `Asteria_Grounded_Evidence_Brief.docx` หรือ prepared backup
-- เห็นความต่างของคำตอบทั่วไปกับคำตอบอิงหลักฐาน
-- เสริม: brief เตรียมการประชุมส่วนตัว
+## Scenario 2 Prepare for your own meeting (optional)
+
+Use this route only after the instructor/client approves the data scope. Open a private chat and turn off screen sharing. Keep work data separate from Asteria and classroom submissions. Skip it if access or suitability is uncertain. Exercise 2 does not depend on this output.
+
+<span id="practice-4-เตรียมตัวสําหรับการประชุมที่จะมาถึง-เสริม" class="legacy-anchor" aria-hidden="true"></span>
+
+### Practice 4 Prepare for an upcoming meeting (optional)
+
+**Primary target:** Prepare a private brief for one meeting confirmed in your calendar.
+
+<span id="ขั้นตอน-3" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. Start a private **Copilot Chat** using approved work-data access.
+2. Send:
+
+   ```text
+   Summarize my work activity over the past week in English.
+   ```
+
+3. Read the answer, then send:
+
+   ```text
+   Show up to three of my upcoming meetings in the next seven days.
+   ```
+
+4. Open your calendar to confirm the title, date and time of one suitable meeting. Identify that meeting in the chat. Skip this activity if none is suitable.
+5. Send:
+
+   ```text
+   Help me prepare for the meeting I just confirmed. Write in English and mark unknown information as To confirm.
+   ```
+
+#### Quick check
+
+- The meeting title and time match the calendar, and the brief is relevant.
+- The output remains private; no messages are sent and no calendar entries change.
+
+<span id="ผลลัพธ์" class="legacy-anchor" aria-hidden="true"></span>
+
+## Outputs
+
+- `Asteria_Grounded_Evidence_Brief.docx` or the prepared backup.
+- A clear comparison between general and evidence-grounded answers.
+- Optional: a private meeting-preparation brief.
 
 ## Tips & tricks
 
-ในแชตที่แนบไฟล์ ลองส่ง:
+In the file-grounded chat, try:
 
 ```text
-ทำสรุปนี้ให้อ่านกวาดตาได้ง่ายขึ้น วางประเด็นหลักสามข้อไว้ก่อนและจบด้วยคำถามที่ต้องตัดสินใจหนึ่งข้อ รักษาข้อเท็จจริงไว้
+Make this summary easier to scan. Put the three main points first and end with one decision question. Preserve the facts.
 ```
 
-<div class="voice-card"><strong>Pon:</strong> การอ้างอิงไฟล์เหมือนอ่านฉลากวัตถุดิบ เรารู้ว่ากำลังใช้ข้อมูลอะไร แล้วตรวจสองข้อสำคัญก่อนนำไปปรุงต่อครับ</div>
+<div class="voice-card"><strong>Pon:</strong> Referencing a file is like reading an ingredient label: know what you are using, then check two important facts before building on it.</div>
 
-[← เตรียมตัว](../before-you-begin) · [Exercise 2 →](./02-kpi-to-decision-brief)
+[← Preparation](../before-you-begin) · [Exercise 2 →](./02-kpi-to-decision-brief)

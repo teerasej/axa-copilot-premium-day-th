@@ -1,35 +1,41 @@
-# ดาวน์โหลดไฟล์ฝึก
+<span id="ดาวน์โหลดไฟล์ฝึก" class="legacy-anchor" aria-hidden="true"></span>
 
-ใช้ **Asteria Insurance** บริษัทสมมติสำหรับการฝึก ไม่ใช่ข้อมูลดำเนินงานจริงของ AXA เอกสารยังเป็นภาษาอังกฤษตามชุดต้นทาง ส่วน instructions และ prompts เป็นภาษาไทย
+# Download practice files
 
-## ดาวน์โหลดทั้งชุด
+**Asteria Insurance** is a fictional training company, not real AXA operational data. Source documents, instructions and prompts are in English.
 
-[ดาวน์โหลด Asteria_Copilot_Premium_Practice_Files.zip](/files/Asteria_Copilot_Premium_Practice_Files.zip)
+<span id="ดาวน์โหลดทั้งชุด" class="legacy-anchor" aria-hidden="true"></span>
 
-ZIP มี **12 ไฟล์** ใน `Asteria Copilot Workshop` ได้แก่แปดไฟล์ต้นทาง กับสอง backups หนึ่ง template และหนึ่ง crowded-slide starter ใน `Prepared assets` อัปโหลดทั้งโฟลเดอร์ไป OneDrive ตาม [ขั้นตอนเตรียมไฟล์](./before-you-begin#prepare-your-files)
+## Download the complete set
 
-## แปดไฟล์ต้นทาง
+[Download Asteria_Copilot_Premium_Practice_Files.zip](/files/Asteria_Copilot_Premium_Practice_Files.zip)
 
-| ไฟล์ | ใช้เพื่อ |
+The ZIP contains **12 files** inside `Asteria Copilot Workshop`: eight sources plus two backups, one template and one crowded-slide starter in `Prepared assets`. Upload the whole folder to OneDrive using the [preparation steps](./before-you-begin#prepare-your-files).
+
+<span id="แปดไฟล์ต้นทาง" class="legacy-anchor" aria-hidden="true"></span>
+
+## Eight source files
+
+| File | Purpose |
 |---|---|
-| [Asteria_Operational_Context.docx](/files/Asteria_Operational_Context.docx) | บริบทและ brief ช่วงเช้า |
-| [Asteria_Service_KPI_28days.xlsx](/files/Asteria_Service_KPI_28days.xlsx) | วิเคราะห์ KPI และกราฟ |
-| [Asteria_Email_Thread.docx](/files/Asteria_Email_Thread.docx) | เส้นทางสมมติของอีเมล |
-| [Asteria_Teams_Meeting_Recap.docx](/files/Asteria_Teams_Meeting_Recap.docx) | เส้นทางสมมติของ Teams และ executive slides |
-| [Asteria_Meeting_Chat.docx](/files/Asteria_Meeting_Chat.docx) | ช่วยตรวจบริบทเมื่อจำเป็น |
-| [Asteria_Executive_Review_Transcript.vtt](/files/Asteria_Executive_Review_Transcript.vtt) | เปิดอ่านเพื่อตรวจรายละเอียด ไม่แนบ VTT ให้ Copilot |
-| [Asteria_Communication_Checklist.docx](/files/Asteria_Communication_Checklist.docx) | Reference เสริม ไม่ต้องกรอกเป็นผลงาน |
-| [Asteria_Decision_Brief_Starter.docx](/files/Asteria_Decision_Brief_Starter.docx) | Reference เสริม |
+| [Asteria_Operational_Context.docx](/files/Asteria_Operational_Context.docx) | Morning context and brief. |
+| [Asteria_Service_KPI_28days.xlsx](/files/Asteria_Service_KPI_28days.xlsx) | KPI analysis and charts. |
+| [Asteria_Email_Thread.docx](/files/Asteria_Email_Thread.docx) | Synthetic email route. |
+| [Asteria_Teams_Meeting_Recap.docx](/files/Asteria_Teams_Meeting_Recap.docx) | Synthetic Teams route and executive slides. |
+| [Asteria_Meeting_Chat.docx](/files/Asteria_Meeting_Chat.docx) | Additional context checks when needed. |
+| [Asteria_Executive_Review_Transcript.vtt](/files/Asteria_Executive_Review_Transcript.vtt) | Read directly to verify details; do not attach VTT to Copilot. |
+| [Asteria_Communication_Checklist.docx](/files/Asteria_Communication_Checklist.docx) | Optional reference, not a required worksheet. |
+| [Asteria_Decision_Brief_Starter.docx](/files/Asteria_Decision_Brief_Starter.docx) | Optional reference. |
 
 ## Prepared assets
 
-| ไฟล์ | ใช้เมื่อ |
+| File | When to use it |
 |---|---|
-| [Asteria_Grounded_Evidence_Brief.docx](/files/Asteria_Grounded_Evidence_Brief.docx) | สร้าง brief ไม่ได้ ตรวจสองข้อเท็จจริงก่อนใช้ |
-| [Asteria_Service_KPI_Reviewed_backup.xlsx](/files/Asteria_Service_KPI_Reviewed_backup.xlsx) | Workbook ที่ทำยังไม่พร้อม ตรวจหนึ่งค่าและกราฟ |
-| [Asteria_Presentation_Template.pptx](/files/Asteria_Presentation_Template.pptx) | ลองเทียบรูปแบบสามสไลด์เพิ่มใน Exercise 2 |
-| [Asteria_Crowded_Slide_Example.pptx](/files/Asteria_Crowded_Slide_Example.pptx) | ตัวอย่างสมมติหนึ่งหน้าสำหรับ PowerPoint Makeover ไม่ใช่ข้อมูลจาก KPI workbook |
+| [Asteria_Grounded_Evidence_Brief.docx](/files/Asteria_Grounded_Evidence_Brief.docx) | If brief generation is unavailable; check two facts first. |
+| [Asteria_Service_KPI_Reviewed_backup.xlsx](/files/Asteria_Service_KPI_Reviewed_backup.xlsx) | If your workbook is not ready; check one value and the chart. |
+| [Asteria_Presentation_Template.pptx](/files/Asteria_Presentation_Template.pptx) | Optional three-slide style comparison or Management Pitch starter. |
+| [Asteria_Crowded_Slide_Example.pptx](/files/Asteria_Crowded_Slide_Example.pptx) | Self-contained fictional slide for PowerPoint Makeover; its numbers are not from the KPI workbook. |
 
-เก็บไฟล์ที่เตรียมไว้แยกจากงานของตนเอง ไม่เขียนทับผลงานที่เสร็จแล้ว และไม่ใส่ข้อมูลอีเมล/ประชุมจริงในชุด Asteria
+Keep prepared files separate from your own outputs. Do not overwrite completed work or place real email/meeting data in the Asteria package.
 
-[เตรียม OneDrive →](./before-you-begin#prepare-your-files) · [เริ่มแบบฝึกหัด →](./exercises/01-ground-the-brief)
+[Prepare OneDrive →](./before-you-begin#prepare-your-files) · [Start the exercises →](./exercises/01-ground-the-brief)

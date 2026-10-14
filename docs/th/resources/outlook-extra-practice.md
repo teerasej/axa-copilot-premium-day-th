@@ -1,185 +1,223 @@
-# ฝึกเพิ่มเติม: Outlook และ Copilot Chat
+<span id="ฝึกเพิ่มเติม-outlook-และ-copilot-chat" class="legacy-anchor" aria-hidden="true"></span>
 
-<ExerciseHeaderImage src="/images/exercise-headers/03-communicate-accountably.png" alt="อ่านบริบทอีเมล ตรวจข้อตกลง และเตรียมข้อความติดตามงาน" />
+# Optional practice: Outlook and Copilot Chat
 
-> **Optional:** หน้านี้เก็บทั้งหก Practice สำหรับฝึกต่อเอง ไม่ต้องทำครบในตารางหลัก เริ่มจาก [เส้นทางหลัก](../exercises/03-outlook-email-workflow) ก่อน
+<ExerciseHeaderImage src="/images/exercise-headers/03-communicate-accountably.png" alt="Read email context, check agreements and prepare follow-up messages" />
 
-## ภาพรวม
+> **Optional:** These six practices are for further independent practice, outside the main timetable. Complete the [focused route](../exercises/03-outlook-email-workflow) first.
 
-ลองใช้ Copilot หกแบบที่ช่วยในวันทำงาน: เข้าใจ thread ยาว ร่างคำตอบ ปรับข้อความ ค้นอีเมล สรุปความคืบหน้า และเลือกสิ่งที่จะติดตาม เริ่มสาม Practice แรกใน **Outlook** แล้วเปิด **Copilot Chat** สำหรับอีกสาม Practice
+<span id="ภาพรวม" class="legacy-anchor" aria-hidden="true"></span>
 
-> **License:** หลักสูตรนี้ใช้ Microsoft 365 Copilot แบบชำระเงินสำหรับข้อมูลงานและประสบการณ์ข้ามแอป ต้องตรวจ Copilot ใน Outlook และการค้นข้อมูลอีเมลด้วยบัญชีผู้เรียน ฟังก์ชันและหน้าตาอาจต่างกัน
+## Overview
 
-## สิ่งที่ต้องเตรียม
+Explore six ways to support your working day: understand a long thread, draft a reply, improve wording, find emails, summarize progress and prepare follow-up. Start the first three practices in **Outlook**, then use **Copilot Chat** for the other three.
 
-- Outlook ในบัญชีงาน และ Copilot Chat ที่เข้าถึงข้อมูลงานได้
-- Thread ที่เหมาะสมหนึ่งเรื่อง และอีเมลเกี่ยวข้องในช่วงวันที่จำกัด เลือกก่อนเริ่มเมื่อทำได้
-- ผู้สอน/ลูกค้าอนุมัติการฝึกด้วยข้อมูลงานและขอบเขตข้อมูลแล้ว
-- ใช้เฉพาะข้อมูลที่อนุญาตให้ใช้กับ Copilot และฝึกในชั้นเรียน ไม่เลือกข้อมูลลูกค้า สุขภาพ เคลม การชำระเงิน HR ความปลอดภัย หรือธุรกิจที่เป็นความลับ
+> **License:** This course requires paid Microsoft 365 Copilot access for work-data and cross-app experiences. Verify Outlook Copilot and email search with the learner account. Features and controls may vary.
 
-**เก็บเป็นส่วนตัว:** ปิดการแชร์หน้าจอ ใช้แชตส่วนตัว ผลอยู่ในบัญชีของตนเอง ไม่ส่งอีเมล ไม่คัดลอกข้อมูลจริงลง Asteria หรือส่งเป็นผลงานชั้นเรียน
+<span id="สิ่งที่ต้องเตรียม" class="legacy-anchor" aria-hidden="true"></span>
 
-**เริ่มที่นี่: Outlook** เปิด thread ที่เลือกและอ่านหัวเรื่อง/วันที่ก่อน คำตอบจากการค้นหายังต้องเปิดแหล่งจริงตรวจ
+## Before you start
 
-## Scenario 1 เข้าใจและตอบ thread ใน Outlook
+- Open Outlook in your work account and Copilot Chat with approved work-data access.
+- Select a suitable thread and related emails within a limited date range, preferably in advance.
+- Confirm instructor/client approval for classroom use and the data scope.
+- Use only information permitted for both Copilot and classroom practice. Exclude customer, health, claims, payment, HR, security and confidential business data.
 
-### Practice 1 เข้าใจ thread ยาว
+**Keep it private:** Turn off screen sharing and use private chats. Keep results in your account. Do not send messages, copy real data into Asteria or submit it as classroom work.
 
-**เป้าหมายหลัก:** ใช้สรุปใน Outlook เพื่อจับคำขอและสถานะล่าสุดของ thread
+**Start in Outlook.** Open the selected thread and check its subject and dates. Search answers still need verification against the source.
 
-#### ขั้นตอน
+<span id="scenario-1-เข้าใจและตอบ-thread-ใน-outlook" class="legacy-anchor" aria-hidden="true"></span>
 
-1. ใน **Outlook** เปิด thread ที่อนุมัติให้ใช้ เลือก `Summarize` หรือ `Summary by Copilot` ตามหน้าจอ
-2. อ่านสรุป เปิดแหล่งอ้างอิงหรือข้อความต้นทางที่เกี่ยวข้อง
-3. ถ้ามี Copilot chat pane ที่อ้างอิง thread ปัจจุบันได้ ให้ลอง:
+## Scenario 1 Understand and reply to a thread in Outlook
+
+<span id="practice-1-เข้าใจ-thread-ยาว" class="legacy-anchor" aria-hidden="true"></span>
+
+### Practice 1 Understand a long thread
+
+**Primary target:** Use an Outlook summary to identify the thread's request and latest status.
+
+<span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. In **Outlook**, open the approved thread and select `Summarize` or `Summary by Copilot` as available.
+2. Read the summary and open its citations or relevant source messages.
+3. If a Copilot chat pane can reference the current thread, try:
 
    ```text
-   สรุป thread ที่ฉันเปิดอยู่เป็นภาษาไทยไม่เกิน 5 ข้อ ตอนนี้ต้องการอะไร มีข้อตกลงล่าสุดอะไร และยังรอคำตอบเรื่องใด แยกสิ่งที่ยืนยันแล้วกับข้อเสนอ ใช้ To confirm ถ้าไม่มีข้อมูล
+   Summarize the thread I have open in English in no more than five points. What is needed now, what are the latest agreements and which questions remain unanswered? Separate confirmed facts from proposals. Use To confirm for missing information.
    ```
 
-4. เทียบคำขอหลักและสถานะล่าสุดกับอีเมลจริง ถ้า pane ไม่อ้างอิง thread ให้ใช้ฟังก์ชันสรุปที่มี ไม่สมมติว่าแชตเห็นข้อความที่เปิดอยู่
+4. Compare the main request and latest status with the emails. If the pane cannot reference this thread, use the available summary feature; do not assume a chat can see your open message.
 
 #### Quick check
 
-- บอกได้ว่า thread ต้องการอะไรและยังรอเรื่องใด โดยตรงกับข้อความต้นทาง
+- Explain the request and unanswered questions accurately using source messages.
 
-### Practice 2 ร่างคำตอบตามบริบท
+<span id="practice-2-ร่างคําตอบตามบริบท" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** ใช้ Copilot ร่าง reply ที่ตอบคำถามใน thread
+### Practice 2 Draft a contextual reply
 
-#### ขั้นตอน
+**Primary target:** Use Copilot to draft a reply addressing the thread's questions.
 
-1. กด **Reply** เพื่อเริ่ม draft โดยไม่ส่ง เปิด `Draft with Copilot` หรือเมนูร่างที่บัญชีมี
-2. ส่ง:
+<span id="ขั้นตอน-1" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. Select **Reply** without sending. Open `Draft with Copilot` or the available drafting control.
+2. Send:
 
    ```text
-   ร่างคำตอบสำหรับ thread นี้อย่างสุภาพและกระชับ ตอบประเด็นที่ตอบได้จากข้อมูลที่มี ระบุสิ่งที่ยังต้องขอข้อมูล และจบด้วย next step ที่ชัดเจน ไม่รับปากวันส่งมอบ ไม่แต่งการอนุมัติหรือข้อตกลงใหม่ เก็บเป็น draft เท่านั้น
+   Draft a polite, concise English reply to this thread. Answer what the available information supports, identify what still needs clarification and end with a clear next step. Do not promise delivery dates or invent approvals or agreements. Keep it as a draft only.
    ```
 
-3. ตรวจว่าตอบคำถามหลักและไม่ได้สัญญาสิ่งที่ต้นทางไม่มี ปรับ draft ด้วยตนเองเมื่อจำเป็น
-4. เก็บ draft ไว้ทำ Practice 3 ไม่กด **Send**
+3. Check that it answers the main question without unsupported promises. Edit manually when needed.
+4. Keep the draft for Practice 3. Do not select **Send**.
 
 #### Quick check
 
-- Draft ตอบคำถามสำคัญและไม่มีคำสัญญาใหม่ที่ไม่มีหลักฐาน
-- อีเมลยังไม่ถูกส่ง
+- The draft addresses the key question without unsupported promises.
+- The email remains unsent.
 
-### Practice 3 ปรับข้อความให้ตรงผู้รับ
+<span id="practice-3-ปรับข้อความให้ตรงผู้รับ" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** ใช้ coaching หรือ refinement เพื่อปรับความชัดเจนของ draft
+### Practice 3 Improve the draft for its recipient
 
-#### ขั้นตอน
+**Primary target:** Use coaching or refinement to improve the draft's clarity.
 
-1. ใน draft เดิม เลือก `Get Coaching` / `Coaching by Copilot` หรือ refinement ที่มีในบัญชี
-2. อ่านข้อเสนอเรื่อง tone ความชัดเจนและสิ่งที่ผู้รับต้องทำ เลือกเฉพาะข้อเสนอที่เหมาะสม ถ้าใช้แชตปรับได้ ลอง:
+<span id="ขั้นตอน-2" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. In the same draft, select `Get Coaching`, `Coaching by Copilot` or the refinement available in your account.
+2. Review suggestions about tone, clarity and the recipient's next action. Accept only appropriate suggestions. If chat refinement is available, try:
 
    ```text
-   ทำ draft นี้ให้สั้นลงและอ่านง่ายสำหรับเพื่อนร่วมงานที่มีเวลาน้อย ใช้น้ำเสียงสุภาพ วางสิ่งที่ต้องการให้ตอบไว้ก่อน รักษาชื่อ วันที่ ตัวเลข และข้อตกลงเดิม ไม่ส่งข้อความ
+   Make this draft shorter and easier for a busy colleague to read. Keep a polite tone and put the response needed first. Preserve names, dates, numbers and existing commitments. Do not send the message.
    ```
 
-3. เทียบฉบับก่อน/หลัง หาก coaching ไม่มีแต่ draft refinement มี ให้ใช้ refinement และระบุว่าลองคนละฟังก์ชัน หากไม่มีทั้งสองให้ใช้เส้นทางสำรอง
+3. Compare before/after versions. If coaching is unavailable but refinement works, use it and identify it as a different feature. If neither works, use the fallback below.
 
 #### Quick check
 
-- บอกได้หนึ่งจุดที่ชัดขึ้น โดยชื่อ/วันที่/ข้อผูกพันไม่เปลี่ยน และ draft ยังไม่ส่ง
+- Explain one improvement without changing names, dates or commitments; the draft remains unsent.
 
-## Scenario 2 มองข้ามหลายอีเมลใน Copilot Chat
+<span id="scenario-2-มองข้ามหลายอีเมลใน-copilot-chat" class="legacy-anchor" aria-hidden="true"></span>
 
-**เปลี่ยนแอป:** เปิด **Copilot Chat** และเริ่ม **New chat** ส่วนตัวที่ใช้ข้อมูลงานได้ แชตนี้ไม่ได้เห็น thread ใน Outlook โดยอัตโนมัติ ต้องค้นหา/อ้างอิงอีเมลให้ชัด แล้วใช้บทสนทนาเดียวกันใน Practices 4–6
+## Scenario 2 Work across emails in Copilot Chat
 
-### Practice 4 หาอีเมลที่เกี่ยวข้อง
+**Switch apps:** Open **Copilot Chat → New chat** privately with approved work-data access. This chat does not automatically see the thread open in Outlook. Find/reference the emails explicitly, then keep the same conversation for Practices 4–6.
 
-**เป้าหมายหลัก:** ค้นอีเมลจากหัวข้อ คน และช่วงวันที่ที่กำหนด
+<span id="practice-4-หาอีเมลที่เกี่ยวข้อง" class="legacy-anchor" aria-hidden="true"></span>
 
-#### ขั้นตอน
+### Practice 4 Find relevant emails
 
-1. เลือกหนึ่งหัวข้องานและวันที่ที่แคบพอ เปลี่ยนข้อความในวงเล็บให้เป็นรายละเอียดที่ได้รับอนุมัติก่อนส่ง:
+**Primary target:** Find emails using a topic, people and a date range.
+
+<span id="ขั้นตอน-3" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. Choose one work topic and a narrow date range. Replace the brackets with approved details before sending:
 
    ```text
-   ค้นอีเมลที่เกี่ยวกับ [หัวข้องาน] ระหว่าง [วันที่เริ่ม] ถึง [วันที่จบ] และเกี่ยวข้องกับ [ชื่อผู้ส่งหรือทีม] แสดงไม่เกิน 5 รายการ พร้อมหัวเรื่อง วันที่ และแหล่งอ้างอิง อย่าคาดเดาเนื้อหาถ้าค้นไม่พบ
+   Find emails about [work topic] between [start date] and [end date] involving [sender or team]. Show up to five results with subject, date and source citation. Do not guess content if no results are found. Respond in English.
    ```
 
-2. เปิดอย่างน้อยหนึ่งแหล่งอ้างอิงใน Outlook ตรวจว่าเป็น thread และช่วงวันที่ที่ต้องการ
-3. ถ้าผลกว้างไป ลองชื่อหัวเรื่องที่จำได้หรือช่วงวันที่แคบลง หากหาไม่พบ ให้ใช้ email picker/`/` ที่บัญชีรองรับเพื่อเลือกข้อความโดยตรง ถ้าทั้งสองไม่ได้ให้ใช้เส้นทางสำรอง
+2. Open at least one citation in Outlook and check the thread and dates.
+3. If results are too broad, use a known subject or narrower dates. If search fails, use the supported email picker or `/` to select messages directly. Use the fallback if neither route works.
 
 #### Quick check
 
-- เปิดอีเมลต้นทางที่ตรงหัวข้อ/ช่วงเวลาได้อย่างน้อยหนึ่งรายการ
+- Open at least one source email matching the topic and period.
 
-### Practice 5 สรุปความคืบหน้าข้ามอีเมล
+<span id="practice-5-สรุปความคืบหน้าข้ามอีเมล" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** รวมบริบทจากอีเมลที่เลือกเป็นภาพความคืบหน้าของเรื่องเดียว
+### Practice 5 Summarize progress across emails
 
-#### ขั้นตอน
+**Primary target:** Combine selected emails into a progress summary for one topic.
 
-1. ในแชตเดิม ระบุหรือเลือกเฉพาะอีเมลที่ตรวจแล้วจาก Practice 4 แล้วส่ง:
+<span id="ขั้นตอน-4" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. In the same chat, identify or select only the verified emails from Practice 4. Send:
 
    ```text
-   ใช้เฉพาะอีเมลที่เราเลือกและตรวจแล้ว สรุปความคืบหน้าเรื่องนี้เป็นตาราง: ประเด็น / สิ่งที่เปลี่ยน / สิ่งที่ยืนยันแล้ว / สิ่งที่ยังต้องตอบ / แหล่งอ้างอิง
+   Use only the emails we selected and checked. Summarize progress in English as a table: Issue / What changed / Confirmed information / Response still needed / Source citation.
 
-   ชี้ข้อความที่ขัดกันพร้อมวันที่ อย่าตัดสินเองว่าข้อเสนอใหม่แทนข้อตกลงเดิม แยก Proposed จากสิ่งที่ตกลงแล้ว ใช้ To confirm เมื่อไม่มีข้อมูล
+   Identify conflicting statements and their dates. Do not assume a new proposal replaces an earlier agreement. Label proposals as Proposed and missing information as To confirm.
    ```
 
-2. ตรวจการเปลี่ยนแปลงสำคัญหนึ่งข้อกับสองข้อความที่เกี่ยวข้อง ถ้าไม่มีความเปลี่ยนแปลงหรือข้อขัดแย้ง ให้ยอมรับว่าไม่มี ไม่ให้ Copilot แต่ง
+2. Check one important change against two relevant messages. If there is no change or conflict, accept that result rather than asking Copilot to invent one.
 
 #### Quick check
 
-- ความคืบหน้าสำคัญตรงกับแหล่งจริง และข้อเสนอไม่กลายเป็นข้อตกลง
+- The main progress point matches the sources, and proposals remain distinct from agreements.
 
-### Practice 6 เตรียมสิ่งที่จะติดตาม
+<span id="practice-6-เตรียมสิ่งที่จะติดตาม" class="legacy-anchor" aria-hidden="true"></span>
 
-**เป้าหมายหลัก:** ใช้บริบทที่ตรวจแล้วเตรียมลำดับติดตามและข้อความ draft
+### Practice 6 Prepare follow-up
 
-#### ขั้นตอน
+**Primary target:** Use checked context to prepare a justified follow-up draft.
 
-1. ในแชตเดิม ส่ง:
+<span id="ขั้นตอน-5" class="legacy-anchor" aria-hidden="true"></span>
+
+#### Steps
+
+1. In the same chat, send:
 
    ```text
-   จากอีเมลที่เราเลือก เสนอเรื่องที่ควรติดตามไม่เกิน 3 ข้อ เรียงตามกำหนดเวลาหรือผลกระทบที่อีเมลระบุ อธิบายเหตุผลสั้น ๆ พร้อมแหล่งอ้างอิง หากไม่มีกำหนดเวลาหรือความเร่งด่วนให้บอกว่าไม่ทราบ
+   From the selected emails, suggest up to three follow-up items ordered by deadlines or impacts explicitly stated in the messages. Give a short reason and citation. If no deadline or urgency is stated, say it is unknown.
 
-   จากนั้นร่าง follow-up สำหรับข้อแรก พร้อม subject และข้อความสั้นที่ขอคำตอบหรือ next step ชัดเจน ไม่แต่ง owner วันที่ หรือการอนุมัติ เก็บเป็น draft ในแชต ไม่ส่งข้อความ ไม่แก้ mailbox หรือปฏิทิน
+   Then draft an English follow-up for the first item with a subject and short message requesting a clear response or next step. Do not invent owners, dates or approvals. Keep the draft in chat. Do not send messages or change the mailbox or calendar.
    ```
 
-2. ใช้ดุลยพินิจเลือกลำดับเอง ตรวจหนึ่งเหตุผลกับอีเมล หากต้องการนำ draft ไป Outlook ให้คัดลอกเองไป draft และตรวจอีกครั้งโดยไม่ส่ง
+2. Use your own judgment to choose the priority. Check one reason against the emails. If you want the draft in Outlook, copy it into a draft yourself and review it again without sending.
 
 #### Quick check
 
-- หนึ่งเหตุผลติดตามมีหลักฐาน และ draft ไม่สร้างข้อผูกพันใหม่
-- ผลยังเป็นส่วนตัวและไม่มีข้อความถูกส่ง
+- One follow-up reason has source evidence, and the draft creates no new commitment.
+- Results remain private and no message has been sent.
 
-## เส้นทางสำรอง: ใช้ไฟล์สมมติ
+<span id="เส้นทางสํารอง-ใช้ไฟล์สมมติ" class="legacy-anchor" aria-hidden="true"></span>
 
-ถ้าไม่มีสิทธิ์ ข้อมูลไม่เหมาะสม หรือยังไม่อนุมัติ ให้เริ่มแชตใหม่ **แยกจากข้อมูลงานจริง** แนบ `Asteria_Email_Thread.docx` จาก OneDrive สำหรับ Practices 1–6 ปรับ prompt ให้ใช้เฉพาะไฟล์ที่แนบ:
+## Fallback: Use synthetic files
+
+If access, data suitability or approval is missing, start a new chat **separate from real work data**. Attach `Asteria_Email_Thread.docx` from OneDrive. Adapt Practices 1–6 to use only this file:
 
 ```text
-ใช้เฉพาะ Asteria_Email_Thread.docx ที่แนบในการฝึกนี้ ตอบเป็นภาษาไทย รักษาวันที่และสิ่งที่ยังไม่ยืนยัน แยก Proposed และใช้ To confirm เมื่อขาดข้อมูล
+Use only the attached Asteria_Email_Thread.docx for this exercise. Respond in English. Preserve dates and unresolved information. Label proposals as Proposed and missing information as To confirm.
 ```
 
-- Practice 1: สรุป thread จากไฟล์
-- Practice 2: ร่างคำตอบใน Chat
-- Practice 3: ปรับ draft ใน Chat
-- Practice 4: ระบุข้อความ/วันที่ที่ตรงหัวข้อภายในไฟล์ แทนการค้น mailbox
-- Practice 5: เปรียบเทียบความคืบหน้าของข้อความในไฟล์
-- Practice 6: เสนอเรื่องติดตามและร่าง follow-up จากไฟล์
+- Practice 1: Summarize the thread in the file.
+- Practice 2: Draft a reply in Chat.
+- Practice 3: Refine that draft in Chat.
+- Practice 4: Identify matching messages/dates within the file instead of searching a mailbox.
+- Practice 5: Compare progress across the file's messages.
+- Practice 6: Suggest follow-up and draft it from the file.
 
-นี่เป็นการฝึกใช้ข้อมูลและ prompt ไม่ใช่หลักฐานว่าฟังก์ชัน Outlook หรือ mailbox search ใช้งานได้ หากไม่สามารถใช้ Copilot ได้เลย ให้ผู้สอนช่วยก่อนเริ่ม
+This practices evidence use and prompting; it does not prove Outlook features or mailbox search work. Ask the instructor for help if Copilot is entirely unavailable.
 
-## ผลลัพธ์
+<span id="ผลลัพธ์" class="legacy-anchor" aria-hidden="true"></span>
 
-- สรุป thread ที่ตรวจแล้ว และ draft ที่ชัดขึ้นใน Outlook หรือเส้นทางสำรอง
-- แหล่งอีเมลที่เลือก ตารางความคืบหน้า และ draft ติดตามใน Copilot Chat
-- ข้อมูลงานจริงเก็บส่วนตัว ไม่ต้องสร้างไฟล์หรือส่งให้ผู้สอน
+## Outputs
+
+- A checked thread summary and clearer draft in Outlook or the fallback route.
+- Selected email sources, a progress table and follow-up draft in Copilot Chat.
+- Private real-work results; no file creation or submission to the instructor is required.
 
 ## Tips & tricks
 
-ลองจำกัดคำขอให้เฉพาะเจาะจง:
+Make requests specific:
 
 ```text
-ใช้เฉพาะแหล่งที่ฉันเลือก ตอบไม่เกิน 5 ข้อ วางสิ่งที่ต้องทำต่อไว้ก่อน และบอกข้อมูลที่ยังขาด
+Use only my selected sources. Respond in no more than five points, put next actions first and identify missing information.
 ```
 
-<div class="voice-card"><strong>Pon:</strong> สรุปหนึ่ง thread เหมือนอ่านจดหมายหนึ่งซอง ส่วนการค้นข้ามอีเมลเหมือนเปิดแฟ้มหลายซอง ต้องเลือกแฟ้มให้ถูกก่อนสรุปครับ</div>
+<div class="voice-card"><strong>Pon:</strong> Summarizing one thread is like reading one envelope. Searching across emails is like opening several folders: choose the right folders before drawing conclusions.</div>
 
-อ้างอิง: [Copilot Chat ใน Outlook](https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook) · [คำถามเกี่ยวกับ Copilot ใน Outlook](https://support.microsoft.com/en-au/outlook/frequently-asked-questions-about-copilot-in-outlook)
+References: [Copilot Chat in Outlook](https://support.microsoft.com/en-us/outlook/copilot-outlook/chat-with-copilot-in-outlook) · [Copilot in Outlook FAQ](https://support.microsoft.com/en-au/outlook/frequently-asked-questions-about-copilot-in-outlook)
 
-[← Exercise 2](../exercises/02-kpi-to-decision-brief) · [Exercise 4 Teams →](../exercises/04-teams-meeting-to-document)
+[← Main email route](../exercises/03-outlook-email-workflow) · [Exercise 4: Teams →](../exercises/04-teams-meeting-to-document)
