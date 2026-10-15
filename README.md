@@ -1,6 +1,6 @@
 # AXA Microsoft 365 Copilot Premium — English Edition
 
-The coordinator-confirmed English edition for the two remaining sessions. The morning covers Copilot Chat, Word, Excel and PowerPoint. The afternoon includes focused email and meeting routes, a choice of group challenge, a showcase and an instructor-only Agent Builder demo.
+The coordinator-confirmed English edition for the two remaining sessions. The morning covers Copilot Chat, Word, Excel and PowerPoint. The afternoon includes focused email and meeting routes, a choice of seven creative group missions with individual starter packs, a showcase and an instructor-only Agent Builder demo.
 
 [Open the learner site](https://teerasej.github.io/axa-copilot-premium-day-th/th/) · [Preparation](docs/th/before-you-begin.md) · [Practice files](docs/th/files.md)
 
@@ -28,3 +28,7 @@ pnpm run docs:preview
 ```
 
 Publish `main` through the existing manually dispatched `Deploy Thai learner site to Pages` workflow; its technical name is retained. Publication does not establish tenant access or classroom readiness. Rehearse separately with an ordinary learner account and the instructor's demo account.
+
+## Group challenge packs
+
+Each mission starts in Word, Excel or PowerPoint and uses at least two document apps meaningfully. Learners choose their workflow and Copilot experience. Core practice-file hashes remain in `scripts/practice-files.json`; new documents and seven starter ZIPs are listed separately in `scripts/challenge-packs.json`. Review Desk correction notes stay in the private facilitator workspace.

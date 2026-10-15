@@ -8,69 +8,91 @@ outline: [2, 2]
 
 <ExerciseHeaderImage src="/images/exercise-headers/powerpoint-makeover.png" alt="A group comparing slide layouts and clarifying the main message" />
 
-Clarify one crowded slide. Work on this challenge only; use Level 2 to improve the same output if you finish early.
+**Start in PowerPoint.** A busy reader cannot see the main message in a crowded slide. Improve it while preserving the facts, and use another document app to strengthen your thinking or evidence.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)
 
-> **License:** Use the course's paid Microsoft 365 Copilot access and the Excel/PowerPoint capabilities available in your account. If a Copilot command is unavailable, use standard editing or a prepared backup and identify the route you actually used.
+> **License:** Use the course’s paid Microsoft 365 Copilot access. Choose Copilot Chat Premium or the Copilot controls available in Word, Excel or PowerPoint. If a feature is unavailable, use another available Copilot experience and standard app editing; ask the instructor if all Copilot access is blocked.
 
 ## Get ready
 
-- Open the [crowded-slide starter](/files/Asteria_Crowded_Slide_Example.pptx) from the ZIP’s `Prepared assets` folder. Its fictional facts are self-contained; do not combine them with the KPI workbook.
-- Use synthetic Asteria data only. Save a group copy; do not overwrite source files.
-- Rotate the Operator and Evidence checker. In a group of three, combine Challenger and Presenter. See the [role guide](../05-group-challenge#prepare-your-group-and-files).
+[Download starter pack](/files/challenges/powerpoint-makeover.zip)
 
-## Practice 1: Level 1 — Clarify one crowded slide
+Extract the ZIP and read `START-HERE.md`. Open `Asteria_Crowded_Slide_Example.pptx` in **PowerPoint**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
 
-**Primary target:** Make the sample slide's main message clear while preserving its facts.
+**Individual files**
 
-1. Open `Asteria_Crowded_Slide_Example.pptx` in **PowerPoint**. Duplicate the slide and keep the original as “before.” Its fictional data is self-contained, not drawn from the KPI workbook.
-2. Read the slide's facts and select one main message. Use the Copilot available in your account, or copy only the synthetic slide text into Chat and ask:
+- [Asteria_Crowded_Slide_Example.pptx](/files/Asteria_Crowded_Slide_Example.pptx) — Self-contained crowded slide with fictional package counts; independent of the KPI workbook.
 
-   ```text
-   Help a manager understand one main message from this slide quickly. Suggest a title, concise text and information order. Preserve numbers, units, the reporting period and the status of the proposal. Do not add facts. Write in English.
-   ```
+The slide’s 96 received packages, 72 complete packages, 24 needing information and 75% complete proportion are independent of the KPI workbook. Completeness does not mean claim approval.
 
-3. Edit in PowerPoint: reduce wording, improve hierarchy and add space. Apply checked suggestions. You do not need to wait for Copilot to edit the slide directly.
-4. Compare before/after versions. Check every number and the proposal's status. Rehearse explaining what you changed and why.
+Use synthetic Asteria material only. Rotate the Operator and Evidence checker; in a group of three combine Challenger and Presenter. See the [role guide](../05-group-challenge#prepare-your-group-and-files).
+
+## Choose your approach
+
+Start in the named app, then use **at least two of Word, Excel and PowerPoint meaningfully**. Use Copilot at least once. You choose the app order, prompts and division of work; you can work in parallel or revisit an app.
+
+The second document app must contribute useful analysis, drafting, visualization or review. Merely opening a file does not count. One final deliverable is enough if you can show the supporting work. Manual editing and copying checked content between apps are valid; automatic transfer is not required.
+
+- Choose the audience, message, layout and amount of text. Keep the original slide for comparison.
+- Word can support message development or critique. Excel can help reconstruct and check the slide’s figures. Choose whichever contribution helps your result.
+
+<span id="practice-1-level-1-—-clarify-one-crowded-slide" class="legacy-anchor" aria-hidden="true"></span>
+
+## Level 1 — Complete your mission
+
+**Primary target:** One clearer slide with before/after evidence and supporting message work in Word or numerical checking in Excel.
+
+**Level 1 output:** One clearer slide with before/after evidence and supporting message work in Word or numerical checking in Excel.
 
 ### Quick check
 
-- All facts retain their original meaning.
-- The revised slide has one main message, with before/after versions ready to compare.
+- The main message is clear and every fact keeps its original meaning, including the distinction between document completeness and claim approval.
+- Your group can show a meaningful contribution from at least two document apps and one Copilot contribution that you checked or corrected.
 
-**Level 1 output:** One revised slide with the original kept for comparison.
+<details class="challenge-extension">
+<summary>Need an idea? Optional Copilot prompt starter</summary>
 
-Passing these checks completes the required challenge. Start Level 2 only if time remains before the instructor’s checking/rehearsal cue.
+Provide the relevant synthetic source or selected content using the controls available in your account. This is an optional starting question, not a required workflow. Rewrite it or ask your own question.
+
+```text
+Help us explore ways to communicate this fictional slide to our chosen audience. Suggest alternative main messages or layouts and explain their trade-offs. Preserve every number and the proposal’s status. Do not add facts. Write in English.
+```
+
+</details>
+
+Passing the Quick checks completes the required mission. Start Level 2 only if time remains before the instructor’s checking/rehearsal cue.
 
 <details class="challenge-extension">
 <summary>Finished Level 1? Try Level 2 — optional</summary>
 
-## Practice 2: Level 2 — Test the slide’s first impression
+<span id="practice-2-level-2-—-test-the-slide-s-first-impression" class="legacy-anchor" aria-hidden="true"></span>
 
-**Primary target:** Refine the same slide using a teammate’s independent reading of its main message.
+## Level 2 — Strengthen your result
 
-1. Show your Level 1 slide to a teammate without explaining it. Ask what the main message is and which detail supports it. Record the response briefly in the slide’s speaker notes.
-2. Compare that response with your intended message. Share only the synthetic slide text, your intended message and the feedback with Copilot:
+**Primary target:** Improve the existing result through a focused evidence or audience test.
 
-   ```text
-   Refine this slide using the reader feedback and intended message supplied here. Suggest one improvement to the title or visual hierarchy. Preserve every number, unit, reporting period and the proposal's unapproved status. Do not add facts. If the reader already understood the message, suggest a small clarity improvement. Write in English.
-   ```
+Adapt the result for another audience or improve it after a peer reads it without explanation. Explain what changed and why, while keeping all facts and the proposal’s status consistent.
 
-3. Apply one checked improvement to the title or hierarchy in PowerPoint. Keep the original before slide; do not add another deliverable.
-4. Ask the teammate to read the revised slide again. Record what became clearer in the speaker notes and recheck all facts.
+**Level 2 output:** An audience-adapted or peer-refined version of the same slide, with the improvement explained.
 
-**Level 2 output:** The same revised slide, with a brief feedback/change note in its speaker notes.
+**Optional Copilot question** — supply the relevant synthetic evidence and feedback first, and adapt this question as you wish.
+
+```text
+Compare the audience need or peer feedback with our revised slide. What single change would make it clearer without changing its facts? Write in English.
+```
 
 ### Quick check
 
-- The teammate’s second reading identifies the intended main message.
-- The revision preserves all facts and proposal status; the notes explain what improved.
+- The revision responds to a specific audience need or feedback point.
+- All figures, their meaning and the unapproved proposal status remain consistent.
 
 </details>
 
 ## Ready to share
 
-Save your group copy and open the view you will show. Stop Level 2 at the instructor’s checking/rehearsal cue, even if it is unfinished. Level 1 alone is a successful result. If you tried Level 2, briefly explain one improvement within your existing showcase turn; no extra presentation file is needed.
+Save your group copy and open the result and supporting work you will show. Explain why you chose your apps and point out one verified or corrected Copilot contribution. No additional showcase deck is required.
+
+Stop Level 2 at the instructor’s checking/rehearsal cue. **Level 1 alone is a successful result.** Show completed and unfinished work honestly within the existing showcase turn.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)

@@ -2,7 +2,7 @@
 
 # Group showcase: Explain what your group did
 
-Each group presents the output from its chosen challenge. Open the workbook or slides you created; no additional presentation file is required.
+Each group presents the output from its chosen challenge. Open the document, workbook or slides you created and the supporting work from another app. No additional presentation file is required.
 
 <span id="practice-นําเสนอผลงานพร้อมหลักฐาน" class="legacy-anchor" aria-hidden="true"></span>
 
@@ -13,7 +13,8 @@ Each group presents the output from its chosen challenge. Open the workbook or s
 1. Open the output in advance. Close real-work data and unrelated windows.
 2. Explain:
    - Which challenge you chose and the question you wanted to answer.
-   - What you created: insights, a table/chart, before/after slide, or three-slide recommendation.
+   - What you created and how it meets the mission.
+   - Which two or more document apps you used, why you chose them, and how each contributed.
    - One point where you checked evidence or corrected a Copilot response.
    - What you learned or still need to improve. If you tried Level 2, mention one improvement within this same turn; Level 1 alone is a successful result.
 3. Take one question or feedback point, such as “What evidence supports this conclusion?” or “Which part is still difficult to read?” If you cannot answer yet, explain what you would check next.
@@ -21,7 +22,7 @@ Each group presents the output from its chosen challenge. Open the workbook or s
 
 ### Quick check
 
-- Peers see the actual output and one evidence check, with no real-work data on screen.
+- Peers see the result, meaningful contributions from at least two document apps, and one verified or corrected Copilot contribution, with no real-work data on screen.
 - Your group distinguishes completed work, unfinished work and any manual fallback.
 
 The instructor schedules up to eight groups within [today's timetable](../#timetable) and explains the handover before starting.

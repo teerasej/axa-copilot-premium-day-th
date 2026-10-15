@@ -40,22 +40,29 @@ const actualBlocks=[...home.matchAll(/\| (\d{2}:\d{2})–(\d{2}:\d{2}) \|/g)].ma
 if(actualBlocks.length!==11 || actualBlocks[0]?.[0]!=='09:00' || actualBlocks.at(-1)?.[1]!=='16:00') errors.push('Expected continuous 11-row learning day')
 for(let i=1;i<actualBlocks.length;i++) if(actualBlocks[i-1][1]!==actualBlocks[i][0]) errors.push('Timetable gap or overlap')
 const challenge=fs.readFileSync(path.join(docs,'th/exercises/05-group-challenge.md'),'utf8')
-for(const name of ['Excel Detective','Excel Rescue','PowerPoint Makeover','Management Pitch']) if(!challenge.includes(name)) errors.push('Missing challenge '+name)
-const challengeSlugs=['excel-detective','excel-rescue','powerpoint-makeover','management-pitch']
-if((challenge.match(/\[Start this challenge\]\(/g)||[]).length!==4) errors.push('Expected four challenge selection cards')
+const packs=JSON.parse(fs.readFileSync('scripts/challenge-packs.json','utf8'))
+const challengeSlugs=Object.keys(packs.packs)
+if(challengeSlugs.length!==7 || (challenge.match(/\[Start this challenge\]\(/g)||[]).length!==7) errors.push('Expected seven challenge selection cards')
 for (const slug of challengeSlugs) {
  if(!challenge.includes(`](./challenges/${slug})`)) errors.push('Missing challenge selection link '+slug)
  const file=path.join(docs,'th/exercises/challenges',slug+'.md')
  if(!fs.existsSync(file)) { errors.push('Missing challenge page '+slug); continue }
  const text=fs.readFileSync(file,'utf8')
- const levels=text.split(/^## Practice /m).slice(1)
- if(levels.length!==2 || !/^1: Level 1/.test(levels[0]) || !/^2: Level 2/.test(levels[1])) errors.push(`${slug}: expected two levels`)
+ const levels=text.split(/^## Level /m).slice(1)
+ if(levels.length!==2 || !/^1 —/.test(levels[0]) || !/^2 —/.test(levels[1])) errors.push(`${slug}: expected two levels`)
  for(const [i,level] of levels.entries()) {
-  if(!/^1\. /m.test(level) || !level.includes('```text') || !level.includes(`**Level ${i+1} output:**`)) errors.push(`${slug}: missing steps, prompt or output for level ${i+1}`)
+  if(!level.includes('**Primary target:**') || !level.includes('```text') || !level.includes(`**Level ${i+1} output:**`)) errors.push(`${slug}: missing target, optional prompt or output for level ${i+1}`)
+  const check=level.match(/^### Quick check\n\n((?:- .*\n?)+)/m)
+  const count=check?.[1].split('\n').filter(x=>x.startsWith('- ')).length||0
+  if(count<1||count>2) errors.push(`${slug}: expected 1–2 Quick checks per level`)
  }
- if(!text.includes('<details class="challenge-extension">\n<summary>Finished Level 1? Try Level 2 — optional</summary>') || /<details[^>]*\bopen[ >]/.test(text)) errors.push(`${slug}: Level 2 must be optional and collapsed`)
+ if(!text.includes('<summary>Finished Level 1? Try Level 2 — optional</summary>') || /<details[^>]*\bopen[ >]/.test(text)) errors.push(`${slug}: Level 2 must be optional and collapsed`)
  if(!text.includes('](../05-group-challenge)') || !text.includes('](../07-group-showcase)')) errors.push(`${slug}: missing learner navigation`)
  if(!text.includes('Level 1 alone is a successful result') || !text.includes('checking/rehearsal cue')) errors.push(`${slug}: missing completion and stop guidance`)
+ for(const phrase of ['at least two of Word, Excel and PowerPoint meaningfully','Use Copilot at least once','You choose the app order','One final deliverable is enough']) if(!text.includes(phrase)) errors.push(`${slug}: missing creative workflow boundary: ${phrase}`)
+ if(!text.includes(`[Download starter pack](/files/challenges/${slug}.zip)`)) errors.push(`${slug}: missing pack link`)
+ if(!text.includes(`**Start in ${packs.packs[slug].startApp}.**`)) errors.push(`${slug}: starting app differs from pack`)
+ for(const name of Object.keys(packs.packs[slug].files).filter(x=>x!=='START-HERE.md')) if(!text.includes(name)) errors.push(`${slug}: missing individual file ${name}`)
 }
 if(!home.includes('Level 2 is optional within the work period') || !home.includes('must not consume the final 7 minutes')) errors.push('Missing Level 2 pacing boundary')
 const optional=fs.readFileSync(path.join(docs,'th/resources/outlook-extra-practice.md'),'utf8')
@@ -69,6 +76,18 @@ for(const [name,expected] of Object.entries({...manifest.files,[manifest.archive
  const f=path.join(assetDir,name)
  if(!fs.existsSync(f)||crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex')!==expected) errors.push('Practice asset hash mismatch: '+name)
 }
+for(const [name,expected] of Object.entries({...packs.newFiles,...Object.fromEntries(Object.values(packs.packs).map(p=>[p.archive,p.archiveSha256]))})) {
+ const file=path.join(assetDir,name)
+ if(!fs.existsSync(file)||crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')!==expected) errors.push('Challenge asset hash mismatch: '+name)
+}
+for(const [slug,pack] of Object.entries(packs.packs)) {
+ if(!pack.files['START-HERE.md'] || !pack.files[pack.startFile]) errors.push(`${slug}: missing start file or START-HERE`)
+ for(const [name,hash] of Object.entries(pack.files)) {
+  if(name==='START-HERE.md') continue
+  const expected=manifest.files[name]||Object.entries(packs.newFiles).find(([p])=>path.basename(p)===name)?.[1]
+  if(hash!==expected) errors.push(`${slug}: packed input differs from canonical source ${name}`)
+ }
+}
 if(files.some(x=>x.endsWith('.pdf'))) errors.push('Stale course PDF not allowed')
 if(errors.length) { console.error(errors.join('\n')); process.exit(1) }
-console.log(`Passed: ${pages.length} English pages, focused routes, four choices, 330 learning minutes, links and 12 assets + ZIP hashes.`)
+console.log(`Passed: ${pages.length} English pages, focused routes, seven cross-app choices and starter packs, 330 learning minutes, links and 12 assets + ZIP hashes.`)

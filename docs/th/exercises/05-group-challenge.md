@@ -2,11 +2,77 @@
 
 # Exercise 5 Choose a group challenge
 
-Choose **one challenge per group**. Pick the output you want to improve, then open its page to focus on that task. Different groups may choose the same challenge.
+Choose **one of seven missions** with your group. Each begins in Word, Excel or PowerPoint and gives you a business result to aim for. Choose the problem that interests you; different groups may choose the same mission.
 
-**Level 1 is the required output.** Level 2 is an optional extension if your group finishes early and passes the Level 1 Quick checks. You do not need to complete all four challenges.
+Use **at least two of Word, Excel and PowerPoint meaningfully**, with Copilot helping at least once. You choose where to use Copilot Chat Premium or in-app Copilot, the order of work and the final format. Think of the mission as a dish to create: the starting ingredients are supplied, but your group chooses how to prepare and present it.
 
-## Choose your challenge
+**Level 1 is the required result.** Level 2 is an optional extension after its checks pass. Each challenge page has a starter ZIP and individual file links.
+
+<span id="choose-your-challenge" class="legacy-anchor" aria-hidden="true"></span>
+
+## Choose your starting app
+
+### Start in Word
+
+<div class="journey-grid challenge-grid">
+
+<section class="journey-card challenge-card">
+
+
+
+<ExerciseHeaderImage src="/images/exercise-headers/04-build-executive-update.png" alt="A team reviewing meeting decisions and follow-up work" />
+
+#### Meeting to Momentum
+
+**Start in:** Word
+
+A colleague missed the service recovery meeting. Build a handover that makes the confirmed work, dependencies and next decision easy to understand and follow.
+
+**Level 1 result:** A handover covering at least three confirmed actions, their owners, dates and dependencies, with useful supporting work in Excel or PowerPoint.
+
+[Start this challenge](./challenges/meeting-to-momentum)
+
+</section>
+
+<section class="journey-card challenge-card">
+
+
+
+<ExerciseHeaderImage src="/images/exercise-headers/03-communicate-accountably.png" alt="Colleagues adapting a message for different readers" />
+
+#### Audience Switch
+
+**Start in:** Word
+
+Leadership and the delivery team need different explanations of the same evidence. Choose one verified finding and make it useful to both audiences without changing its meaning.
+
+**Level 1 result:** Two audience-specific explanations of one verified finding, with meaningful Word work and a contribution from Excel or PowerPoint.
+
+[Start this challenge](./challenges/audience-switch)
+
+</section>
+
+<section class="journey-card challenge-card">
+
+
+
+<ExerciseHeaderImage src="/images/exercise-headers/01-ground-the-work.png" alt="Colleagues reviewing a document against its supporting evidence" />
+
+#### Review Desk
+
+**Start in:** Word
+
+A colleague needs a practical way to review Copilot-assisted material before sharing it. Adapt four checks into a useful review aid and demonstrate it on the supplied fictional draft.
+
+**Level 1 result:** A four-check review aid made easier to apply through Excel or PowerPoint, demonstrated on the supplied draft with evidence or gaps recorded.
+
+[Start this challenge](./challenges/review-desk)
+
+</section>
+
+</div>
+
+### Start in Excel
 
 <div class="journey-grid challenge-grid">
 
@@ -20,13 +86,13 @@ Choose **one challenge per group**. Pick the output you want to improve, then op
 
 <ExerciseHeaderImage src="/images/exercise-headers/excel-detective.png" alt="A group checking spreadsheet values and charts together" />
 
-### Excel Detective
+#### Excel Detective
 
-Find what deserves attention.
+**Start in:** Excel
 
-**App:** Excel
+A service manager needs to know what deserves attention. Find three supported insights in the Asteria snapshot, choose one priority and make the findings useful to a reader you choose.
 
-**Level 1 output:** Three verified insights and one priority.
+**Level 1 result:** Three verified insights and one reasoned priority, communicated through Word or PowerPoint with meaningful Excel work behind them.
 
 [Start this challenge](./challenges/excel-detective)
 
@@ -42,17 +108,23 @@ Find what deserves attention.
 
 <ExerciseHeaderImage src="/images/exercise-headers/excel-rescue.png" alt="A group turning a busy spreadsheet into a clearer chart" />
 
-### Excel Rescue
+#### Excel Rescue
 
-Make a table or chart easier to understand.
+**Start in:** Excel
 
-**App:** Excel
+A colleague struggles to understand a table or chart. Make one view answer a useful management question, and use another app to develop an explanation the colleague can understand.
 
-**Level 1 output:** One improved table or chart with before/after evidence.
+**Level 1 result:** One improved table or chart with before/after evidence and an explanation developed in Word or PowerPoint.
 
 [Start this challenge](./challenges/excel-rescue)
 
 </section>
+
+</div>
+
+### Start in PowerPoint
+
+<div class="journey-grid challenge-grid">
 
 <section class="journey-card challenge-card">
 
@@ -64,13 +136,13 @@ Make a table or chart easier to understand.
 
 <ExerciseHeaderImage src="/images/exercise-headers/powerpoint-makeover.png" alt="A group comparing slide layouts and clarifying the main message" />
 
-### PowerPoint Makeover
+#### PowerPoint Makeover
 
-Clarify one crowded slide.
+**Start in:** PowerPoint
 
-**App:** PowerPoint
+A busy reader cannot see the main message in a crowded slide. Improve it while preserving the facts, and use another document app to strengthen your thinking or evidence.
 
-**Level 1 output:** One revised slide with the original kept for comparison.
+**Level 1 result:** One clearer slide with before/after evidence and supporting message work in Word or numerical checking in Excel.
 
 [Start this challenge](./challenges/powerpoint-makeover)
 
@@ -86,13 +158,13 @@ Clarify one crowded slide.
 
 <ExerciseHeaderImage src="/images/exercise-headers/management-pitch.png" alt="A group presenting a recommendation and answering peer questions" />
 
-### Management Pitch
+#### Management Pitch
 
-Turn evidence into a recommendation.
+**Start in:** PowerPoint
 
-**App:** Excel and PowerPoint
+Leadership needs a recommendation it can question and evaluate. Develop a short pitch for one decision, using another app to strengthen the evidence or reasoning.
 
-**Level 1 output:** Three slides: Situation, Evidence, Proposed action.
+**Level 1 result:** A recommendation in no more than three slides, supported by meaningful evidence work in Excel or argument development in Word.
 
 [Start this challenge](./challenges/management-pitch)
 
@@ -104,27 +176,27 @@ Turn evidence into a recommendation.
 
 ## Prepare your group and files
 
-> **License:** Use the course's paid Microsoft 365 Copilot access and the Excel/PowerPoint capabilities available in your account. If a Copilot command is unavailable, use standard editing or a prepared backup and identify the route you actually used.
+> **License:** Use the course’s paid Microsoft 365 Copilot access. Choose Copilot Chat Premium or the Copilot controls available in Word, Excel or PowerPoint. If a feature is unavailable, use another available Copilot experience and standard app editing; ask the instructor if all Copilot access is blocked.
 
-1. Agree on one challenge and open its page together. Only the files for that challenge are listed there.
-2. Assign the roles below. Rotate the Operator during the task; everyone helps review.
-3. Use synthetic Asteria data only. Never project or share real emails or meetings in group work.
+Agree on one mission and download only its starter pack if you need it. Your relevant morning outputs remain valid starting material. Open the named starting file, assign roles, and decide together how another document app can help.
 
 | Role | Responsibility |
 |---|---|
-| Operator | Use Copilot and edit the file; rotate who operates during the activity. |
-| Evidence checker | Check values or facts against the source. |
-| Challenger | Ask whether conclusions go beyond the evidence. |
-| Presenter | Explain the challenge, output and learning. |
+| Operator | Use Copilot and edit; rotate who operates during the activity. |
+| Evidence checker | Check values and claims against the source. |
+| Challenger | Question unsupported conclusions and whether the result helps its audience. |
+| Presenter | Explain the result, app choices and learning. |
 
-In a group of three, combine Challenger and Presenter. Everyone helps review the output. Different groups may choose the same challenge.
+In a group of three, combine Challenger and Presenter. Everyone reviews the output. You may work in parallel and revise your approach. Use synthetic Asteria files only; keep real emails, meeting content and private data out of group work.
+
+A meaningful second-app contribution could be a checked calculation, drafted explanation, visual comparison or review record. Merely opening a file does not count. One final deliverable is enough when you can show its supporting work.
 
 <span id="เตรียมโชว์ผลงาน" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Prepare to showcase your work
 
-Save a group copy without overwriting source files. Complete Level 1 and its Quick checks before trying Level 2. Stop extending the work when the instructor gives the checking/rehearsal cue; **Level 1 alone is a successful result**. See [today’s timetable](../#timetable).
+Save a group copy and keep the source files intact. Complete Level 1 and its Quick checks before trying Level 2. Stop extending the work at the instructor’s checking/rehearsal cue; **Level 1 alone is a successful result**. See [today’s timetable](../#timetable).
 
-Have your file and selected view ready before the break. If unfinished, show what you actually completed and identify what remains. No separate presentation deck is required.
+Have the result and supporting work open before the break. Explain which apps you chose, why they helped, and one point where you checked or corrected Copilot. Show what you actually completed and identify what remains. No additional presentation deck is required.
 
 [← Teams and Word](./04-teams-meeting-to-document) · [Showcase guidance →](./07-group-showcase)

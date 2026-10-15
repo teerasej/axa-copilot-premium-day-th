@@ -8,69 +8,92 @@ outline: [2, 2]
 
 <ExerciseHeaderImage src="/images/exercise-headers/excel-rescue.png" alt="A group turning a busy spreadsheet into a clearer chart" />
 
-Make a table or chart easier to understand. Work on this challenge only; use Level 2 to improve the same output if you finish early.
+**Start in Excel.** A colleague struggles to understand a table or chart. Make one view answer a useful management question, and use another app to develop an explanation the colleague can understand.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)
 
-> **License:** Use the course's paid Microsoft 365 Copilot access and the Excel/PowerPoint capabilities available in your account. If a Copilot command is unavailable, use standard editing or a prepared backup and identify the route you actually used.
+> **License:** Use the course’s paid Microsoft 365 Copilot access. Choose Copilot Chat Premium or the Copilot controls available in Word, Excel or PowerPoint. If a feature is unavailable, use another available Copilot experience and standard app editing; ask the instructor if all Copilot access is blocked.
 
 ## Get ready
 
-- Open your morning `Asteria_Service_KPI_Reviewed.xlsx`, or download the [reviewed backup](/files/Asteria_Service_KPI_Reviewed_backup.xlsx). Keep the original view for comparison.
-- Use synthetic Asteria data only. Save a group copy; do not overwrite source files.
-- Rotate the Operator and Evidence checker. In a group of three, combine Challenger and Presenter. See the [role guide](../05-group-challenge#prepare-your-group-and-files).
+[Download starter pack](/files/challenges/excel-rescue.zip)
 
-## Practice 1: Level 1 — Make the data easier to read
+Extract the ZIP and read `START-HERE.md`. Open `Asteria_Service_KPI_28days.xlsx` in **Excel**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
 
-**Primary target:** Improve one table or chart so it clearly answers a manager's question.
+**Individual files**
 
-1. Open your morning workbook or backup. Duplicate the sheet/chart before editing. Choose one question, such as which period needs closer SLA follow-up.
-2. Ask Copilot:
+- [Asteria_Service_KPI_28days.xlsx](/files/Asteria_Service_KPI_28days.xlsx) — Original 28-day values, dates, formulas and context notes for analysis and checking.
+- [Asteria_Operational_Context.docx](/files/Asteria_Operational_Context.docx) — Business questions and evidence boundaries; recorded events do not prove causes.
 
-   ```text
-   I want a manager to answer [your group's question] using the selected table or chart. Suggest improvements to the title, ordering, chart or conditional formatting that make the issue clearer without changing source values. Write in English.
-   ```
 
-3. Improve just one view using available Copilot editing or standard Excel tools. Change the Operator during the task.
-4. Ask a teammate to read it before you explain it. Have them describe what they understand. Correct misleading labels, units, periods or scales. Keep before/after versions to show.
+
+Use synthetic Asteria material only. Rotate the Operator and Evidence checker; in a group of three combine Challenger and Presenter. See the [role guide](../05-group-challenge#prepare-your-group-and-files).
+
+## Choose your approach
+
+Start in the named app, then use **at least two of Word, Excel and PowerPoint meaningfully**. Use Copilot at least once. You choose the app order, prompts and division of work; you can work in parallel or revisit an app.
+
+The second document app must contribute useful analysis, drafting, visualization or review. Merely opening a file does not count. One final deliverable is enough if you can show the supporting work. Manual editing and copying checked content between apps are valid; automatic transfer is not required.
+
+- Choose the question, metric, view and audience. Keep the original view so you can show the change.
+- Use Word to develop the explanation or PowerPoint to connect the visual to its takeaway. Choose your own layout and working order.
+
+<span id="practice-1-level-1-—-make-the-data-easier-to-read" class="legacy-anchor" aria-hidden="true"></span>
+
+## Level 1 — Complete your mission
+
+**Primary target:** One improved table or chart with before/after evidence and an explanation developed in Word or PowerPoint.
+
+**Level 1 output:** One improved table or chart with before/after evidence and an explanation developed in Word or PowerPoint.
 
 ### Quick check
 
-- Check one value, its unit and period against the source; the scale is not misleading.
-- A teammate can answer the group's question from the revised view.
+- A teammate can answer your question from the revised view and explanation; values, units, periods and scales remain accurate.
+- Your group can show a meaningful contribution from at least two document apps and one Copilot contribution that you checked or corrected.
 
-**Level 1 output:** One improved table or chart with before/after evidence.
+<details class="challenge-extension">
+<summary>Need an idea? Optional Copilot prompt starter</summary>
 
-Passing these checks completes the required challenge. Start Level 2 only if time remains before the instructor’s checking/rehearsal cue.
+Provide the relevant synthetic source or selected content using the controls available in your account. This is an optional starting question, not a required workflow. Rewrite it or ask your own question.
+
+```text
+A colleague needs to answer our chosen question from this Asteria table or chart. Suggest ways to make the message clearer and explain the trade-offs. Keep source values unchanged. Write in English.
+```
+
+</details>
+
+Passing the Quick checks completes the required mission. Start Level 2 only if time remains before the instructor’s checking/rehearsal cue.
 
 <details class="challenge-extension">
 <summary>Finished Level 1? Try Level 2 — optional</summary>
 
-## Practice 2: Level 2 — Add a useful comparison
+<span id="practice-2-level-2-—-add-a-useful-comparison" class="legacy-anchor" aria-hidden="true"></span>
 
-**Primary target:** Improve the same view with a verified comparison that makes the manager’s question easier to answer.
+## Level 2 — Strengthen your result
 
-1. Keep your Level 1 view. Choose another date or comparable period from the same workbook using the same metric and units. Avoid unequal-period totals or unrelated metrics.
-2. Share the synthetic comparison values and your question with Copilot. Ask:
+**Primary target:** Improve the existing result through a focused evidence or audience test.
 
-   ```text
-   Suggest how to add this verified comparison to our existing Asteria table or chart so a manager can answer our question. Use the same metric and units, label both dates or periods, and keep the scale honest. Suggest one short takeaway supported by the values. Do not invent values, causes or targets. Write in English.
-   ```
+Add a useful comparison using the same metric and units, then test whether a teammate can interpret it without your explanation. Use their feedback to refine the existing result.
 
-3. Add the comparison and a short takeaway to the same view using available Copilot or standard Excel editing. Verify the added value, labels and takeaway against the workbook.
-4. Ask a teammate to explain the comparison without your help. Correct anything that causes confusion and keep the original before version.
+**Level 2 output:** The same result with a checked comparison and a clearer explanation.
 
-**Level 2 output:** The same improved view with one comparison and one checked takeaway.
+**Optional Copilot question** — supply the relevant synthetic evidence and feedback first, and adapt this question as you wish.
+
+```text
+Critique our revised view and its explanation using this reader feedback. What comparison or wording would help, and what might mislead the reader? Use only the supplied evidence. Write in English.
+```
 
 ### Quick check
 
-- The comparison uses consistent metrics, units, periods and a non-misleading scale.
-- A teammate can explain the comparison, and the takeaway matches the checked values.
+- The comparison is fair, with appropriate labels, units and periods.
+- An independent reader understands the takeaway without a misleading scale or unsupported claim.
 
 </details>
 
 ## Ready to share
 
-Save your group copy and open the view you will show. Stop Level 2 at the instructor’s checking/rehearsal cue, even if it is unfinished. Level 1 alone is a successful result. If you tried Level 2, briefly explain one improvement within your existing showcase turn; no extra presentation file is needed.
+Save your group copy and open the result and supporting work you will show. Explain why you chose your apps and point out one verified or corrected Copilot contribution. No additional showcase deck is required.
+
+Stop Level 2 at the instructor’s checking/rehearsal cue. **Level 1 alone is a successful result.** Show completed and unfinished work honestly within the existing showcase turn.
 
 [← Change challenge](../05-group-challenge) · [Prepare for the showcase →](../07-group-showcase)

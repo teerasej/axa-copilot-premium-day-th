@@ -8,7 +8,7 @@ Use a work account with **paid Microsoft 365 Copilot access** and approved apps.
 
 Download **12 files** together: eight synthetic sources, two prepared backups, one presentation template and one crowded-slide starter. The source documents, instructions and prompts are in English.
 
-1. [Download the complete practice ZIP](/files/Asteria_Copilot_Premium_Practice_Files.zip).
+1. [Download the core course ZIP](/files/Asteria_Copilot_Premium_Practice_Files.zip).
 2. Extract it using `Extract All` on Windows or by double-clicking on Mac. Locate:
 
    ```text
@@ -77,7 +77,7 @@ Prepared assets support practice; they do not prove that Copilot generated a fil
 
 ## Prepare for the group challenge
 
-Use Asteria only. Check that your morning workbook/dashboard or backup and the crowded-slide starter open. Follow the instructor's grouping and rotate the Operator. Real email or meeting outputs are not showcase material.
+Choose one of the [seven missions](./exercises/05-group-challenge), then download its starter pack if needed. Extract the ZIP and open the named starting file; upload relevant Office files to your practice OneDrive folder if using the web apps. Do not upload the ZIP to Copilot. Use at least two of Word, Excel and PowerPoint meaningfully, with an available Copilot experience. Your relevant morning Asteria outputs are also valid starting material. Follow the instructor’s grouping and rotate the Operator. Real email or meeting outputs are not showcase material.
 
 ## Ready check
 

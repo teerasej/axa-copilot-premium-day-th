@@ -6,11 +6,27 @@
 
 <span id="ดาวน์โหลดทั้งชุด" class="legacy-anchor" aria-hidden="true"></span>
 
-## Download the complete set
+<span id="download-the-complete-set" class="legacy-anchor" aria-hidden="true"></span>
+
+## Core course files
 
 [Download Asteria_Copilot_Premium_Practice_Files.zip](/files/Asteria_Copilot_Premium_Practice_Files.zip)
 
 The ZIP contains **12 files** inside `Asteria Copilot Workshop`: eight sources plus two backups, one template and one crowded-slide starter in `Prepared assets`. Upload the whole folder to OneDrive using the [preparation steps](./before-you-begin#prepare-your-files).
+
+## Group challenge starter packs
+
+Choose one pack for your group. These are separate from the twelve core course files. Each ZIP includes `START-HERE.md` and only its relevant inputs. Individual downloads are on the linked mission page.
+
+| Challenge | Start in | Download |
+|---|---|---|
+| [Excel Detective](./exercises/challenges/excel-detective) | Excel | [Starter ZIP](/files/challenges/excel-detective.zip) |
+| [Excel Rescue](./exercises/challenges/excel-rescue) | Excel | [Starter ZIP](/files/challenges/excel-rescue.zip) |
+| [PowerPoint Makeover](./exercises/challenges/powerpoint-makeover) | PowerPoint | [Starter ZIP](/files/challenges/powerpoint-makeover.zip) |
+| [Management Pitch](./exercises/challenges/management-pitch) | PowerPoint | [Starter ZIP](/files/challenges/management-pitch.zip) |
+| [Meeting to Momentum](./exercises/challenges/meeting-to-momentum) | Word | [Starter ZIP](/files/challenges/meeting-to-momentum.zip) |
+| [Audience Switch](./exercises/challenges/audience-switch) | Word | [Starter ZIP](/files/challenges/audience-switch.zip) |
+| [Review Desk](./exercises/challenges/review-desk) | Word | [Starter ZIP](/files/challenges/review-desk.zip) |
 
 <span id="แปดไฟล์ต้นทาง" class="legacy-anchor" aria-hidden="true"></span>
 

@@ -41,7 +41,7 @@ Use real work data privately only within an approved scope. Group challenges and
 | 12:00–13:00 | Lunch |
 | 13:00–13:30 | Section 3: Outlook and Copilot Chat |
 | 13:30–14:00 | Teams and Word |
-| 14:00–14:30 | Group challenge: choose one of four options |
+| 14:00–14:30 | Group challenge: choose one of seven missions |
 | 14:30–14:45 | Break |
 | 14:45–15:25 | Section 4: group presentations and feedback |
 | 15:25–15:45 | Instructor demo: create a Claims Document Readiness Agent in Agent Builder |
@@ -57,7 +57,7 @@ Challenge: 3 minutes to choose a task and roles, 20 minutes to work, and 7 minut
 - [2. Excel to a KPI dashboard](./exercises/02-kpi-to-decision-brief)
 - [3. Outlook and Copilot Chat](./exercises/03-outlook-email-workflow): one topic and a checked reply.
 - [4. Teams to a follow-up brief](./exercises/04-teams-meeting-to-document): a prepared source and a Word document.
-- [5. Choose a group challenge](./exercises/05-group-challenge): Excel Detective, Excel Rescue, PowerPoint Makeover or Management Pitch.
+- [5. Choose a group challenge](./exercises/05-group-challenge): seven missions starting in Word, Excel or PowerPoint, with a starter pack for each.
 - [Showcase your group work](./exercises/07-group-showcase)
 - [Watch the Agent Builder demo](./exercises/06-agent-talking-points)
 - [Reflect and apply](./wrap-up)
@@ -75,7 +75,7 @@ Challenge: 3 minutes to choose a task and roles, 20 minutes to work, and 7 minut
 
 - A Word brief, reviewed workbook and KPI dashboard from the morning.
 - An unsent reply draft and a private or synthetic meeting follow-up brief.
-- One group-challenge output and peer feedback.
+- One group-challenge result, meaningful work in at least two document apps, and peer feedback.
 - An understanding of creating an agent with Instructions and Knowledge while retaining human review.
 
 [Prepare your account and files →](./before-you-begin#prepare-your-files)

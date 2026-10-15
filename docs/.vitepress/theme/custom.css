@@ -185,7 +185,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
 
 /* Exercise 5: static selection cards and optional extension. */
 .challenge-card { min-width: 0; display: flex; flex-direction: column; }
-.challenge-card h3 { scroll-margin-top: 6rem; }
+.challenge-card h3, .challenge-card h4 { scroll-margin-top: 6rem; margin-top: 0; font-size: 1.15rem; line-height: 1.5; color: var(--vp-c-text-1); }
 .challenge-card p:last-child { margin-top: auto; padding-top: .5rem; }
 .challenge-extension { margin: 1.5rem 0; padding: 1rem 1.15rem; border: 1px solid var(--workshop-line); border-radius: 12px; background: var(--vp-c-bg-soft); }
 .challenge-extension summary { cursor: pointer; color: var(--vp-c-brand-1); font-weight: 700; }

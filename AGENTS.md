@@ -8,7 +8,8 @@
 - The approved v3 closing includes an instructor-only Agent Builder creation demo using fictional claims-readiness material. No learner agent build, Copilot Studio Prompt Tool, tenant changes, external actions or agent distribution is in scope.
 - Public source and downloads contain reviewed synthetic/public-safe assets only. The existing presentation template is approved practice material; do not publish unrelated training decks.
 - Microsoft Learn and Microsoft Support are technical sources. Check actual learner controls and tenant behavior separately. Simulation does not prove native capability.
-- Every Practice states one primary target, numbered steps, copy-ready inputs and one or two Quick checks. Timing belongs on the home timetable only.
+- Guided Practices state one primary target, numbered steps, copy-ready inputs and one or two Quick checks. The approved seven group missions instead use outcomes, creative choices and optional prompt starters: do not prescribe an app sequence. Each starts in its named app and uses at least two of Word, Excel and PowerPoint meaningfully, with Copilot at least once. Timing belongs on the home timetable only.
+- Keep the seven group starter packs and their hash manifest separate from core files. Private correction keys stay outside this repository.
 - Maintain the twelve-file ZIP: eight sources, two backups, one template and one crowded-slide starter. Preserve prepared origin; do not overwrite completed learner outputs.
 - Use a focused codex/ branch and a manual Pages workflow on main. Do not edit the English repository or commit unrelated parent changes.
 - Before release run pnpm run validate, pnpm run docs:build, git diff --check, inspect desktop/mobile layouts and verify live routes/downloads. Publication and learner readiness are different checks.

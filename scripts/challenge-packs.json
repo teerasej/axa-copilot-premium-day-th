@@ -1,0 +1,94 @@
+{
+  "newFiles": {
+    "challenges/review-desk/Asteria_Review_Desk_Checklist.docx": "141508f8eb64b4f187aca381b3af1d67e5c80bde879af7c6a421b4973c69407b",
+    "challenges/review-desk/Asteria_Draft_for_Review.docx": "8aafb2bf44256412a9550b221be2141bfd6938008324e5cf483b26899ce7d94f"
+  },
+  "packs": {
+    "excel-detective": {
+      "title": "Excel Detective",
+      "startApp": "Excel",
+      "startFile": "Asteria_Service_KPI_28days.xlsx",
+      "archive": "challenges/excel-detective.zip",
+      "archiveSha256": "3ff49553ae2e556e3c7f4087fb54a92d8269c6b7120a0a87aabc56d3b9ad17f3",
+      "files": {
+        "Asteria_Service_KPI_28days.xlsx": "dd27f2c09dbb53df5d77201a6a201e1a59bbebb72eb51241f9fd1b20945ebe61",
+        "Asteria_Operational_Context.docx": "bec670c4ee3b21ab49197c75071074153b2a87b581a0b3c8f2a991cf164a48d9",
+        "START-HERE.md": "11dd1870b4a4d92dcb82074373b9e804c991573c20f6774dacdfb3f0008d7d84"
+      }
+    },
+    "excel-rescue": {
+      "title": "Excel Rescue",
+      "startApp": "Excel",
+      "startFile": "Asteria_Service_KPI_28days.xlsx",
+      "archive": "challenges/excel-rescue.zip",
+      "archiveSha256": "8a51ec6a51970275a5eeb67b8b9960fae40fcb4774355723b0f3defadf346655",
+      "files": {
+        "Asteria_Service_KPI_28days.xlsx": "dd27f2c09dbb53df5d77201a6a201e1a59bbebb72eb51241f9fd1b20945ebe61",
+        "Asteria_Operational_Context.docx": "bec670c4ee3b21ab49197c75071074153b2a87b581a0b3c8f2a991cf164a48d9",
+        "START-HERE.md": "bcee9c2d28519793524088493895b30e0c3a9bec1647fbe066c93f306f628248"
+      }
+    },
+    "powerpoint-makeover": {
+      "title": "PowerPoint Makeover",
+      "startApp": "PowerPoint",
+      "startFile": "Asteria_Crowded_Slide_Example.pptx",
+      "archive": "challenges/powerpoint-makeover.zip",
+      "archiveSha256": "8d40514fd37e5f426e46975f16a9eff781e5faefd4599a9f5bb13ad69b6cf66a",
+      "files": {
+        "Asteria_Crowded_Slide_Example.pptx": "53f8ce4c884039665aeaa9fbdadb0b197de44de763d3763f50850b030a36f525",
+        "START-HERE.md": "68c9d53aef4b7f1b54e319919e550ad823c9cf7cfda9406ca2734a00de7e1322"
+      }
+    },
+    "management-pitch": {
+      "title": "Management Pitch",
+      "startApp": "PowerPoint",
+      "startFile": "Asteria_Presentation_Template.pptx",
+      "archive": "challenges/management-pitch.zip",
+      "archiveSha256": "12b5e44b58a022015b5da11d3404d379ccf7e99bbfdc2061e82820804171a265",
+      "files": {
+        "Asteria_Presentation_Template.pptx": "20afd1ce1ef0d53c36c0fb18e2678026d26e50eadab5dc10b095475d48a2c47d",
+        "Asteria_Service_KPI_28days.xlsx": "dd27f2c09dbb53df5d77201a6a201e1a59bbebb72eb51241f9fd1b20945ebe61",
+        "Asteria_Operational_Context.docx": "bec670c4ee3b21ab49197c75071074153b2a87b581a0b3c8f2a991cf164a48d9",
+        "START-HERE.md": "4ca367ea3acc257f6f7916f554745d97621fdee8f237d39a9e443d798593ea2c"
+      }
+    },
+    "meeting-to-momentum": {
+      "title": "Meeting to Momentum",
+      "startApp": "Word",
+      "startFile": "Asteria_Teams_Meeting_Recap.docx",
+      "archive": "challenges/meeting-to-momentum.zip",
+      "archiveSha256": "4b0e61d5d1ea044a1bb1de55903383283890c8f4b3ac2e021e96a2a29892b916",
+      "files": {
+        "Asteria_Teams_Meeting_Recap.docx": "30763cff775379e7a12b44e9b58021ab9ad7442b68b0d75f85e612c0c3fa552a",
+        "Asteria_Executive_Review_Transcript.vtt": "b2835e1d35d0f158b20a0a0b1417129356447b1c22f064f93c4050b2597d3286",
+        "START-HERE.md": "4ce80f16a0a091b061c7c0a1f3e051ca5fb6d9e0e8ca5c013727b727e6548dd4"
+      }
+    },
+    "audience-switch": {
+      "title": "Audience Switch",
+      "startApp": "Word",
+      "startFile": "Asteria_Grounded_Evidence_Brief.docx",
+      "archive": "challenges/audience-switch.zip",
+      "archiveSha256": "68d13b3133d1c5aa44c725466eb21f0538f1a48bc986a5ff5956b1ee8cbfff03",
+      "files": {
+        "Asteria_Grounded_Evidence_Brief.docx": "ab0164f0f874bfed43c35b2baf4544ddfab9dd8ed3c4b0e91631e365f1799947",
+        "Asteria_Service_KPI_28days.xlsx": "dd27f2c09dbb53df5d77201a6a201e1a59bbebb72eb51241f9fd1b20945ebe61",
+        "Asteria_Operational_Context.docx": "bec670c4ee3b21ab49197c75071074153b2a87b581a0b3c8f2a991cf164a48d9",
+        "START-HERE.md": "e29e3cc5de5ab1416f2d66e76852bcd5142bdd4cc40013b68f20c340ffb54c08"
+      }
+    },
+    "review-desk": {
+      "title": "Review Desk",
+      "startApp": "Word",
+      "startFile": "Asteria_Review_Desk_Checklist.docx",
+      "archive": "challenges/review-desk.zip",
+      "archiveSha256": "ef48a8d8e2021c597d0c97a9c1da271dbaab7da13497b1cd9aec42e6aa15ed78",
+      "files": {
+        "Asteria_Review_Desk_Checklist.docx": "141508f8eb64b4f187aca381b3af1d67e5c80bde879af7c6a421b4973c69407b",
+        "Asteria_Draft_for_Review.docx": "8aafb2bf44256412a9550b221be2141bfd6938008324e5cf483b26899ce7d94f",
+        "Asteria_Grounded_Evidence_Brief.docx": "ab0164f0f874bfed43c35b2baf4544ddfab9dd8ed3c4b0e91631e365f1799947",
+        "START-HERE.md": "3112067c911384a67dfdea87c7d77c8bf719c1de923ce01fe9a1d77b4af91980"
+      }
+    }
+  }
+}
