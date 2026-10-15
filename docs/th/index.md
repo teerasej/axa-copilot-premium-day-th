@@ -51,6 +51,10 @@ Challenge: 3 minutes to choose a task and roles, 20 minutes to work, and 7 minut
 
 <span id="เลือกแบบฝึกหัด" class="legacy-anchor" aria-hidden="true"></span>
 
+<DownloadButton href="/files/Asteria_Copilot_Premium_Practice_Files.zip" label="Download all course files (ZIP)" />
+
+Includes the core files and all seven challenge folders. Extract once and open your chosen folder when the group challenge begins.
+
 ## Choose an exercise
 
 - [1. An evidence-grounded brief](./exercises/01-ground-the-brief)

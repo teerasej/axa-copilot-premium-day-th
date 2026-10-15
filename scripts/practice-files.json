@@ -14,5 +14,19 @@
     "Asteria_Crowded_Slide_Example.pptx": "53f8ce4c884039665aeaa9fbdadb0b197de44de763d3763f50850b030a36f525"
   },
   "archive": "Asteria_Copilot_Premium_Practice_Files.zip",
-  "archiveSha256": "dd489c5cf77c4f1abf08ef991f36c87dc7ab8097077e9ef3c9f680440419e5ed"
+  "archiveSha256": "63666968fef7d1d6192e1264743396b60fece802a639dd0188325df461c61ce8",
+  "archiveLayout": {
+    "Asteria_Communication_Checklist.docx": "Asteria Copilot Workshop/Asteria_Communication_Checklist.docx",
+    "Asteria_Decision_Brief_Starter.docx": "Asteria Copilot Workshop/Asteria_Decision_Brief_Starter.docx",
+    "Asteria_Email_Thread.docx": "Asteria Copilot Workshop/Asteria_Email_Thread.docx",
+    "Asteria_Executive_Review_Transcript.vtt": "Asteria Copilot Workshop/Asteria_Executive_Review_Transcript.vtt",
+    "Asteria_Meeting_Chat.docx": "Asteria Copilot Workshop/Asteria_Meeting_Chat.docx",
+    "Asteria_Operational_Context.docx": "Asteria Copilot Workshop/Asteria_Operational_Context.docx",
+    "Asteria_Service_KPI_28days.xlsx": "Asteria Copilot Workshop/Asteria_Service_KPI_28days.xlsx",
+    "Asteria_Teams_Meeting_Recap.docx": "Asteria Copilot Workshop/Asteria_Teams_Meeting_Recap.docx",
+    "Asteria_Crowded_Slide_Example.pptx": "Asteria Copilot Workshop/Prepared assets/Asteria_Crowded_Slide_Example.pptx",
+    "Asteria_Grounded_Evidence_Brief.docx": "Asteria Copilot Workshop/Prepared assets/Asteria_Grounded_Evidence_Brief.docx",
+    "Asteria_Presentation_Template.pptx": "Asteria Copilot Workshop/Prepared assets/Asteria_Presentation_Template.pptx",
+    "Asteria_Service_KPI_Reviewed_backup.xlsx": "Asteria Copilot Workshop/Prepared assets/Asteria_Service_KPI_Reviewed_backup.xlsx"
+  }
 }

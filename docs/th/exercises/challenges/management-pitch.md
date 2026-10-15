@@ -16,9 +16,13 @@ outline: [2, 2]
 
 ## Get ready
 
-[Download starter pack](/files/challenges/management-pitch.zip)
+<DownloadButton href="/files/challenges/management-pitch.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Management Pitch starter pack (ZIP)" />
 
-Extract the ZIP and read `START-HERE.md`. Open `Asteria_Presentation_Template.pptx` in **PowerPoint**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
+Already downloaded all course files? Open this folder—no additional download is needed.
+
+`Asteria Copilot Workshop/Group challenges/Management Pitch`
+
+If using the separate pack, extract it first. Read `START-HERE.md` in your challenge folder. Open `Asteria_Presentation_Template.pptx` in **PowerPoint**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
 
 **Individual files**
 

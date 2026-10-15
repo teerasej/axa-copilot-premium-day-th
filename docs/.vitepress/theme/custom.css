@@ -203,3 +203,19 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   border-radius: 15px 15px 0 0;
   flex-shrink: 0;
 }
+
+/* Download links remain native anchors and work without client-side state. */
+.vp-doc a.course-download-button {
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  min-height: 48px; max-width: 100%; padding: .65rem 1rem; margin: .5rem 0;
+  border: 2px solid #25669c; border-radius: 9px; background: #25669c;
+  color: #fff; font-weight: 600; line-height: 1.5; text-align: center;
+  text-decoration: none; white-space: normal; box-sizing: border-box;
+}
+.vp-doc a.course-download-button:hover { background: #1c527f; border-color: #1c527f; color: #fff; }
+.dark .vp-doc a.course-download-button { background: #9bcaf0; border-color: #9bcaf0; color: #102a43; }
+.dark .vp-doc a.course-download-button:hover { background: #c5e1f7; border-color: #c5e1f7; color: #102a43; }
+.vp-doc a.course-download-button:focus-visible { outline: 3px solid #e4a11b; outline-offset: 4px; }
+.vp-doc .challenge-card a.course-download-button { align-self: stretch; margin-top: auto; }
+.challenge-card a.course-download-button::after { content: none; }
+@media (max-width: 639px) { .vp-doc a.course-download-button { width: 100%; } }

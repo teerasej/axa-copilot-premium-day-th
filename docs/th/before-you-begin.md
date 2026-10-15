@@ -6,9 +6,11 @@ Use a work account with **paid Microsoft 365 Copilot access** and approved apps.
 
 ## Prepare your practice files {#prepare-your-files}
 
-Download **12 files** together: eight synthetic sources, two prepared backups, one presentation template and one crowded-slide starter. The source documents, instructions and prompts are in English.
+Download all course files together: **12 core files plus seven self-contained challenge folders**. The core files include eight synthetic sources, two prepared backups, one presentation template and one crowded-slide starter. The source documents, instructions and prompts are in English.
 
-1. [Download the core course ZIP](/files/Asteria_Copilot_Premium_Practice_Files.zip).
+1. Download the full package:
+
+   <DownloadButton href="/files/Asteria_Copilot_Premium_Practice_Files.zip" label="Download all course files (ZIP)" />
 2. Extract it using `Extract All` on Windows or by double-clicking on Mac. Locate:
 
    ```text
@@ -16,8 +18,8 @@ Download **12 files** together: eight synthetic sources, two prepared backups, o
    ```
 
 3. Open **OneDrive** in Edge or Chrome with your work account. Select **Add new > Folder upload** or **Upload > Folder**, as shown in your account.
-4. Upload the whole `Asteria Copilot Workshop` folder, including `Prepared assets`. Do not upload the ZIP or an extra wrapper folder. Preserve all filenames.
-5. Wait for upload to finish. Check the eight source files and these four files in `Prepared assets`:
+4. Upload the whole `Asteria Copilot Workshop` folder, including `Prepared assets` and `Group challenges`. Do not upload the ZIP or an extra wrapper folder. Preserve all filenames.
+5. Wait for upload to finish. Check `START-HERE.md`, the seven folders in `Group challenges`, the eight source files and these four files in `Prepared assets`:
 
    - `Asteria_Grounded_Evidence_Brief.docx`
    - `Asteria_Service_KPI_Reviewed_backup.xlsx`
@@ -26,7 +28,7 @@ Download **12 files** together: eight synthetic sources, two prepared backups, o
 
 6. Open `Asteria_Operational_Context.docx` in **Word for the web** and check that you can edit and save.
 
-If folder upload is unavailable but file upload works, create the same two folders in OneDrive and upload the eight and four files to their respective locations. If upload is blocked, ask the instructor before continuing.
+If folder upload is unavailable but file upload works, create the main folder and `Prepared assets` in OneDrive and upload the eight and four core files to their respective locations. When you choose a challenge, create its named folder under `Group challenges` and upload its Office files there. Read its `START-HERE.md` locally. If upload is blocked, ask the instructor before continuing.
 
 Save your Asteria outputs in the main folder. Keep prepared files in `Prepared assets` without overwriting them. Store real email and meeting outputs separately in private storage.
 
@@ -77,12 +79,13 @@ Prepared assets support practice; they do not prove that Copilot generated a fil
 
 ## Prepare for the group challenge
 
-Choose one of the [seven missions](./exercises/05-group-challenge), then download its starter pack if needed. Extract the ZIP and open the named starting file; upload relevant Office files to your practice OneDrive folder if using the web apps. Do not upload the ZIP to Copilot. Use at least two of Word, Excel and PowerPoint meaningfully, with an available Copilot experience. Your relevant morning Asteria outputs are also valid starting material. Follow the instructor’s grouping and rotate the Operator. Real email or meeting outputs are not showcase material.
+Choose one of the [seven missions](./exercises/05-group-challenge), then open its named folder under `Asteria Copilot Workshop/Group challenges`. If you do not have the full package, use the mission page’s starter-pack button and extract that ZIP. Open the named starting file; upload relevant Office files to your practice OneDrive folder if using the web apps. Do not upload the ZIP to Copilot. Use at least two of Word, Excel and PowerPoint meaningfully, with an available Copilot experience. Your relevant morning Asteria outputs are also valid starting material. Follow the instructor’s grouping and rotate the Operator. Real email or meeting outputs are not showcase material.
 
 ## Ready check
 
 - [ ] I can open and save a Word document in my work account.
 - [ ] OneDrive contains all eight source files and four prepared assets.
+- [ ] The seven challenge folders are available, or you can upload your chosen folder when needed.
 - [ ] I know whether I will use approved private sources or synthetic fallbacks in the afternoon.
 - [ ] I can read the selected meeting transcript or have the synthetic recap ready.
 - [ ] I will check outputs and keep private data separate from Asteria.

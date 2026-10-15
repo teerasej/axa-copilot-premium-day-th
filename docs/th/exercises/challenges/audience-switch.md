@@ -16,9 +16,13 @@ outline: [2, 2]
 
 ## Get ready
 
-[Download starter pack](/files/challenges/audience-switch.zip)
+<DownloadButton href="/files/challenges/audience-switch.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Audience Switch starter pack (ZIP)" />
 
-Extract the ZIP and read `START-HERE.md`. Open `Asteria_Grounded_Evidence_Brief.docx` in **Word**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
+Already downloaded all course files? Open this folder—no additional download is needed.
+
+`Asteria Copilot Workshop/Group challenges/Audience Switch`
+
+If using the separate pack, extract it first. Read `START-HERE.md` in your challenge folder. Open `Asteria_Grounded_Evidence_Brief.docx` in **Word**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
 
 **Individual files**
 

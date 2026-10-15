@@ -16,9 +16,13 @@ outline: [2, 2]
 
 ## Get ready
 
-[Download starter pack](/files/challenges/excel-detective.zip)
+<DownloadButton href="/files/challenges/excel-detective.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Excel Detective starter pack (ZIP)" />
 
-Extract the ZIP and read `START-HERE.md`. Open `Asteria_Service_KPI_28days.xlsx` in **Excel**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
+Already downloaded all course files? Open this folder—no additional download is needed.
+
+`Asteria Copilot Workshop/Group challenges/Excel Detective`
+
+If using the separate pack, extract it first. Read `START-HERE.md` in your challenge folder. Open `Asteria_Service_KPI_28days.xlsx` in **Excel**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
 
 **Individual files**
 

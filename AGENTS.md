@@ -9,7 +9,7 @@
 - Public source and downloads contain reviewed synthetic/public-safe assets only. The existing presentation template is approved practice material; do not publish unrelated training decks.
 - Microsoft Learn and Microsoft Support are technical sources. Check actual learner controls and tenant behavior separately. Simulation does not prove native capability.
 - Guided Practices state one primary target, numbered steps, copy-ready inputs and one or two Quick checks. The approved seven group missions instead use outcomes, creative choices and optional prompt starters: do not prescribe an app sequence. Each starts in its named app and uses at least two of Word, Excel and PowerPoint meaningfully, with Copilot at least once. Timing belongs on the home timetable only.
-- Keep the seven group starter packs and their hash manifest separate from core files. Private correction keys stay outside this repository.
-- Maintain the twelve-file ZIP: eight sources, two backups, one template and one crowded-slide starter. Preserve prepared origin; do not overwrite completed learner outputs.
+- Keep the seven standalone group starter packs and their hash manifest. The main ZIP also includes their extracted contents in seven self-contained Group challenges folders. Private correction keys stay outside this repository.
+- Preserve the twelve core file contents and locations within the expanded main ZIP: eight sources, two backups, one template and one crowded-slide starter. Preserve prepared origin; do not overwrite completed learner outputs.
 - Use a focused codex/ branch and a manual Pages workflow on main. Do not edit the English repository or commit unrelated parent changes.
 - Before release run pnpm run validate, pnpm run docs:build, git diff --check, inspect desktop/mobile layouts and verify live routes/downloads. Publication and learner readiness are different checks.

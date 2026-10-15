@@ -8,25 +8,45 @@
 
 <span id="download-the-complete-set" class="legacy-anchor" aria-hidden="true"></span>
 
-## Core course files
+<span id="core-course-files" class="legacy-anchor" aria-hidden="true"></span>
 
-[Download Asteria_Copilot_Premium_Practice_Files.zip](/files/Asteria_Copilot_Premium_Practice_Files.zip)
+## All course files
 
-The ZIP contains **12 files** inside `Asteria Copilot Workshop`: eight sources plus two backups, one template and one crowded-slide starter in `Prepared assets`. Upload the whole folder to OneDrive using the [preparation steps](./before-you-begin#prepare-your-files).
+<DownloadButton href="/files/Asteria_Copilot_Premium_Practice_Files.zip" label="Download all course files (ZIP)" />
+
+Extract once to get the **12 core course files plus all seven challenge folders** inside `Asteria Copilot Workshop`. The eight sources and four files in `Prepared assets` keep their original locations. Open the root `START-HERE.md` for guidance; `Group challenges` contains a self-contained folder for each mission. Upload the extracted folder using the [preparation steps](./before-you-begin#prepare-your-files).
 
 ## Group challenge starter packs
 
-Choose one pack for your group. These are separate from the twelve core course files. Each ZIP includes `START-HERE.md` and only its relevant inputs. Individual downloads are on the linked mission page.
+Already downloaded all course files? Use your chosen folder inside `Group challenges`; no extra download is needed. Otherwise, download one standalone pack below. Each pack includes `START-HERE.md` and its inputs. Individual file links remain on each mission page.
 
-| Challenge | Start in | Download |
-|---|---|---|
-| [Excel Detective](./exercises/challenges/excel-detective) | Excel | [Starter ZIP](/files/challenges/excel-detective.zip) |
-| [Excel Rescue](./exercises/challenges/excel-rescue) | Excel | [Starter ZIP](/files/challenges/excel-rescue.zip) |
-| [PowerPoint Makeover](./exercises/challenges/powerpoint-makeover) | PowerPoint | [Starter ZIP](/files/challenges/powerpoint-makeover.zip) |
-| [Management Pitch](./exercises/challenges/management-pitch) | PowerPoint | [Starter ZIP](/files/challenges/management-pitch.zip) |
-| [Meeting to Momentum](./exercises/challenges/meeting-to-momentum) | Word | [Starter ZIP](/files/challenges/meeting-to-momentum.zip) |
-| [Audience Switch](./exercises/challenges/audience-switch) | Word | [Starter ZIP](/files/challenges/audience-switch.zip) |
-| [Review Desk](./exercises/challenges/review-desk) | Word | [Starter ZIP](/files/challenges/review-desk.zip) |
+**[Excel Detective](./exercises/challenges/excel-detective)** · Start in Excel
+
+<DownloadButton href="/files/challenges/excel-detective.zip" label="Download Excel Detective pack (ZIP)" />
+
+**[Excel Rescue](./exercises/challenges/excel-rescue)** · Start in Excel
+
+<DownloadButton href="/files/challenges/excel-rescue.zip" label="Download Excel Rescue pack (ZIP)" />
+
+**[PowerPoint Makeover](./exercises/challenges/powerpoint-makeover)** · Start in PowerPoint
+
+<DownloadButton href="/files/challenges/powerpoint-makeover.zip" label="Download PowerPoint Makeover pack (ZIP)" />
+
+**[Management Pitch](./exercises/challenges/management-pitch)** · Start in PowerPoint
+
+<DownloadButton href="/files/challenges/management-pitch.zip" label="Download Management Pitch pack (ZIP)" />
+
+**[Meeting to Momentum](./exercises/challenges/meeting-to-momentum)** · Start in Word
+
+<DownloadButton href="/files/challenges/meeting-to-momentum.zip" label="Download Meeting to Momentum pack (ZIP)" />
+
+**[Audience Switch](./exercises/challenges/audience-switch)** · Start in Word
+
+<DownloadButton href="/files/challenges/audience-switch.zip" label="Download Audience Switch pack (ZIP)" />
+
+**[Review Desk](./exercises/challenges/review-desk)** · Start in Word
+
+<DownloadButton href="/files/challenges/review-desk.zip" label="Download Review Desk pack (ZIP)" />
 
 <span id="แปดไฟล์ต้นทาง" class="legacy-anchor" aria-hidden="true"></span>
 

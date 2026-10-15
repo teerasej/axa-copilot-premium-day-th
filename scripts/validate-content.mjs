@@ -1,6 +1,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import crypto from 'node:crypto'
+import { execFileSync } from 'node:child_process'
 const docs = path.resolve('docs')
 const errors = []
 const pages = []
@@ -60,7 +61,9 @@ for (const slug of challengeSlugs) {
  if(!text.includes('](../05-group-challenge)') || !text.includes('](../07-group-showcase)')) errors.push(`${slug}: missing learner navigation`)
  if(!text.includes('Level 1 alone is a successful result') || !text.includes('checking/rehearsal cue')) errors.push(`${slug}: missing completion and stop guidance`)
  for(const phrase of ['at least two of Word, Excel and PowerPoint meaningfully','Use Copilot at least once','You choose the app order','One final deliverable is enough']) if(!text.includes(phrase)) errors.push(`${slug}: missing creative workflow boundary: ${phrase}`)
- if(!text.includes(`[Download starter pack](/files/challenges/${slug}.zip)`)) errors.push(`${slug}: missing pack link`)
+ if(!text.includes(`<DownloadButton href="/files/challenges/${slug}.zip" label="Download starter pack (ZIP)"`)) errors.push(`${slug}: missing pack link`)
+ if(!challenge.includes(`<DownloadButton href="/files/challenges/${slug}.zip"`)) errors.push(`${slug}: missing chooser download button`)
+ if(!text.includes(`Asteria Copilot Workshop/Group challenges/${packs.packs[slug].title}`)) errors.push(`${slug}: missing full-package folder guidance`)
  if(!text.includes(`**Start in ${packs.packs[slug].startApp}.**`)) errors.push(`${slug}: starting app differs from pack`)
  for(const name of Object.keys(packs.packs[slug].files).filter(x=>x!=='START-HERE.md')) if(!text.includes(name)) errors.push(`${slug}: missing individual file ${name}`)
 }
@@ -89,5 +92,6 @@ for(const [slug,pack] of Object.entries(packs.packs)) {
  }
 }
 if(files.some(x=>x.endsWith('.pdf'))) errors.push('Stale course PDF not allowed')
+try { execFileSync('python3', ['scripts/course-archive.py'], {stdio:'pipe'}) } catch(e) { errors.push('Main ZIP contents failed validation: '+(e.stderr?.toString()||e.message)) }
 if(errors.length) { console.error(errors.join('\n')); process.exit(1) }
 console.log(`Passed: ${pages.length} English pages, focused routes, seven cross-app choices and starter packs, 330 learning minutes, links and 12 assets + ZIP hashes.`)

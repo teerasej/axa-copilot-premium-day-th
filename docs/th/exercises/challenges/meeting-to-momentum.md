@@ -16,9 +16,13 @@ outline: [2, 2]
 
 ## Get ready
 
-[Download starter pack](/files/challenges/meeting-to-momentum.zip)
+<DownloadButton href="/files/challenges/meeting-to-momentum.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Meeting to Momentum starter pack (ZIP)" />
 
-Extract the ZIP and read `START-HERE.md`. Open `Asteria_Teams_Meeting_Recap.docx` in **Word**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
+Already downloaded all course files? Open this folder—no additional download is needed.
+
+`Asteria Copilot Workshop/Group challenges/Meeting to Momentum`
+
+If using the separate pack, extract it first. Read `START-HERE.md` in your challenge folder. Open `Asteria_Teams_Meeting_Recap.docx` in **Word**. You may use your relevant morning Asteria outputs instead of the prepared starting files. Save group copies without overwriting the sources.
 
 **Individual files**
 

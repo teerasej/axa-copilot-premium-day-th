@@ -32,3 +32,5 @@ Publish `main` through the existing manually dispatched `Deploy Thai learner sit
 ## Group challenge packs
 
 Each mission starts in Word, Excel or PowerPoint and uses at least two document apps meaningfully. Learners choose their workflow and Copilot experience. Core practice-file hashes remain in `scripts/practice-files.json`; new documents and seven starter ZIPs are listed separately in `scripts/challenge-packs.json`. Review Desk correction notes stay in the private facilitator workspace.
+
+The main course ZIP includes the twelve unchanged core files, a root start guide and seven self-contained folders under `Group challenges`. Rebuild with `python3 scripts/course-archive.py --build`; validate with `pnpm run validate` (Node.js and Python 3 required). Standalone challenge packs remain unchanged.

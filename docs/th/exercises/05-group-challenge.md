@@ -6,7 +6,7 @@ Choose **one of seven missions** with your group. Each begins in Word, Excel or 
 
 Use **at least two of Word, Excel and PowerPoint meaningfully**, with Copilot helping at least once. You choose where to use Copilot Chat Premium or in-app Copilot, the order of work and the final format. Think of the mission as a dish to create: the starting ingredients are supplied, but your group chooses how to prepare and present it.
 
-**Level 1 is the required result.** Level 2 is an optional extension after its checks pass. Each challenge page has a starter ZIP and individual file links.
+**Level 1 is the required result.** Level 2 is an optional extension after its checks pass. Each challenge page has a starter ZIP and individual file links. If you downloaded all course files, open your chosen folder inside `Asteria Copilot Workshop/Group challenges`; no extra download is needed.
 
 <span id="choose-your-challenge" class="legacy-anchor" aria-hidden="true"></span>
 
@@ -32,6 +32,8 @@ A colleague missed the service recovery meeting. Build a handover that makes the
 
 [Start this challenge](./challenges/meeting-to-momentum)
 
+<DownloadButton href="/files/challenges/meeting-to-momentum.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Meeting to Momentum starter pack (ZIP)" />
+
 </section>
 
 <section class="journey-card challenge-card">
@@ -50,6 +52,8 @@ Leadership and the delivery team need different explanations of the same evidenc
 
 [Start this challenge](./challenges/audience-switch)
 
+<DownloadButton href="/files/challenges/audience-switch.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Audience Switch starter pack (ZIP)" />
+
 </section>
 
 <section class="journey-card challenge-card">
@@ -67,6 +71,8 @@ A colleague needs a practical way to review Copilot-assisted material before sha
 **Level 1 result:** A four-check review aid made easier to apply through Excel or PowerPoint, demonstrated on the supplied draft with evidence or gaps recorded.
 
 [Start this challenge](./challenges/review-desk)
+
+<DownloadButton href="/files/challenges/review-desk.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Review Desk starter pack (ZIP)" />
 
 </section>
 
@@ -96,6 +102,8 @@ A service manager needs to know what deserves attention. Find three supported in
 
 [Start this challenge](./challenges/excel-detective)
 
+<DownloadButton href="/files/challenges/excel-detective.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Excel Detective starter pack (ZIP)" />
+
 </section>
 
 <section class="journey-card challenge-card">
@@ -117,6 +125,8 @@ A colleague struggles to understand a table or chart. Make one view answer a use
 **Level 1 result:** One improved table or chart with before/after evidence and an explanation developed in Word or PowerPoint.
 
 [Start this challenge](./challenges/excel-rescue)
+
+<DownloadButton href="/files/challenges/excel-rescue.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Excel Rescue starter pack (ZIP)" />
 
 </section>
 
@@ -146,6 +156,8 @@ A busy reader cannot see the main message in a crowded slide. Improve it while p
 
 [Start this challenge](./challenges/powerpoint-makeover)
 
+<DownloadButton href="/files/challenges/powerpoint-makeover.zip" label="Download starter pack (ZIP)" accessibleLabel="Download PowerPoint Makeover starter pack (ZIP)" />
+
 </section>
 
 <section class="journey-card challenge-card">
@@ -167,6 +179,8 @@ Leadership needs a recommendation it can question and evaluate. Develop a short 
 **Level 1 result:** A recommendation in no more than three slides, supported by meaningful evidence work in Excel or argument development in Word.
 
 [Start this challenge](./challenges/management-pitch)
+
+<DownloadButton href="/files/challenges/management-pitch.zip" label="Download starter pack (ZIP)" accessibleLabel="Download Management Pitch starter pack (ZIP)" />
 
 </section>
 
