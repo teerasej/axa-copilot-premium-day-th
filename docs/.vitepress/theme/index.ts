@@ -1,4 +1,5 @@
 import DefaultTheme from 'vitepress/theme'
+import Layout from './Layout.vue'
 import { useRoute } from 'vitepress'
 import { nextTick, onMounted, onUnmounted, watch } from 'vue'
 import './custom.css'
@@ -7,6 +8,7 @@ import ExerciseHeaderImage from './components/ExerciseHeaderImage.vue'
 
 export default {
   extends: DefaultTheme,
+  Layout,
   enhanceApp({ app }) { app.component('ExerciseHeaderImage', ExerciseHeaderImage); app.component('DownloadButton', DownloadButton) },
   setup() {
     const route = useRoute()
