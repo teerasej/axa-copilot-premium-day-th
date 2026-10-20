@@ -47,6 +47,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="management-pitch-level-1" alt="A team develops a three-slide recommendation with supporting evidence." />
+
 **Primary target:** A recommendation in no more than three slides, supported by meaningful evidence work in Excel or argument development in Word.
 
 **Level 1 output:** A recommendation in no more than three slides, supported by meaningful evidence work in Excel or argument development in Word.
@@ -75,6 +77,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 <span id="practice-2-level-2-—-answer-a-management-objection" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="management-pitch-level-2" alt="A presenter addresses a management question with checked evidence." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 

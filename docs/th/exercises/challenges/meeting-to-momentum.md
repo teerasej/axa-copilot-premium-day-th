@@ -46,6 +46,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="meeting-to-momentum-level-1" alt="A team organizes actions, owners, dates and dependencies for handover." />
+
 **Primary target:** A handover covering at least three confirmed actions, their owners, dates and dependencies, with useful supporting work in Excel or PowerPoint.
 
 **Level 1 output:** A handover covering at least three confirmed actions, their owners, dates and dependencies, with useful supporting work in Excel or PowerPoint.
@@ -74,6 +76,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="meeting-to-momentum-level-2" alt="A colleague identifies a blocked action and the next decision." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 

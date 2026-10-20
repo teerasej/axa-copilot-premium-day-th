@@ -32,6 +32,8 @@ Asteria leaders want to understand claims turnaround, complaints and digital con
 
 ### Practice 1 Identify three important insights
 
+<PracticeIllustration id="ex02-s1-p1" alt="Colleagues examine three highlighted findings in a workbook." />
+
 **Primary target:** Use Copilot in Excel to identify the workbook's main insights.
 
 <span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
@@ -60,6 +62,8 @@ Asteria leaders want to understand claims turnaround, complaints and digital con
 <span id="practice-2-สร้างการวิเคราะห์สําหรับผู้นํา" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 2 Prepare analysis for the leadership review
+
+<PracticeIllustration id="ex02-s1-p2" alt="A person reviews an analysis plan, insight sheet and reference-line chart." />
 
 **Primary target:** Refine a Copilot plan to create an insight sheet and claims/SLA chart.
 
@@ -114,6 +118,8 @@ Review a preview if available, or inspect the actual result and use `Undo` when 
 
 ### Practice 3 Make complaint levels easier to see
 
+<PracticeIllustration id="ex02-s1-p3" alt="A hand highlights three distinct bands in a complaint table." />
+
 **Primary target:** Apply conditional formatting to show Complaint Count levels.
 
 <span id="ขั้นตอน-2" class="legacy-anchor" aria-hidden="true"></span>
@@ -151,6 +157,8 @@ Open `Prepared assets/Asteria_Service_KPI_Reviewed_backup.xlsx`, or [download th
 
 ### Practice 1 Create a three-slide KPI dashboard
 
+<PracticeIllustration id="ex02-s2-p1" alt="Three dashboard cards sit beside their supporting workbook." />
+
 **Primary target:** Create a concise dashboard from checked Excel results.
 
 <span id="ขั้นตอน-3" class="legacy-anchor" aria-hidden="true"></span>
@@ -186,6 +194,8 @@ Open `Prepared assets/Asteria_Service_KPI_Reviewed_backup.xlsx`, or [download th
 <span id="practice-2-เพิ่มสไลด์แบบ-asteria-ในสําเนา-เสริม" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 2 Add Asteria-styled slides in a copy (optional)
+
+<PracticeIllustration id="ex02-s2-p2" alt="Colleagues apply matching styling to three slides and retain the original." />
 
 **Primary target:** Try a template on three new slides while preserving the original dashboard.
 

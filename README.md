@@ -16,6 +16,14 @@ The coordinator-confirmed English edition for the two remaining sessions. The mo
 
 Optional: [More Outlook practice](docs/th/resources/outlook-extra-practice.md) · [Executive update](docs/th/exercises/05-executive-update.md)
 
+## Practice navigation and artwork
+
+The local course includes an Exercises dropdown and numbered practice links in the sidebar. The current exercise and challenge open automatically; other groups can be expanded manually. Mobile learners use **Exercises & practices**. Optional Level 2 links reveal their expandable section, and the bottom pager stays in course order.
+
+Maintain exercise, practice and challenge destinations in `docs/.vitepress/navigation.json`; `navigation.ts` derives the dropdown, sidebar and course pager. Preserve existing page URLs and heading anchors when updating labels.
+
+The 39 practice and challenge-level illustrations use `PracticeIllustration` and the public-safe `docs/.vitepress/theme/practice-images.json` mapping. The 78 WebP derivatives live in `docs/public/images/practice-headers/`. Keep generated originals, prompts, hashes and private review records outside this repository. Reuse the complete artwork proportionally and verify every navigation anchor and image on desktop and mobile after changes.
+
 ## Maintain and publish
 
 `docs/th/` remains the canonical source. Its legacy folder name and published URLs are retained for link compatibility; the current content is English. This repository is independent of the original first-round English course. Downloads contain synthetic Asteria data. Real email and meeting outputs stay in each learner's private account.

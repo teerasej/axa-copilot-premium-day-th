@@ -35,6 +35,8 @@ Explore six ways to support your working day: understand a long thread, draft a 
 
 ### Practice 1 Understand a long thread
 
+<PracticeIllustration id="optional-outlook-s1-p1" alt="A long thread is condensed into one short summary." />
+
 **Primary target:** Use an Outlook summary to identify the thread's request and latest status.
 
 <span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
@@ -58,6 +60,8 @@ Explore six ways to support your working day: understand a long thread, draft a 
 <span id="practice-2-ร่างคําตอบตามบริบท" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 2 Draft a contextual reply
+
+<PracticeIllustration id="optional-outlook-s1-p2" alt="A person drafts an unsent reply beside the original conversation." />
 
 **Primary target:** Use Copilot to draft a reply addressing the thread's questions.
 
@@ -83,6 +87,8 @@ Explore six ways to support your working day: understand a long thread, draft a 
 <span id="practice-3-ปรับข้อความให้ตรงผู้รับ" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 3 Improve the draft for its recipient
+
+<PracticeIllustration id="optional-outlook-s1-p3" alt="A writer adapts a draft message to its recipient." />
 
 **Primary target:** Use coaching or refinement to improve the draft's clarity.
 
@@ -113,6 +119,8 @@ Explore six ways to support your working day: understand a long thread, draft a 
 
 ### Practice 4 Find relevant emails
 
+<PracticeIllustration id="optional-outlook-s2-p4" alt="A magnifying glass finds relevant messages among grouped envelopes." />
+
 **Primary target:** Find emails using a topic, people and a date range.
 
 <span id="ขั้นตอน-3" class="legacy-anchor" aria-hidden="true"></span>
@@ -135,6 +143,8 @@ Explore six ways to support your working day: understand a long thread, draft a 
 <span id="practice-5-สรุปความคืบหน้าข้ามอีเมล" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 5 Summarize progress across emails
+
+<PracticeIllustration id="optional-outlook-s2-p5" alt="Several messages contribute to one progress overview." />
 
 **Primary target:** Combine selected emails into a progress summary for one topic.
 
@@ -159,6 +169,8 @@ Explore six ways to support your working day: understand a long thread, draft a 
 <span id="practice-6-เตรียมสิ่งที่จะติดตาม" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 6 Prepare follow-up
+
+<PracticeIllustration id="optional-outlook-s2-p6" alt="A person prepares follow-up notes, outstanding actions and an unsent email." />
 
 **Primary target:** Use checked context to prepare a justified follow-up draft.
 

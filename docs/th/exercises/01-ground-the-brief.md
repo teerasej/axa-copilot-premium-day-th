@@ -32,6 +32,8 @@ Asteria leaders want to understand service issues before their review meeting.
 
 ### Practice 1 Inspect an answer without files
 
+<PracticeIllustration id="ex01-s1-p1" alt="A person questions an answer with no supporting source files." />
+
 **Primary target:** Identify the limits of an answer that has no Asteria evidence.
 
 <span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
@@ -55,6 +57,8 @@ Asteria leaders want to understand service issues before their review meeting.
 <span id="practice-2-ให้คําตอบอิงไฟล์จริง" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 2 Ground the answer in selected files
+
+<PracticeIllustration id="ex01-s1-p2" alt="A person checks a summary against a document and workbook." />
 
 **Primary target:** Produce an Asteria summary using explicitly selected source files.
 
@@ -96,6 +100,8 @@ Asteria leaders want to understand service issues before their review meeting.
 
 ### Practice 3 Create and refine a Word brief
 
+<PracticeIllustration id="ex01-s1-p3" alt="Hands refine one paragraph while preserving the reference document." />
+
 **Primary target:** Create a Word brief and refine its executive-summary paragraph.
 
 <span id="ขั้นตอน-2" class="legacy-anchor" aria-hidden="true"></span>
@@ -119,6 +125,13 @@ Asteria leaders want to understand service issues before their review meeting.
 2. Open the file in **Word for the web**. If it downloads first, upload it to OneDrive. Check the four headings and summary paragraph.
 3. Inspect the summary panel at the top if available. Otherwise try the document-summary feature available in your account. Read the document itself before continuing.
 4. Select **only the paragraph under Executive summary**, excluding the heading. Open `Edit with Copilot` or the selection's Copilot menu, then choose **Auto rewrite** without typing a prompt.
+
+   [![Microsoft Learn screenshot showing a selected paragraph and the Rewrite with Copilot result, including Replace and Insert below buttons.](/images/ui-reference/word-copilot-rewrite-microsoft-learn.png)](/images/ui-reference/word-copilot-rewrite-microsoft-learn.png)
+
+   *Reference: the rewrite result after selecting text. This Microsoft Learn example shows a Preview interface; the sample text and controls may differ from your document. Select the image to view it at full size.*
+
+   Source: [Microsoft Learn — Rewrite for tone](https://learn.microsoft.com/en-us/training/modules/edit-transform-content-with-microsoft-copilot-microsoft-365/2-write-organize-transform-content-copilot-word#rewrite-for-tone).
+
 5. Compare the suggestion with the original. Keep it only if the meaning and numbers remain correct. Cancel an unwanted suggestion, or use `Undo` after a change. If `Auto rewrite` is unavailable, ask the instructor or skip it; a typed rewrite is a different route.
 6. After the rewrite, open the **Word Copilot side panel** and send this separate translation request:
 
@@ -153,6 +166,8 @@ Use this route only after the instructor/client approves the data scope. Open a 
 <span id="practice-4-เตรียมตัวสําหรับการประชุมที่จะมาถึง-เสริม" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Practice 4 Prepare for an upcoming meeting (optional)
+
+<PracticeIllustration id="ex01-s2-p4" alt="A person gathers documents and a calendar before a meeting." />
 
 **Primary target:** Prepare a private brief for one meeting confirmed in your calendar.
 

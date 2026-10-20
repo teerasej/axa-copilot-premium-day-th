@@ -1,0 +1,252 @@
+{
+  "exercises": [
+    {
+      "text": "1. An evidence-grounded brief",
+      "link": "/th/exercises/01-ground-the-brief",
+      "items": [
+        {
+          "text": "1. Inspect an answer without files",
+          "link": "/th/exercises/01-ground-the-brief#practice-1-inspect-an-answer-without-files"
+        },
+        {
+          "text": "2. Ground the answer in selected files",
+          "link": "/th/exercises/01-ground-the-brief#practice-2-ground-the-answer-in-selected-files"
+        },
+        {
+          "text": "3. Create and refine a Word brief",
+          "link": "/th/exercises/01-ground-the-brief#practice-3-create-and-refine-a-word-brief"
+        },
+        {
+          "text": "4. Prepare for an upcoming meeting (optional)",
+          "link": "/th/exercises/01-ground-the-brief#practice-4-prepare-for-an-upcoming-meeting-optional"
+        }
+      ]
+    },
+    {
+      "text": "2. Excel to a KPI dashboard",
+      "link": "/th/exercises/02-kpi-to-decision-brief",
+      "items": [
+        {
+          "text": "S1 · 1. Identify three important insights",
+          "link": "/th/exercises/02-kpi-to-decision-brief#practice-1-identify-three-important-insights"
+        },
+        {
+          "text": "S1 · 2. Prepare analysis for the leadership review",
+          "link": "/th/exercises/02-kpi-to-decision-brief#practice-2-prepare-analysis-for-the-leadership-review"
+        },
+        {
+          "text": "S1 · 3. Make complaint levels easier to see",
+          "link": "/th/exercises/02-kpi-to-decision-brief#practice-3-make-complaint-levels-easier-to-see"
+        },
+        {
+          "text": "S2 · 1. Create a three-slide KPI dashboard",
+          "link": "/th/exercises/02-kpi-to-decision-brief#practice-1-create-a-three-slide-kpi-dashboard"
+        },
+        {
+          "text": "S2 · 2. Add Asteria-styled slides in a copy (optional)",
+          "link": "/th/exercises/02-kpi-to-decision-brief#practice-2-add-asteria-styled-slides-in-a-copy-optional"
+        }
+      ]
+    },
+    {
+      "text": "3. Outlook and Copilot Chat",
+      "link": "/th/exercises/03-outlook-email-workflow",
+      "items": [
+        {
+          "text": "1. Decide which emails need attention first",
+          "link": "/th/exercises/03-outlook-email-workflow#practice-1-decide-which-emails-need-attention-first"
+        },
+        {
+          "text": "2. Understand the request and latest status",
+          "link": "/th/exercises/03-outlook-email-workflow#practice-2-understand-the-request-and-latest-status"
+        },
+        {
+          "text": "3. Draft and refine a reply",
+          "link": "/th/exercises/03-outlook-email-workflow#practice-3-draft-and-refine-a-reply"
+        },
+        {
+          "text": "4. Select the relevant thread (optional)",
+          "link": "/th/exercises/03-outlook-email-workflow#practice-4-select-the-relevant-thread-optional"
+        },
+        {
+          "text": "5. Prepare a handover brief from selected emails (optional)",
+          "link": "/th/exercises/03-outlook-email-workflow#practice-5-prepare-a-handover-brief-from-selected-emails-optional"
+        }
+      ]
+    },
+    {
+      "text": "4. Teams to a follow-up brief",
+      "link": "/th/exercises/04-teams-meeting-to-document",
+      "items": [
+        {
+          "text": "1. Find a recent Teams meeting with a transcript",
+          "link": "/th/exercises/04-teams-meeting-to-document#practice-1-find-a-recent-teams-meeting-with-a-transcript"
+        },
+        {
+          "text": "2. Ask and verify the key points",
+          "link": "/th/exercises/04-teams-meeting-to-document#practice-2-ask-and-verify-the-key-points"
+        },
+        {
+          "text": "3. Create a meeting follow-up brief",
+          "link": "/th/exercises/04-teams-meeting-to-document#practice-3-create-a-meeting-follow-up-brief"
+        }
+      ]
+    },
+    {
+      "text": "5. Choose a group challenge",
+      "link": "/th/exercises/05-group-challenge",
+      "items": [
+        {
+          "text": "Audience Switch",
+          "link": "/th/exercises/challenges/audience-switch",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/audience-switch#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/audience-switch#level-2-—-strengthen-your-result"
+            }
+          ]
+        },
+        {
+          "text": "Meeting to Momentum",
+          "link": "/th/exercises/challenges/meeting-to-momentum",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/meeting-to-momentum#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/meeting-to-momentum#level-2-—-strengthen-your-result"
+            }
+          ]
+        },
+        {
+          "text": "Review Desk",
+          "link": "/th/exercises/challenges/review-desk",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/review-desk#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/review-desk#level-2-—-strengthen-your-result"
+            }
+          ]
+        },
+        {
+          "text": "Excel Detective",
+          "link": "/th/exercises/challenges/excel-detective",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/excel-detective#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/excel-detective#level-2-—-strengthen-your-result"
+            }
+          ]
+        },
+        {
+          "text": "Excel Rescue",
+          "link": "/th/exercises/challenges/excel-rescue",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/excel-rescue#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/excel-rescue#level-2-—-strengthen-your-result"
+            }
+          ]
+        },
+        {
+          "text": "PowerPoint Makeover",
+          "link": "/th/exercises/challenges/powerpoint-makeover",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/powerpoint-makeover#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/powerpoint-makeover#level-2-—-strengthen-your-result"
+            }
+          ]
+        },
+        {
+          "text": "Management Pitch",
+          "link": "/th/exercises/challenges/management-pitch",
+          "items": [
+            {
+              "text": "Level 1",
+              "link": "/th/exercises/challenges/management-pitch#level-1-—-complete-your-mission"
+            },
+            {
+              "text": "Level 2 — optional",
+              "link": "/th/exercises/challenges/management-pitch#level-2-—-strengthen-your-result"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Showcase your group work",
+      "link": "/th/exercises/07-group-showcase",
+      "items": [
+        {
+          "text": "1. Present your work with evidence",
+          "link": "/th/exercises/07-group-showcase#practice-present-your-work-with-evidence"
+        }
+      ]
+    }
+  ],
+  "optional": [
+    {
+      "text": "More Outlook practice",
+      "link": "/th/resources/outlook-extra-practice",
+      "items": [
+        {
+          "text": "1. Understand a long thread",
+          "link": "/th/resources/outlook-extra-practice#practice-1-understand-a-long-thread"
+        },
+        {
+          "text": "2. Draft a contextual reply",
+          "link": "/th/resources/outlook-extra-practice#practice-2-draft-a-contextual-reply"
+        },
+        {
+          "text": "3. Improve the draft for its recipient",
+          "link": "/th/resources/outlook-extra-practice#practice-3-improve-the-draft-for-its-recipient"
+        },
+        {
+          "text": "4. Find relevant emails",
+          "link": "/th/resources/outlook-extra-practice#practice-4-find-relevant-emails"
+        },
+        {
+          "text": "5. Summarize progress across emails",
+          "link": "/th/resources/outlook-extra-practice#practice-5-summarize-progress-across-emails"
+        },
+        {
+          "text": "6. Prepare follow-up",
+          "link": "/th/resources/outlook-extra-practice#practice-6-prepare-follow-up"
+        }
+      ]
+    },
+    {
+      "text": "A concise executive update",
+      "link": "/th/exercises/05-executive-update",
+      "items": [
+        {
+          "text": "1. Create a concise executive update",
+          "link": "/th/exercises/05-executive-update#practice-1-create-a-concise-executive-update"
+        }
+      ]
+    }
+  ]
+}

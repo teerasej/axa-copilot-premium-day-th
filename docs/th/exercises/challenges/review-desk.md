@@ -47,6 +47,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="review-desk-level-1" alt="A reviewer applies four checks to a draft using a reference document." />
+
 **Primary target:** A four-check review aid made easier to apply through Excel or PowerPoint, demonstrated on the supplied draft with evidence or gaps recorded.
 
 **Level 1 output:** A four-check review aid made easier to apply through Excel or PowerPoint, demonstrated on the supplied draft with evidence or gaps recorded.
@@ -75,6 +77,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="review-desk-level-2" alt="A reviewer strengthens one check after finding an ambiguous statement." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 

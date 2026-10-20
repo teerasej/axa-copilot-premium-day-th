@@ -46,6 +46,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="excel-detective-level-1" alt="A group selects a priority from three checked findings." />
+
 **Primary target:** Three verified insights and one reasoned priority, communicated through Word or PowerPoint with meaningful Excel work behind them.
 
 **Level 1 output:** Three verified insights and one reasoned priority, communicated through Word or PowerPoint with meaningful Excel work behind them.
@@ -74,6 +76,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 <span id="practice-2-level-2-—-stress-test-your-priority" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="excel-detective-level-2" alt="Colleagues compare two periods to test their chosen priority." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 

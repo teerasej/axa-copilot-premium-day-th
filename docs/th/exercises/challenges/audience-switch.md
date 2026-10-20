@@ -47,6 +47,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="audience-switch-level-1" alt="Two audiences receive different explanations of the same verified finding." />
+
 **Primary target:** Two audience-specific explanations of one verified finding, with meaningful Word work and a contribution from Excel or PowerPoint.
 
 **Level 1 output:** Two audience-specific explanations of one verified finding, with meaningful Word work and a contribution from Excel or PowerPoint.
@@ -75,6 +77,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="audience-switch-level-2" alt="Readers check two audience versions against shared evidence." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 

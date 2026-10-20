@@ -6,7 +6,7 @@
 
 ## Overview
 
-Use one meeting selected in advance with a checked transcript. Ask focused questions and create a Word follow-up brief before the group challenge. Switch to Asteria immediately if the source is unavailable. Finding a new meeting and asking extra questions are optional activities.
+Find a recent Teams meeting in Copilot Chat, verify its transcript, then use that same meeting to answer focused questions and create a Word follow-up brief. Use Asteria if no suitable transcript is available. Further questions are optional.
 
 > **License:** This course requires paid Microsoft 365 Copilot access and permission to use meeting content. Questions about what was said after a meeting require an accessible retained transcript. Check policy and learner permissions before starting.
 
@@ -15,7 +15,7 @@ Use one meeting selected in advance with a checked transcript. Ask focused quest
 ## Before you start
 
 - Have Teams, Copilot Chat and Word in your work account.
-- Prepare one internal meeting with a readable transcript and permission to use it in this private activity.
+- Use only internal meetings approved for this private activity. Keep a prepared meeting with a readable transcript as a backup if discovery is unavailable.
 - Confirm that organizational policy permits creating a document from the meeting results.
 - A recording may help check context, but the transcript is the source for questions about spoken content. Prepare a suitable meeting or the synthetic fallback before class.
 
@@ -23,25 +23,44 @@ Use one meeting selected in advance with a checked transcript. Ask focused quest
 
 <span id="practice-1-ยืนยันการประชุมที่เตรียมไว้" class="legacy-anchor" aria-hidden="true"></span>
 
-## Practice 1 Confirm the prepared meeting
+<span id="practice-1-confirm-the-prepared-meeting" class="legacy-anchor" aria-hidden="true"></span>
 
-**Primary target:** Confirm one meeting occurrence with a readable transcript.
+## Practice 1 Find a recent Teams meeting with a transcript
+
+<PracticeIllustration id="ex04-p1" alt="A person confirms a meeting using its calendar and transcript." />
+
+**Primary target:** Find a recent meeting and verify its transcript before using it.
 
 <span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>
 
 ### Steps
 
-1. Open the prepared **Teams Calendar** entry or meeting chat. Check its title, date, time and occurrence if it is a recurring meeting.
-2. Open **Recap** or the transcript as available. Confirm that you can read what was said. A title or attendee list is insufficient.
-3. If the source is unavailable, use the [Asteria recap](#asteria-route) immediately. Do not search for a different meeting during the main route.
+1. Open a private **Copilot Chat → New chat** with approved work-data access. Send:
+
+   ```text
+   Find up to three Microsoft Teams meetings from the last 14 days
+   that I attended and for which you can access a transcript.
+   Show the most recent first.
+
+   For each, give the meeting title, date, time and source link.
+   Identify the specific occurrence for recurring meetings.
+   Do not assume a recording means a transcript is available.
+   If transcript access cannot be confirmed, say so.
+   Respond in English.
+   ```
+
+2. Choose one suitable result and open its meeting occurrence in **Teams**. Check the title, date and time.
+3. Open **Recap** or the transcript and confirm it is readable. Use this same meeting for Practice 2. If none of the results has an accessible, approved transcript, use the [Asteria recap](#asteria-route).
 
 ### Quick check
 
-- Confirm the correct occurrence and readable transcript, or identify your source as synthetic.
+- Identify the selected meeting occurrence and confirm its readable transcript, or identify your source as synthetic.
 
 <span id="practice-2-ถามและตรวจประเด็นสําคัญ" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Practice 2 Ask and verify the key points
+
+<PracticeIllustration id="ex04-p2" alt="Colleagues check a discussion point against a meeting transcript." />
 
 **Primary target:** Use the transcript to distinguish the summary, decisions and follow-up work.
 
@@ -49,7 +68,7 @@ Use one meeting selected in advance with a checked transcript. Ask focused quest
 
 ### Steps
 
-1. In the selected meeting's **Teams Recap**, open **Copilot** or use the chat for that same occurrence.
+1. Continue with the meeting verified in Practice 1. In its **Teams Recap**, open **Copilot** or use the chat for that same occurrence.
 2. Send one request at a time in the same conversation. Read each answer before continuing:
 
    **Summary and confirmed decisions**
@@ -80,6 +99,8 @@ Start a private Copilot Chat. Use `/` → `Meetings` or the available equivalent
 <span id="practice-3-สร้าง-meeting-follow-up-brief" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Practice 3 Create a meeting follow-up brief
+
+<PracticeIllustration id="ex04-p3" alt="A person organizes confirmed actions and open questions into a brief." />
 
 **Primary target:** Turn verified meeting results into a Word follow-up document.
 
@@ -133,9 +154,11 @@ You may save the synthetic brief in the Asteria folder. Never mix in real-work o
 
 <span id="optional-ฝึกค้นและถามเพิ่มภายหลัง" class="legacy-anchor" aria-hidden="true"></span>
 
-## Optional: Explore discovery and further questions later
+<span id="optional-explore-discovery-and-further-questions-later" class="legacy-anchor" aria-hidden="true"></span>
 
-Outside the main timetable, try finding a meeting in Copilot Chat by topic and date range. Open the actual occurrence, check its transcript and ask further questions one at a time. Keep the same data boundaries and access conditions.
+## Optional: Ask further questions
+
+Outside the main timetable, ask further questions about the same verified meeting, one at a time. Check each answer against its transcript. Keep the same data boundaries and access conditions.
 
 <span id="ผลลัพธ์" class="legacy-anchor" aria-hidden="true"></span>
 
@@ -147,6 +170,6 @@ Outside the main timetable, try finding a meeting in Copilot Chat by topic and d
 
 <div class="voice-card"><strong>Pon:</strong> A meeting title is like a film poster; the transcript is the story itself. Read the story before concluding who agreed to what.</div>
 
-Reference: [Copilot after meetings and Word export conditions](https://support.microsoft.com/en-us/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams)
+References: [Find recent meeting information](https://support.microsoft.com/en-us/microsoft-365-copilot/get-instant-answers-with-microsoft-365-copilot-chat) · [Transcript versus meeting-chat grounding](https://support.microsoft.com/en-us/teams/copilot/how-to-use-microsoft-365-copilot-in-teams-chats-and-channels) · [Copilot after meetings and Word export conditions](https://support.microsoft.com/en-us/teams/copilot/catch-up-on-meetings-with-microsoft-365-copilot-in-teams)
 
 [← Exercise 3](./03-outlook-email-workflow) · [Choose a group challenge →](./05-group-challenge)

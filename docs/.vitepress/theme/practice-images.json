@@ -1,0 +1,314 @@
+{
+  "ex01-s1-p1": {
+    "src": "/images/practice-headers/ex01-s1-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex01-s1-p1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "ex01-s1-p2": {
+    "src": "/images/practice-headers/ex01-s1-p2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex01-s1-p2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex01-s1-p3": {
+    "src": "/images/practice-headers/ex01-s1-p3.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex01-s1-p3-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex01-s2-p4": {
+    "src": "/images/practice-headers/ex01-s2-p4.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex01-s2-p4-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex02-s1-p1": {
+    "src": "/images/practice-headers/ex02-s1-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex02-s1-p1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "ex02-s1-p2": {
+    "src": "/images/practice-headers/ex02-s1-p2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex02-s1-p2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex02-s1-p3": {
+    "src": "/images/practice-headers/ex02-s1-p3.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex02-s1-p3-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex02-s2-p1": {
+    "src": "/images/practice-headers/ex02-s2-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex02-s2-p1-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex02-s2-p2": {
+    "src": "/images/practice-headers/ex02-s2-p2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex02-s2-p2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex03-p1": {
+    "src": "/images/practice-headers/ex03-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex03-p1-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex03-p2": {
+    "src": "/images/practice-headers/ex03-p2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex03-p2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex03-p3": {
+    "src": "/images/practice-headers/ex03-p3.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex03-p3-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex04-p1": {
+    "src": "/images/practice-headers/ex04-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex04-p1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "ex04-p2": {
+    "src": "/images/practice-headers/ex04-p2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex04-p2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex04-p3": {
+    "src": "/images/practice-headers/ex04-p3.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex04-p3-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "optional-executive-p1": {
+    "src": "/images/practice-headers/optional-executive-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-executive-p1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "showcase-p1": {
+    "src": "/images/practice-headers/showcase-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/showcase-p1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "optional-outlook-s1-p1": {
+    "src": "/images/practice-headers/optional-outlook-s1-p1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-outlook-s1-p1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "optional-outlook-s1-p2": {
+    "src": "/images/practice-headers/optional-outlook-s1-p2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-outlook-s1-p2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "optional-outlook-s1-p3": {
+    "src": "/images/practice-headers/optional-outlook-s1-p3.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-outlook-s1-p3-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "optional-outlook-s2-p4": {
+    "src": "/images/practice-headers/optional-outlook-s2-p4.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-outlook-s2-p4-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "optional-outlook-s2-p5": {
+    "src": "/images/practice-headers/optional-outlook-s2-p5.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-outlook-s2-p5-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "optional-outlook-s2-p6": {
+    "src": "/images/practice-headers/optional-outlook-s2-p6.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/optional-outlook-s2-p6-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "excel-detective-level-1": {
+    "src": "/images/practice-headers/excel-detective-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/excel-detective-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "excel-detective-level-2": {
+    "src": "/images/practice-headers/excel-detective-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/excel-detective-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "excel-rescue-level-1": {
+    "src": "/images/practice-headers/excel-rescue-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/excel-rescue-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "excel-rescue-level-2": {
+    "src": "/images/practice-headers/excel-rescue-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/excel-rescue-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "powerpoint-makeover-level-1": {
+    "src": "/images/practice-headers/powerpoint-makeover-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/powerpoint-makeover-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "powerpoint-makeover-level-2": {
+    "src": "/images/practice-headers/powerpoint-makeover-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/powerpoint-makeover-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "management-pitch-level-1": {
+    "src": "/images/practice-headers/management-pitch-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/management-pitch-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "management-pitch-level-2": {
+    "src": "/images/practice-headers/management-pitch-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/management-pitch-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "meeting-to-momentum-level-1": {
+    "src": "/images/practice-headers/meeting-to-momentum-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/meeting-to-momentum-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "meeting-to-momentum-level-2": {
+    "src": "/images/practice-headers/meeting-to-momentum-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/meeting-to-momentum-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "audience-switch-level-1": {
+    "src": "/images/practice-headers/audience-switch-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/audience-switch-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "audience-switch-level-2": {
+    "src": "/images/practice-headers/audience-switch-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/audience-switch-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "review-desk-level-1": {
+    "src": "/images/practice-headers/review-desk-level-1.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/review-desk-level-1-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "review-desk-level-2": {
+    "src": "/images/practice-headers/review-desk-level-2.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/review-desk-level-2-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  },
+  "ex03-prioritize": {
+    "src": "/images/practice-headers/ex03-prioritize.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex03-prioritize-768.webp",
+    "smallWidth": 768,
+    "eager": true
+  },
+  "ex03-handover": {
+    "src": "/images/practice-headers/ex03-handover.webp",
+    "width": 1536,
+    "height": 512,
+    "smallSrc": "/images/practice-headers/ex03-handover-768.webp",
+    "smallWidth": 768,
+    "eager": false
+  }
+}

@@ -25,6 +25,8 @@ Use the **synthetic Asteria recap** and your morning dashboard to create a three
 
 ## Practice 1 Create a concise executive update
 
+<PracticeIllustration id="optional-executive-p1" alt="A presenter assembles a concise update from checked evidence." />
+
 **Primary target:** Create three slides communicating the situation, evidence and next steps.
 
 <span id="ขั้นตอน" class="legacy-anchor" aria-hidden="true"></span>

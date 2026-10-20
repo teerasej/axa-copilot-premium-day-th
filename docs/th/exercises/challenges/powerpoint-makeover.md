@@ -45,6 +45,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="powerpoint-makeover-level-1" alt="A clearer slide sits beside its crowded original and supporting document." />
+
 **Primary target:** One clearer slide with before/after evidence and supporting message work in Word or numerical checking in Excel.
 
 **Level 1 output:** One clearer slide with before/after evidence and supporting message work in Word or numerical checking in Excel.
@@ -73,6 +75,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 <span id="practice-2-level-2-—-test-the-slide-s-first-impression" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="powerpoint-makeover-level-2" alt="A presenter refines one slide using audience feedback." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 

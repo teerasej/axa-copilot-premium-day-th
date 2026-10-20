@@ -34,6 +34,16 @@ a:focus-visible, button:focus-visible, summary:focus-visible {
   outline-offset: 3px;
   border-radius: 4px;
 }
+.VPSidebar [role="button"]:focus-visible {
+  outline: 3px solid #e4a11b;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+/* Keep the two mobile navigation controls readable at narrow widths. */
+@media (max-width: 374px) {
+  .VPLocalNav .menu { font-size: 12px; }
+  .VPLocalNav .menu-icon { margin-right: 6px; }
+}
 .vp-doc h1 { color: var(--workshop-navy); letter-spacing: -0.025em; }
 .vp-doc h2 { border-top: 1px solid var(--workshop-line); padding-top: 1.35rem; }
 .vp-doc p, .vp-doc li { max-width: 76ch; }

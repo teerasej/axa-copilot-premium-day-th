@@ -8,6 +8,8 @@ Each group presents the output from its chosen challenge. Open the document, wor
 
 ## Practice Present your work with evidence
 
+<PracticeIllustration id="showcase-p1" alt="A group presents its output and points to supporting evidence." />
+
 **Primary target:** Explain your work and the checks behind it so others can understand the result.
 
 1. Open the output in advance. Close real-work data and unrelated windows.

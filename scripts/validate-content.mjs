@@ -29,7 +29,8 @@ for(const p of pages) {
 const exerciseNames=['01-ground-the-brief','02-kpi-to-decision-brief','03-outlook-email-workflow','04-teams-meeting-to-document','05-group-challenge','07-group-showcase','05-executive-update','06-agent-talking-points']
 for(const slug of exerciseNames) if(!fs.existsSync(path.join(docs,'th/exercises',slug+'.md'))) errors.push(`Missing ${slug}`)
 const outlook=fs.readFileSync(path.join(docs,'th/exercises/03-outlook-email-workflow.md'),'utf8')
-if((outlook.match(/^## Practice /gm)||[]).length!==3) errors.push('Expected three focused Outlook/Chat practices')
+const outlookPractices=outlook.match(/^## Practice .+$/gm)||[]
+if(outlookPractices.length!==5 || outlookPractices.filter(h=>h.endsWith('(optional)')).length!==2) errors.push('Expected three core and two optional Outlook/Chat practices')
 const teams=fs.readFileSync(path.join(docs,'th/exercises/04-teams-meeting-to-document.md'),'utf8')
 if((teams.match(/^## Practice /gm)||[]).length!==3) errors.push('Expected three Teams practices')
 const home=fs.readFileSync(path.join(docs,'th/index.md'),'utf8')

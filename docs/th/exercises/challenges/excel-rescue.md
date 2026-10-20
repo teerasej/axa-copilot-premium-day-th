@@ -46,6 +46,8 @@ The second document app must contribute useful analysis, drafting, visualization
 
 ## Level 1 — Complete your mission
 
+<PracticeIllustration id="excel-rescue-level-1" alt="A cluttered table becomes a clear chart with a supporting explanation." />
+
 **Primary target:** One improved table or chart with before/after evidence and an explanation developed in Word or PowerPoint.
 
 **Level 1 output:** One improved table or chart with before/after evidence and an explanation developed in Word or PowerPoint.
@@ -74,6 +76,8 @@ Passing the Quick checks completes the required mission. Start Level 2 only if t
 <span id="practice-2-level-2-—-add-a-useful-comparison" class="legacy-anchor" aria-hidden="true"></span>
 
 ## Level 2 — Strengthen your result
+
+<PracticeIllustration id="excel-rescue-level-2" alt="A teammate interprets a comparison and gives feedback." />
 
 **Primary target:** Improve the existing result through a focused evidence or audience test.
 
