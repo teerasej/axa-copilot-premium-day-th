@@ -92,7 +92,13 @@ for(const [slug,pack] of Object.entries(packs.packs)) {
   if(hash!==expected) errors.push(`${slug}: packed input differs from canonical source ${name}`)
  }
 }
-if(files.some(x=>x.endsWith('.pdf'))) errors.push('Stale course PDF not allowed')
+const teachingPdfName = 'AXA-Copilot-Premium-Training.pdf'
+const teachingPdf = path.join(docs, 'public/files', teachingPdfName)
+if(files.some(x=>x.endsWith('.pdf') && path.basename(x)!==teachingPdfName)) errors.push('Unapproved course PDF not allowed')
+if(!fs.existsSync(teachingPdf)) errors.push('Missing teaching PDF')
+else if(crypto.createHash('sha256').update(fs.readFileSync(teachingPdf)).digest('hex') !== '79a163d74360bcdd287a411ddc243615dbe5451b4e364baa3b19240fd0b4d0c2') errors.push('Teaching PDF differs from reviewed 63-page visible-slide export')
+const homeSource = fs.readFileSync(path.join(docs, 'th/index.md'), 'utf8')
+if(!homeSource.includes('text: Download teaching slides (PDF)') || !homeSource.includes('link: /files/'+teachingPdfName)) errors.push('Missing homepage teaching PDF download')
 try { execFileSync('python3', ['scripts/course-archive.py'], {stdio:'pipe'}) } catch(e) { errors.push('Main ZIP contents failed validation: '+(e.stderr?.toString()||e.message)) }
 if(errors.length) { console.error(errors.join('\n')); process.exit(1) }
 console.log(`Passed: ${pages.length} English pages, focused routes, seven cross-app choices and starter packs, 330 learning minutes, links and 12 assets + ZIP hashes.`)

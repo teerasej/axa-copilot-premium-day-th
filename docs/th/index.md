@@ -2,6 +2,9 @@
 layout: home
 pageClass: presentation-home
 hero:
+  download:
+    text: Download teaching slides (PDF)
+    link: /files/AXA-Copilot-Premium-Training.pdf
   name: Copilot Premium
   text: Practice everyday work
   tagline: Work with documents, email and meetings. Choose a group challenge, showcase your results and watch an Agent Builder demo.
